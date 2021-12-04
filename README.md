@@ -96,8 +96,9 @@
 <div align="center">
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.1.7-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-  </a>
-<img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="" height="">
+    <img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="" height="">  
+</a>
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

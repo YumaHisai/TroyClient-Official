@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COPYRIGHT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Added Copyright (c)&#10;Updated README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zcrac\OneDrive\Desktop\TroyClient" />
       <recent name="C:\Users\zcrac\OneDrive\Desktop\TroyClient\src\main\java\net\" />
     </key>
   </component>
@@ -97,7 +94,7 @@
       <workItem from="1638585555031" duration="154000" />
       <workItem from="1638585738663" duration="2000" />
       <workItem from="1638585830653" duration="1348000" />
-      <workItem from="1638628318275" duration="6805000" />
+      <workItem from="1638628318275" duration="7522000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -253,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638633955893</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added Copyright (c)&#10;Updated README.md">
+      <created>1638635647149</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1638635647149</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added Copyright (c)&#10;Updated README.md">
+      <created>1638636342986</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636342986</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +292,7 @@
     <MESSAGE value="Updated Classes Tp 1.1.7 ✅" />
     <MESSAGE value="Updated Classes To 1.1.7 ✅" />
     <MESSAGE value="Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
+    <MESSAGE value="Added Copyright (c)&#10;Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Copyright (c)&#10;Updated README.md" />
   </component>
 </project>
