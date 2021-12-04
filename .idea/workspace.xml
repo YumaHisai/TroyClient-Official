@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Added Copyright (c)&#10;Updated README.md" />
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +94,7 @@
       <workItem from="1638585555031" duration="154000" />
       <workItem from="1638585738663" duration="2000" />
       <workItem from="1638585830653" duration="1348000" />
-      <workItem from="1638628318275" duration="7522000" />
+      <workItem from="1638628318275" duration="7826000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -264,7 +264,56 @@
       <option name="project" value="LOCAL" />
       <updated>1638636342986</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added Copyright (c)&#10;Updated README.md">
+      <created>1638636413942</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636413942</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added Copyright (c)&#10;Updated README.md">
+      <created>1638636470719</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636470719</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added Copyright (c)&#10;Updated README.md">
+      <created>1638636515814</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636515814</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added Copyright (c)&#10;Updated README.md">
+      <created>1638636551837</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636551837</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated README.md">
+      <created>1638636583434</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636583434</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated README.md">
+      <created>1638636624281</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636624281</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated README.md">
+      <created>1638636651974</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1638636651974</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,8 +340,8 @@
     <MESSAGE value="Updated README.md ✅" />
     <MESSAGE value="Updated Classes Tp 1.1.7 ✅" />
     <MESSAGE value="Updated Classes To 1.1.7 ✅" />
-    <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added Copyright (c)&#10;Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Copyright (c)&#10;Updated README.md" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>
