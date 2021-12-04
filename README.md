@@ -32,22 +32,17 @@
         <td align="center" colspan="3"><b>Build Status</b></td>
     </tr>
     <tr>
-      
         <td align="right"><b>Main Build</b></td>
-        
-      <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.0.5&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.0.5&style=for-the-badge" alt="Build Status" /></a></td>
+        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.0.5&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.0.5&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
 </div>
 
 <br />
 <div align="center"> <b>Main Menu</b> </div>
-
 <div align="center">
   <a href="">
-    
     <img src="https://img.shields.io/badge/Version-1.0.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-    
     <img src="https://i.imgur.com/7qOP34R.png" alt="Logo" width="" height="">
   </a>
 
@@ -57,12 +52,9 @@
 
 <br />
 <div align="center"> <b>✅ Addedd Alt Manager</b> </div>
-  
 <div align="center">
   <a href="">
-    
     <img src="https://img.shields.io/badge/Version-1.0.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-    
     <img src="https://i.imgur.com/J4dcGMT.png" alt="Logo" width="" height="">
   </a>
   
@@ -72,12 +64,9 @@
   
 <br />
 <div align="center"> <b>✅ Updated Crashers</b> </div>
-  
 <div align="center">
   <a href="">
-    
     <img src="https://img.shields.io/badge/Version-1.0.7-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-    
     <img src="https://i.imgur.com/QhpXcjc.png" alt="Logo" width="" height="">
   </a>
   
@@ -87,17 +76,12 @@
   
   <br />
 <div align="center"> <b>✅ Addedd PlayerStand</b> </div>
-  
 <div align="center"> <b>✅ Addedd TabGUI</b> </div>
-  
 <div align="center"> <b>✅ Addedd Crashers</b> </div>
-  
 <div align="center"> <b>✅ Addedd Exploit Category (Actually Empty)</b> </div>
-  
 <div align="center">
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.1.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-    
     <img src="https://i.imgur.com/QhpXcjc.png" alt="Logo" width="" height="">
   </a>
   
