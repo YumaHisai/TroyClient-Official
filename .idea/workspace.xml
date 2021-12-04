@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Firt Update" />
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated Changelog ✅">
+      <change afterPath="$PROJECT_DIR$/assets/skins/6c/6c460c4835162e91f43c4a4e64961546befee759c4ad6e519ec882e88d963f9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/96/96a27f927e7b35dbfbd26a5bd3d12dbdf17142b8ceae5380b378173b35667d7a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/bc/bcc92f8a6769b8d2c57ab1de7968c1085b14d5acfe558c8770111955229dcd98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/ca/ca571a587d379201ff5daf5967be59fcb86fcd6097da4ed7db1a23d09c875c9d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/d3/d31f25543d0a17703622eb1403cf795dcf3742395ca04d0fe4a0b1918fc7ef01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/md_4/troy/rpc/DiscordRichPresenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/md_4/troy/rpc/DiscordRichPresenceManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -83,6 +92,7 @@
       <workItem from="1638585555031" duration="154000" />
       <workItem from="1638585738663" duration="2000" />
       <workItem from="1638585830653" duration="1348000" />
+      <workItem from="1638628318275" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -98,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638587075124</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated Changelog ✅">
+      <created>1638628434760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638628434760</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated Changelog ✅">
+      <created>1638628525797</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638628525797</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +145,7 @@
       <path value="$PROJECT_DIR$/gitpush/TroyClient" />
     </ignored-roots>
     <MESSAGE value="Firt Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firt Update" />
+    <MESSAGE value="Updated Changelog ✅" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Changelog ✅" />
   </component>
 </project>

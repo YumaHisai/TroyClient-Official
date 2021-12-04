@@ -19,7 +19,7 @@ public class DiscordRichPresenceManager implements ReadyCallback {
         .Builder("TroyClient By md_4 & ItzNull")
         .setBigImage("presence", "Version 1.0.5")
         .setSmallImage("github", "More Information")
-        .setDetails("» Loading TroyClient...")
+        .setDetails("Loading TroyClient...")
         .setStartTimestamps(System.currentTimeMillis())
         .build();
 
@@ -36,7 +36,7 @@ public class DiscordRichPresenceManager implements ReadyCallback {
   private void init() {
     DiscordEventHandlers handlers = new DiscordEventHandlers.Builder()
         .setReadyEventHandler((user) ->
-            System.out.printf("» Connected to %s#%s (%s)%n", user.username, user.discriminator,
+            System.out.printf("Connected to %s#%s (%s)%n", user.username, user.discriminator,
                 user.userId)).build();
 
     DiscordRPC.discordInitialize("914468438112632842", handlers, true);
@@ -46,9 +46,9 @@ public class DiscordRichPresenceManager implements ReadyCallback {
     Executors.newSingleThreadScheduledExecutor()
         .scheduleWithFixedDelay(() -> {
           richPresence.details =
-              mc.thePlayer == null ? "» No NickName «" : "» Nick: " + mc.session.getUsername() + " «";
-          richPresence.state = mc.getCurrentServerData() == null ? "» In Main Menu «"
-              : "» Server: " + mc.getCurrentServerData().serverIP + " «";
+              mc.thePlayer == null ? "No NickName " : "Nick: " + mc.session.getUsername() + " «";
+          richPresence.state = mc.getCurrentServerData() == null ? ":arrow_forward: In Main Menu "
+              : "Server: " + mc.getCurrentServerData().serverIP;
           DiscordRPC.discordUpdatePresence(richPresence);
         }, 10, 10, TimeUnit.SECONDS);
   }
