@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated Changelog ✅">
-      <change afterPath="$PROJECT_DIR$/assets/skins/6c/6c460c4835162e91f43c4a4e64961546befee759c4ad6e519ec882e88d963f9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/96/96a27f927e7b35dbfbd26a5bd3d12dbdf17142b8ceae5380b378173b35667d7a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/bc/bcc92f8a6769b8d2c57ab1de7968c1085b14d5acfe558c8770111955229dcd98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ca/ca571a587d379201ff5daf5967be59fcb86fcd6097da4ed7db1a23d09c875c9d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/d3/d31f25543d0a17703622eb1403cf795dcf3742395ca04d0fe4a0b1918fc7ef01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/md_4/troy/rpc/DiscordRichPresenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/md_4/troy/rpc/DiscordRichPresenceManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md ✅" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +84,7 @@
       <workItem from="1638585555031" duration="154000" />
       <workItem from="1638585738663" duration="2000" />
       <workItem from="1638585830653" duration="1348000" />
-      <workItem from="1638628318275" duration="684000" />
+      <workItem from="1638628318275" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -122,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638628525797</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated README.md ✅">
+      <created>1638629253893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638629253893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +145,7 @@
     </ignored-roots>
     <MESSAGE value="Firt Update" />
     <MESSAGE value="Updated Changelog ✅" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Changelog ✅" />
+    <MESSAGE value="Updated README.md ✅" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md ✅" />
   </component>
 </project>

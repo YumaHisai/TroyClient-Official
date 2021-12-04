@@ -46,8 +46,8 @@ public class DiscordRichPresenceManager implements ReadyCallback {
     Executors.newSingleThreadScheduledExecutor()
         .scheduleWithFixedDelay(() -> {
           richPresence.details =
-              mc.thePlayer == null ? "No NickName " : "Nick: " + mc.session.getUsername() + " «";
-          richPresence.state = mc.getCurrentServerData() == null ? ":arrow_forward: In Main Menu "
+              mc.thePlayer == null ? "No NickName " : "Nick: " + mc.session.getUsername();
+          richPresence.state = mc.getCurrentServerData() == null ? " Main Menu "
               : "Server: " + mc.getCurrentServerData().serverIP;
           DiscordRPC.discordUpdatePresence(richPresence);
         }, 10, 10, TimeUnit.SECONDS);
