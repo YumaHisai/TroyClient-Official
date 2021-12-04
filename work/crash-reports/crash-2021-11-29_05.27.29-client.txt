@@ -1,0 +1,104 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 29/11/21 5.27
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at net.minecraft.client.renderer.texture.DynamicTexture.<init>(DynamicTexture.java:23)
+	at net.minecraft.client.resources.ResourcePackListEntryDefault.<init>(ResourcePackListEntryDefault.java:28)
+	at net.minecraft.client.gui.GuiScreenResourcePacks.initGui(GuiScreenResourcePacks.java:66)
+	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:550)
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:992)
+	at net.minecraft.client.gui.GuiOptions.actionPerformed(GuiOptions.java:198)
+	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:505)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:601)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:570)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1769)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1096)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:412)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:24)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.renderer.texture.DynamicTexture.<init>(DynamicTexture.java:23)
+	at net.minecraft.client.resources.ResourcePackListEntryDefault.<init>(ResourcePackListEntryDefault.java:28)
+	at net.minecraft.client.gui.GuiScreenResourcePacks.initGui(GuiScreenResourcePacks.java:66)
+	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:550)
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:992)
+	at net.minecraft.client.gui.GuiOptions.actionPerformed(GuiOptions.java:198)
+	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:505)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:601)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:570)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiScreenResourcePacks
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 6 total; [EntityPlayerSP['md_4'/6041, l='MpServer', x=1,44, y=69,00, z=25,63], EntityOtherPlayerMP['Anpys'/4195, l='MpServer', x=-0,59, y=69,00, z=41,31], EntityOtherPlayerMP['tomo0303yt'/4204, l='MpServer', x=2,94, y=69,00, z=33,69], EntityOtherPlayerMP['Eusuplayz2'/4162, l='MpServer', x=-6,03, y=69,00, z=15,75], EntityOtherPlayerMP['shreyas_134'/4206, l='MpServer', x=0,44, y=69,00, z=12,47], EntityOtherPlayerMP['MannanOrWhatt'/4211, l='MpServer', x=-1,73, y=70,11, z=9,81]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 0,00,70,00,0,00 - World: (0,70,0), Chunk: (at 0,4,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 566098965 game time, 18000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: adventure (ID 2). Hardcore: false. Cheats: false
+	Forced entities: 40 total; [EntityArmorStand['§b§lHEROBRINE.ORG'/1, l='MpServer', x=0,50, y=70,47, z=14,50], EntityArmorStand['§fA Minecraft server with a large'/2, l='MpServer', x=0,50, y=70,22, z=14,50], EntityOtherPlayerMP['Eusuplayz2'/4162, l='MpServer', x=-6,03, y=69,00, z=15,75], EntityArmorStand['§fvariety of game modes to enjoy!'/3, l='MpServer', x=0,50, y=69,97, z=14,50], EntityArmorStand['§fDiscord at §dHerobrine.org'/4, l='MpServer', x=0,50, y=69,72, z=14,50], EntityOtherPlayerMP['Eusuplayz2'/4162, l='MpServer', x=-6,03, y=69,00, z=15,75], EntityArmorStand['§b§lGAME MODES'/5, l='MpServer', x=0,50, y=72,16, z=46,50], EntityArmorStand['§fClick to play'/6, l='MpServer', x=0,50, y=71,91, z=46,50], EntityArmorStand['§b§lHELP'/7, l='MpServer', x=7,50, y=71,16, z=12,50], EntityOtherPlayerMP['shreyas_134'/4206, l='MpServer', x=0,44, y=69,00, z=12,47], EntityArmorStand['§fClick to view'/8, l='MpServer', x=7,50, y=70,91, z=12,50], EntityOtherPlayerMP['Anpys'/4195, l='MpServer', x=-0,59, y=69,00, z=41,31], EntityArmorStand['§b§lRANKS'/9, l='MpServer', x=-6,50, y=71,16, z=12,50], EntityArmorStand['§fClick to view'/10, l='MpServer', x=-6,50, y=70,91, z=12,50], EntityOtherPlayerMP['MannanOrWhatt'/4211, l='MpServer', x=-1,73, y=70,11, z=9,81], EntitySkeleton['Skeleton'/11, l='MpServer', x=-11,50, y=69,00, z=44,50], EntitySkeleton['Skeleton'/12, l='MpServer', x=-5,50, y=69,00, z=45,50], EntitySkeleton['Skeleton'/13, l='MpServer', x=12,50, y=69,00, z=44,50], EntitySkeleton['Skeleton'/14, l='MpServer', x=6,50, y=69,00, z=45,50], EntitySkeleton['Skeleton'/15, l='MpServer', x=0,50, y=70,00, z=46,50], EntitySkeleton['Skeleton'/16, l='MpServer', x=7,50, y=69,00, z=12,50], EntitySkeleton['Skeleton'/17, l='MpServer', x=-6,50, y=69,00, z=12,50], EntityOtherPlayerMP['tomo0303yt'/4204, l='MpServer', x=2,94, y=69,00, z=33,69], EntityPlayerSP['md_4'/6041, l='MpServer', x=1,44, y=69,00, z=25,63], EntityOtherPlayerMP['NOTADER'/4164, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['Anpys'/4195, l='MpServer', x=-0,59, y=69,00, z=41,31], EntityOtherPlayerMP['forever45'/848, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['wetz123'/215, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['chizukeikii'/4191, l='MpServer', x=0,16, y=69,50, z=2,44], EntityOtherPlayerMP['Anpys'/4195, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['EpicGamerz1212'/2347, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['tomo0303yt'/4204, l='MpServer', x=-2,95, y=70,10, z=44,68], EntityOtherPlayerMP['DragonTamer09'/4147, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['tomo0303yt'/4204, l='MpServer', x=2,94, y=69,00, z=33,69], EntityOtherPlayerMP['Eusuplayz2'/4162, l='MpServer', x=-6,03, y=69,00, z=15,75], EntityOtherPlayerMP['shreyas_134'/4206, l='MpServer', x=0,44, y=69,00, z=12,47], EntityOtherPlayerMP['vedvansh1112'/4194, l='MpServer', x=-0,13, y=69,50, z=2,69], EntityOtherPlayerMP['MannanOrWhatt'/4211, l='MpServer', x=-1,73, y=70,11, z=9,81], EntityOtherPlayerMP['Eusuplayz2'/4162, l='MpServer', x=-6,03, y=69,00, z=15,75], EntityFallingBlock['JumppadsEntity'/4213, l='MpServer', x=-3,26, y=73,74, z=13,19]]
+	Retry entities: 0 total; []
+	Server brand: vanilla§r
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2739)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:433)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:24)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (x86) version 10.0
+	CPU: <unknown>
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 56140632 bytes (53 MB) / 216420352 bytes (206 MB) up to 259522560 bytes (247 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: Troy
+	LWJGL: 2.9.3
+	OpenGL: NVIDIA GeForce GT 710/PCIe/SSE2 GL version 4.6.0 NVIDIA 472.12, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 0
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 472.12
+	OpenGlRenderer: NVIDIA GeForce GT 710/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 4
