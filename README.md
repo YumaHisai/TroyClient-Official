@@ -34,7 +34,7 @@
     <tr>
         <td colspan="2"></td>
         <td align="right"><b>Main Build</b></td>
-        <td colspan="2"></td>
+        <td colspan="2"><h1></h1></td>
         <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.0.5&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.0.5&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
