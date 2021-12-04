@@ -22,7 +22,6 @@ import net.minecraft.client.Minecraft;
 import com.md_4.troy.command.bypass.pex.PermissionExBypass;
 import com.md_4.troy.exploit.Bypass;
 import com.md_4.troy.command.bypass.auth.Auth1;
-import com.md_4.troy.exploit.impl.nbt.Shigine1;
 import com.md_4.troy.exploit.impl.multiverse.MultiverseCore;
 import com.md_4.troy.exploit.impl.nbt.Shogun1;
 import com.md_4.troy.exploit.impl.nbt.Goro1;
@@ -63,7 +62,7 @@ public enum Troy
   private Troy() {
     this.discordRichPresence = new DiscordRichPresenceManager();
     this.commandManager = new CommandManager(new ExploitCommand(), new BypassCommand(), new HelpCommand(), new OnlineCommand(), new FakeGamemodeCommand(), new AboutCommand(), new MethodCommand(), new ClearChatCommand(), new ThreadCommand());
-    this.exploitManager = new ExploitManager((Exploit<?>[])new Exploit[] { new FaweExploit(), new ChunkLoadExploit(), new OnePacket(), new Ruyu1(), new Goro1(), new Shogun1(), new MultiverseCore(), new Shigine1()});
+    this.exploitManager = new ExploitManager((Exploit<?>[])new Exploit[] { new FaweExploit(), new ChunkLoadExploit(), new OnePacket(), new Ruyu1(), new Goro1(), new Shogun1(), new MultiverseCore()});
     this.bypassManager = new BypassManager((Bypass<?>[])new Bypass[] { new PermissionExBypass(), new Auth1() });
     final GameSettings gameSettings = Minecraft.getMinecraft().gameSettings;
     gameSettings.gammaSetting += 9999.0f;

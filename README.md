@@ -33,7 +33,7 @@
     </tr>
     <tr>
         <td align="right"><b>Main Build</b></td>
-        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.5&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.5&style=for-the-badge" alt="Build Status" /></a></td>
+        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.7&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.7&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
 </div>
@@ -91,7 +91,7 @@
 <div align="center">
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.1.7-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-    <img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="1080" height="200">
+    <img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="1080" height="300">
   </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
