@@ -42,6 +42,7 @@
 <div align="center"> <b>Main Menu</b> </div>
 <div align="center">
   <a href="">
+    <img src="https://img.shields.io/badge/Version-1.0.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
     <img src="https://i.imgur.com/7qOP34R.png" alt="Logo" width="" height="">
   </a>
 
