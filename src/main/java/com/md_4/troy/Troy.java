@@ -82,7 +82,7 @@ public enum Troy
     modules.add(new TabGUI());
     // Modules
     Troy.altManager = new AltManager();
-    Display.setTitle("TroyClient 1.0.5 | By md_4 & ItzNull_");
+    Display.setTitle("TroyClient 1.1.7 | By md_4 & ItzNull_");
     OpenGlHelper.setWindowIcon("https://i.imgur.com/5Peeyxu.png", "https://i.imgur.com/DcjVAVX.png");
   }
 
@@ -138,7 +138,7 @@ public enum Troy
 
   static {
     Troy.name = "TroyClient";
-    Troy.version = "1.0.5";
+    Troy.version = "1.1.7";
     Troy.creator = "md_4 & ItzNull_";
   }
 }

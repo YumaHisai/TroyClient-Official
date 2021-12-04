@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md ✅" />
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md ✅">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/md_4/troy/Troy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/md_4/troy/Troy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/md_4/troy/rpc/DiscordRichPresenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/md_4/troy/rpc/DiscordRichPresenceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +89,7 @@
       <workItem from="1638585555031" duration="154000" />
       <workItem from="1638585738663" duration="2000" />
       <workItem from="1638585830653" duration="1348000" />
-      <workItem from="1638628318275" duration="1680000" />
+      <workItem from="1638628318275" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -170,7 +175,35 @@
       <option name="project" value="LOCAL" />
       <updated>1638630013804</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated README.md ✅">
+      <created>1638630047304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638630047304</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated README.md ✅">
+      <created>1638630078703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1638630078703</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated README.md ✅">
+      <created>1638630129948</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1638630129948</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated README.md ✅">
+      <created>1638630150741</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638630150741</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
