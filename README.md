@@ -46,6 +46,9 @@
     <img src="https://i.imgur.com/7qOP34R.png" alt="Logo" width="" height="">
   </a>
 
+  
+<hr style="width:50%;text-align:left;margin-left:0">
+  
 
 <br />
 <div align="center"> <b>✅ Addedd Alt Manager</b> </div>
@@ -55,8 +58,10 @@
     <img src="https://i.imgur.com/J4dcGMT.png" alt="Logo" width="" height="">
   </a>
   
-  <hr style="width:50%;text-align:left;margin-left:0">
 
+<hr style="width:50%;text-align:left;margin-left:0">
+
+  
 <br />
 <div align="center"> <b>✅ Updated Crashers</b> </div>
 <div align="center">
@@ -64,6 +69,10 @@
     <img src="https://img.shields.io/badge/Version-1.0.7-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
     <img src="https://i.imgur.com/QhpXcjc.png" alt="Logo" width="" height="">
   </a>
+  
+  
+<hr style="width:50%;text-align:left;margin-left:0">
+  
   
   <br />
 <div align="center"> <b>✅ Addedd PlayerStand</b> </div>
