@@ -51,7 +51,7 @@
   
 
 <br />
-<div align="center"> <b>✅ Addedd Alt Manager</b> </div>
+<div align="center"> <b>✅ Added Alt Manager</b> </div>
 <div align="center">
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.0.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
@@ -64,6 +64,7 @@
   
 <br />
 <div align="center"> <b>✅ Updated Crashers</b> </div>
+<div align="center"> <b>✅ Added Bypass Command</b> </div>
 <div align="center">
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.0.7-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
@@ -75,10 +76,10 @@
   
   
   <br />
-<div align="center"> <b>✅ Addedd PlayerStand</b> </div>
-<div align="center"> <b>✅ Addedd TabGUI</b> </div>
-<div align="center"> <b>✅ Addedd Crashers</b> </div>
-<div align="center"> <b>✅ Addedd Exploit Category (Actually Empty)</b> </div>
+<div align="center"> <b>✅ Added PlayerStand</b> </div>
+<div align="center"> <b>✅ Added TabGUI</b> </div>
+<div align="center"> <b>✅ Added Crashers</b> </div>
+<div align="center"> <b>✅ Added Exploit Category (Actually Empty)</b> </div>
 <div align="center">
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.1.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
