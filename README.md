@@ -88,9 +88,9 @@
 
   <br />
 <div align="center"> <b>✅ Added Discord-Rich-Presence</b> </div>
+<img src="https://img.shields.io/badge/Version-1.1.7-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
 <div align="center">
   <a href="">
-    <img src="https://img.shields.io/badge/Version-1.1.7-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
     <img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="" height="">
   </a>
 
