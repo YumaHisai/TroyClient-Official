@@ -25,6 +25,18 @@
   </p>
 </div>
 
+
+<table>
+    <tr>
+        <td align="center" colspan="3"><b>Build Status</b></td>
+    </tr>
+    <tr>
+        <td align="right"><b>Main Build</b></td>
+        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?style=for-the-badge" alt="Build Status" /></a></td>
+    </tr>
+</table>
+
+
 <br />
 <div align="center"> <b>Main Menu</b> </div>
 <div align="center">
