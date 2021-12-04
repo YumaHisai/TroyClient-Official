@@ -36,7 +36,12 @@
         <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.7&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.7&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
+
 </div>
+
+<div align="center">
+  <a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://www.copyrighted.com/work/lnxCduqLCadxAF1Y"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="75" srcset="https://static.copyrighted.com/badges/125x75/03_2x.png 2x" src="https://static.copyrighted.com/badges/125x75/03.png" /></a>
+  </div>
 
 <br />
 <div align="center"> <b>Main Menu</b> </div>
