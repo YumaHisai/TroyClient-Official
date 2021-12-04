@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Firt Update">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +84,16 @@
       <workItem from="1638575912302" duration="396000" />
       <workItem from="1638585555031" duration="154000" />
       <workItem from="1638585738663" duration="2000" />
-      <workItem from="1638585830653" duration="261000" />
+      <workItem from="1638585830653" duration="1097000" />
     </task>
+    <task id="LOCAL-00001" summary="Firt Update">
+      <created>1638586266797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638586266797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +115,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/gitpush/TroyClient" />
     </ignored-roots>
+    <MESSAGE value="Firt Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firt Update" />
   </component>
 </project>

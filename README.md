@@ -7,6 +7,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![YouTube][youtube-shield]][youtube-url]
+[![Discussions][discussion-shield]][discussion-url]
 
 
 
@@ -64,3 +65,5 @@
 [license-url]: https://github.com/md4Studios/TroyClient/blob/troy/LICENSE.md
 [youtube-shield]: https://img.shields.io/youtube/channel/subscribers/UCn7n4dI57Kp-knI1UMqFCog?color=red&label=YouTube%20SubScribe&style=for-the-badge
 [youtube-url]: https://www.youtube.com/channel/UCn7n4dI57Kp-knI1UMqFCog
+[discussion-shield]: https://img.shields.io/github/discussions/md4Studios/TroyClient?style=for-the-badge
+[discussion-url]: https://img.shields.io/github/discussions/md4Studios/TroyClient?style=for-the-badge
