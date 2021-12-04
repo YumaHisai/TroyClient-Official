@@ -54,6 +54,8 @@
     <img src="https://img.shields.io/badge/Version-1.0.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
     <img src="https://i.imgur.com/J4dcGMT.png" alt="Logo" width="" height="">
   </a>
+  
+  <hr style="width:50%;text-align:left;margin-left:0">
 
 <br />
 <div align="center"> <b>✅ Updated Crashers</b> </div>
