@@ -84,7 +84,7 @@
       <workItem from="1638585555031" duration="154000" />
       <workItem from="1638585738663" duration="2000" />
       <workItem from="1638585830653" duration="1348000" />
-      <workItem from="1638628318275" duration="1320000" />
+      <workItem from="1638628318275" duration="1680000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -135,7 +135,42 @@
       <option name="project" value="LOCAL" />
       <updated>1638629601193</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated README.md ✅">
+      <created>1638629690376</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638629690376</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated README.md ✅">
+      <created>1638629724410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638629724410</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated README.md ✅">
+      <created>1638629767728</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638629767728</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated README.md ✅">
+      <created>1638629926423</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638629926423</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated README.md ✅">
+      <created>1638630013804</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638630013804</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
