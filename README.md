@@ -83,7 +83,7 @@
 <div align="center">
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.1.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-    <img src="https://i.imgur.com/QhpXcjc.png" alt="Logo" width="" height="">
+    <img src="https://i.imgur.com/uPsO7Ua.png" alt="Logo" width="" height="">
   </a>
 
   <br />
