@@ -60,6 +60,7 @@
 
   <dependencies>
 
+
     <dependency>
       <artifactId>discord-rpc</artifactId>
       <groupId>com.github.Vatuu</groupId>

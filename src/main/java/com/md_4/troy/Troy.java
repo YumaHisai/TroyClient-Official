@@ -11,6 +11,10 @@ import com.md_4.troy.ui.HUD;
 import com.md_4.troy.ui.Manager;
 import net.arikia.dev.drpc.DiscordRPC;
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -49,6 +53,8 @@ public enum Troy
   public static String version;
   public static String creator;
   public static CopyOnWriteArrayList<Module> modules = new CopyOnWriteArrayList<Module>();
+
+
   //prt
   public static Manager modmanager;
   public static Troy instace;
@@ -83,6 +89,14 @@ public enum Troy
     Troy.altManager = new AltManager();
     Display.setTitle("TroyClient 1.1.7 | By md_4 & ItzNull_");
     OpenGlHelper.setWindowIcon("https://i.imgur.com/5Peeyxu.png", "https://i.imgur.com/DcjVAVX.png");
+  }
+
+  public static void GoodBye() {
+
+  }
+
+  public static void checkHwid() {
+
   }
 
   public void shutDown() {
@@ -124,6 +138,48 @@ public enum Troy
       }
     }
   }
+
+  // License
+
+  public static void license(){
+
+    InetAddress localHost = null;
+    try {
+      localHost = InetAddress.getLocalHost();
+    } catch (UnknownHostException e) {
+      e.printStackTrace();
+    }
+    NetworkInterface ni = null;
+    try {
+      ni = NetworkInterface.getByInetAddress(localHost);
+    } catch (SocketException e) {
+      e.printStackTrace();
+    }
+    byte[] hardwareAddress = new byte[0];
+    try {
+      hardwareAddress = ni.getHardwareAddress();
+    } catch (SocketException e) {
+      e.printStackTrace();
+    }
+
+    String[] hexadecimal = new String[hardwareAddress.length];
+    for (int i = 0; i < hardwareAddress.length; i++) {
+      hexadecimal[i] = String.format("%02X", hardwareAddress[i]);
+    }
+    String macAddress = String.join("-", hexadecimal);
+
+      if(
+              macAddress.equals("00-E0-4C-36-43-04") // md_4
+              ||
+              macAddress.equals("00-D8-61-5B-20-0E") // ItzNull_
+      )
+      {
+        System.out.println("Licese Active On " + macAddress);
+      } else {
+        Minecraft.getMinecraft().shutdown();
+      }
+  }
+  // License
 
   public static List<Module> getModulesByCategory(Module.Category c){
     List<Module> modules = new ArrayList<Module>();

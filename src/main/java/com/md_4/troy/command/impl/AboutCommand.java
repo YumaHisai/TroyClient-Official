@@ -4,6 +4,7 @@ import com.md_4.troy.command.Command;
 import com.md_4.troy.command.CommandInfo;
 import com.md_4.troy.helper.ChatHelper;
 
+
 @CommandInfo(
         alias = "about",
         description = "Get More Information",
