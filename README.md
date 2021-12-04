@@ -99,7 +99,7 @@
 </a>
 </div>
 
-<img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="400" height="">  
+<img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="" height="">  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
