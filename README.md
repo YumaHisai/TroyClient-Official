@@ -61,7 +61,7 @@
 [stars-url]: https://github.com/md4Studios/TroyClient/stargazers
 [issues-shield]: https://img.shields.io/github/issues/md4Studios/TroyClient?color=yellow&style=for-the-badge
 [issues-url]: https://github.com/md4Studios/TroyClient/issues
-[license-shield]: https://img.shields.io/github/license/md4Studios/TroyClient?color=g&style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/md4Studios/TroyClient?style=for-the-badge
 [license-url]: https://github.com/md4Studios/TroyClient/blob/troy/LICENSE.md
 [youtube-shield]: https://img.shields.io/youtube/channel/subscribers/UCn7n4dI57Kp-knI1UMqFCog?color=red&label=YouTube%20SubScribe&style=for-the-badge
 [youtube-url]: https://www.youtube.com/channel/UCn7n4dI57Kp-knI1UMqFCog
