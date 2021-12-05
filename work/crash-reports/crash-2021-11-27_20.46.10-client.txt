@@ -11,9 +11,9 @@ java.lang.ExceptionInInitializerError
 	at net.minecraft.client.main.Main.main(Main.java:113)
 	at Start.main(Start.java:9)
 Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at com.md_4.troy.exploit.impl.nbt.Ruyu1.<init>(Ruyu1.java:30)
-	at com.md_4.troy.Troy.<init>(Troy.java:42)
-	at com.md_4.troy.Troy.<clinit>(Troy.java:27)
+	at Ruyu1.<init>(Ruyu1.java:30)
+	at Troy.<init>(Troy.java:42)
+	at Troy.<clinit>(Troy.java:27)
 	... 5 more
 
 

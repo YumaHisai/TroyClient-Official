@@ -6,7 +6,7 @@ Description: Updating screen events
 
 java.lang.ArrayIndexOutOfBoundsException: 0
 	at com.md_4.troy.command.impl.GetUUIDCommand.execute(GetUUIDCommand.java:28)
-	at com.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at CommandManager.handleCommand(CommandManager.java:34)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
 	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
@@ -25,7 +25,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at com.md_4.troy.command.impl.GetUUIDCommand.execute(GetUUIDCommand.java:28)
-	at com.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at CommandManager.handleCommand(CommandManager.java:34)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
 	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)

@@ -5,8 +5,8 @@ Time: 04/12/21 22.36
 Description: Initializing game
 
 java.lang.NullPointerException: Initializing game
-	at com.md_4.troy.helper.ChatHelper.printMessage(ChatHelper.java:20)
-	at com.md_4.troy.helper.ChatHelper.printMessage(ChatHelper.java:16)
+	at ChatHelper.printMessage(ChatHelper.java:20)
+	at ChatHelper.printMessage(ChatHelper.java:16)
 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:634)
 	at net.minecraft.client.Minecraft.run(Minecraft.java:407)
 	at net.minecraft.client.main.Main.main(Main.java:113)
@@ -18,8 +18,8 @@ A detailed walkthrough of the error, its code path and all known details is as f
 
 -- Head --
 Stacktrace:
-	at com.md_4.troy.helper.ChatHelper.printMessage(ChatHelper.java:20)
-	at com.md_4.troy.helper.ChatHelper.printMessage(ChatHelper.java:16)
+	at ChatHelper.printMessage(ChatHelper.java:20)
+	at ChatHelper.printMessage(ChatHelper.java:16)
 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:634)
 
 -- Initialization --

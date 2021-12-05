@@ -16,8 +16,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
-import com.md_4.troy.Troy;
-import com.md_4.troy.command.CommandManager;
+import it.md_4.troy.Troy;
+import it.md_4.troy.command.CommandManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;

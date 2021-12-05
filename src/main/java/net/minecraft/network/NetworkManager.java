@@ -2,8 +2,8 @@ package net.minecraft.network;
 
 import com.google.common.collect.Queues;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import com.md_4.troy.helper.TimeHelper;
-import com.md_4.troy.holder.Holder;
+import it.md_4.troy.helper.TimeHelper;
+import it.md_4.troy.holder.Holder;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelException;

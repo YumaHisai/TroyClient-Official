@@ -3,7 +3,7 @@ package net.minecraft.client.network;
 import com.google.common.collect.Maps;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
-import com.md_4.troy.holder.Holder;
+import it.md_4.troy.holder.Holder;
 import com.mojang.authlib.GameProfile;
 import io.netty.buffer.Unpooled;
 import java.io.File;

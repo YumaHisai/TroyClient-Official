@@ -7,11 +7,8 @@ import com.google.common.collect.Sets;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListenableFutureTask;
-import com.md_4.troy.Troy;
-import com.md_4.troy.alt.GuiAltLogin;
-import com.md_4.troy.alt.GuiAltManager;
-import com.md_4.troy.helper.ChatHelper;
-import com.md_4.troy.hook.GuiInGameHook;
+import it.md_4.troy.Troy;
+import it.md_4.troy.hook.GuiInGameHook;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.minecraft.MinecraftSessionService;
 import com.mojang.authlib.properties.PropertyMap;
@@ -23,8 +20,6 @@ import java.io.InputStream;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.text.DecimalFormat;
@@ -186,7 +181,7 @@ import org.lwjgl.opengl.OpenGLException;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.glu.GLU;
 
-import static com.md_4.troy.Troy.license;
+import static it.md_4.troy.Troy.SQL;
 
 public class Minecraft implements IThreadListener, IPlayerUsage
 {
@@ -609,7 +604,52 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
         // md_4
 
-        license();
+        //check();
+
+        InetAddress localHost = null;
+        try {
+            localHost = InetAddress.getLocalHost();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+        NetworkInterface ni = null;
+        try {
+            ni = NetworkInterface.getByInetAddress(localHost);
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+        byte[] hardwareAddress = new byte[0];
+        try {
+            hardwareAddress = ni.getHardwareAddress();
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+
+        String[] hexadecimal = new String[hardwareAddress.length];
+        for (int i = 0; i < hardwareAddress.length; i++) {
+            hexadecimal[i] = String.format("%02X", hardwareAddress[i]);
+        }
+        String macAddress = String.join("-", hexadecimal);
+
+        try {
+
+
+            Statement stmt = SQL.getconnection().createStatement();
+
+            String SQL = "SELECT * FROM testtable WHERE mac='" + macAddress + "'";
+
+            ResultSet rs = stmt.executeQuery(SQL);
+
+            if(rs.next()){
+                System.out.println("Account Authorized For Mac: " + macAddress);
+            } else {
+                System.out.println("Account Not Authorized For Mac: " + macAddress);
+                Minecraft.getMinecraft().shutdown();
+            }
+
+        } catch (Exception e){
+            System.out.println("Error: " + e.getMessage());
+        }
 
         // md_4
     }

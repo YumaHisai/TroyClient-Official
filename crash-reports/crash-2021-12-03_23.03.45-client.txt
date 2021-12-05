@@ -4,11 +4,11 @@
 Time: 03/12/21 23.03
 Description: Updating screen events
 
-com.md_4.troy.exception.CommandException: &b • &bExploit not found. Use "&3'crash list" &bto see all exploits.
-	at com.md_4.troy.command.impl.ExploitCommand.lambda$execute$1(ExploitCommand.java:44)
+CommandException: &b • &bExploit not found. Use "&3'crash list" &bto see all exploits.
+	at ExploitCommand.lambda$execute$1(ExploitCommand.java:44)
 	at java.util.Optional.orElseThrow(Optional.java:290)
-	at com.md_4.troy.command.impl.ExploitCommand.execute(ExploitCommand.java:44)
-	at com.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at ExploitCommand.execute(ExploitCommand.java:44)
+	at CommandManager.handleCommand(CommandManager.java:34)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
 	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
@@ -26,10 +26,10 @@ A detailed walkthrough of the error, its code path and all known details is as f
 
 -- Head --
 Stacktrace:
-	at com.md_4.troy.command.impl.ExploitCommand.lambda$execute$1(ExploitCommand.java:44)
+	at ExploitCommand.lambda$execute$1(ExploitCommand.java:44)
 	at java.util.Optional.orElseThrow(Optional.java:290)
-	at com.md_4.troy.command.impl.ExploitCommand.execute(ExploitCommand.java:44)
-	at com.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at ExploitCommand.execute(ExploitCommand.java:44)
+	at CommandManager.handleCommand(CommandManager.java:34)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
 	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
 	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)

@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Random;
 
-import com.md_4.troy.Troy;
-import com.md_4.troy.ui.HUD;
+import it.md_4.troy.Troy;
+import it.md_4.troy.ui.HUD;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;

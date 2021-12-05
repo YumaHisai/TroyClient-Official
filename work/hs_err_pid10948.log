@@ -831,7 +831,7 @@ CodeHeap 'non-nmethods': size=5696Kb used=1498Kb max_used=1579Kb free=4197Kb
 Compilation events (20 events):
 Event: 144.826 Thread 0x00000193e8832000 11721       4       net.minecraft.client.network.NetworkPlayerInfo::getLocationSkin (32 bytes)
 Event: 144.831 Thread 0x00000193e8832000 nmethod 11721 0x00000193da835790 code [0x00000193da835960, 0x00000193da835de8]
-Event: 144.831 Thread 0x00000193e8832000 11722       4       com.md_4.troy.hook.GuiInGameHook::renderGameOverlay (861 bytes)
+Event: 144.831 Thread 0x00000193e8832000 11722       4       GuiInGameHook::renderGameOverlay (861 bytes)
 Event: 144.847 Thread 0x00000193e8832000 nmethod 11722 0x00000193da836090 code [0x00000193da836360, 0x00000193da836ca0]
 Event: 145.001 Thread 0x00000193e8832000 11723       4       net.minecraft.world.WorldServer::updateWeather (193 bytes)
 Event: 145.003 Thread 0x00000193e8832000 nmethod 11723 0x00000193da837790 code [0x00000193da837960, 0x00000193da837b08]

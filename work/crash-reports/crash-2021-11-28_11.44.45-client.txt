@@ -6,7 +6,7 @@ Description: Initializing game
 
 java.lang.NullPointerException: Initializing game
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
-	at com.md_4.troy.Troy.setDisplay(Troy.java:73)
+	at Troy.setDisplay(Troy.java:73)
 	at net.minecraft.client.Minecraft.createDisplay(Minecraft.java:617)
 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:474)
 	at net.minecraft.client.Minecraft.run(Minecraft.java:392)
@@ -20,7 +20,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
-	at com.md_4.troy.Troy.setDisplay(Troy.java:73)
+	at Troy.setDisplay(Troy.java:73)
 	at net.minecraft.client.Minecraft.createDisplay(Minecraft.java:617)
 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:474)
 

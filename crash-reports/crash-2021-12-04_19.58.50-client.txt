@@ -6,7 +6,7 @@ Description: Initializing game
 
 java.lang.NullPointerException: Initializing game
 	at net.minecraft.util.ChatAllowedCharacters.filterAllowedCharacters(ChatAllowedCharacters.java:22)
-	at com.md_4.troy.mods.alts.MagicField.writeText(MagicField.java:62)
+	at MagicField.writeText(MagicField.java:62)
 	at com.md_4.troy.license.GuiLicenseHelper.initGui(GuiLicenseHelper.java:215)
 	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:551)
 	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1008)
@@ -22,7 +22,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at net.minecraft.util.ChatAllowedCharacters.filterAllowedCharacters(ChatAllowedCharacters.java:22)
-	at com.md_4.troy.mods.alts.MagicField.writeText(MagicField.java:62)
+	at MagicField.writeText(MagicField.java:62)
 	at com.md_4.troy.license.GuiLicenseHelper.initGui(GuiLicenseHelper.java:215)
 	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:551)
 	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1008)
