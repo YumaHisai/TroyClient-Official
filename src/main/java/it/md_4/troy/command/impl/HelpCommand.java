@@ -22,10 +22,6 @@ public class HelpCommand extends Command {
       ChatHelper
           .printMessage(String.format("&3%s&f: &d%s\n", command.getAlias(), command.getUsage()));
 
-      /*Niko.INSTANCE.getCommandManager().getCommand(args[0])
-          .ifPresentOrElse(command -> ChatHelper.printMessage(
-              String.format("&5%s&f: &d%s\n", command.getAlias(), command.getUsage())),
-              () -> ChatHelper.printMessage(String.format("Command \"%s\" not found.\n", args[0])));*/
       return;
     }
 

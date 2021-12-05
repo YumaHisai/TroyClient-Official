@@ -17,11 +17,11 @@
   },
   "libraries": [
     {
-      "name": "com.mysql:mysql-connector-java:8.0.19",
+      "name": "com.mysql:mysql-connector-java:8.0.27",
       "downloads": {
         "artifact": {
-          "url": "https://ec.europa.eu/cefdigital/artifact/repository/public/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar",
-          "sha1": "9af69ef0f68eae737351ff55c0ba6e23a06826a5",
+          "url": "https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar",
+          "sha1": "f1da9f10a3de6348725a413304aab6d0aa04f923",
           "size": 1490389
         }
       }

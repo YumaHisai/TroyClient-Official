@@ -636,7 +636,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
             Statement stmt = SQL.getconnection().createStatement();
 
-            String SQL = "SELECT * FROM testtable WHERE mac='" + macAddress + "'";
+            String SQL = "SELECT * FROM accounts WHERE mac='" + macAddress + "'";
 
             ResultSet rs = stmt.executeQuery(SQL);
 

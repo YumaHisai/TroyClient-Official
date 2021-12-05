@@ -23,7 +23,7 @@ public class CommandManager {
 
   public boolean handleCommand(String message) {
     if (/*message.isBlank() ||*/ message.isEmpty()) {
-      return false;
+      return true;
     }
 
     String[] args = message.substring(1).split(" ");
@@ -34,6 +34,7 @@ public class CommandManager {
           .execute(Arrays.copyOfRange(args, 1, args.length));
     } catch (CommandException e) {
       ChatHelper.printMessage(e.getMessage());
+      return true;
     }
 
     /*getCommand(args[0]).ifPresentOrElse(command -> {

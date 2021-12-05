@@ -15,11 +15,11 @@ import java.sql.SQLException;
 
 public class MySQL {
 
-    private String host = "localhost";
+    private String host = "178.174.14.140";
     private String port = "3306";
-    private String database = "testdatabase";
-    private String username = "root";
-    private String password = "Hwdcop5625010--";
+    private String database = "troyclient";
+    private String username = "troy";
+    private String password = "Hwdcop5625010";
 
     private Connection connection;
 
@@ -30,6 +30,8 @@ public class MySQL {
     public void connect() throws ClassNotFoundException, SQLException {
         if(!isConnected()){
             Class.forName("com.mysql.cj.jdbc.Driver");
+
+
 
             connection = DriverManager.getConnection("jdbc:mysql://" +
                             host + ":" + port + "/" + database,
