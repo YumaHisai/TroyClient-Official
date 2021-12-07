@@ -4,206 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Added LICENSE Hooked With MySQL">
-      <change afterPath="$PROJECT_DIR$/ViaMCP/ViaBackwards/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViaMCP/ViaRewind/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViaMCP/ViaVersion/viaversion.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/13/136fc906cd216e1520922c41abf96265f09a3a91a23aa2e12cc04a6cc1945810" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/1b/1bd6bba93d1a4f3cb3176ad1fba99527b3b6b119b4f8a7bbf9ba1a5693df79d0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/1c/1cd86c5cbaaaea3a4aaf529f52df5e98a3049aaac6669aaec6745061eb49593b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/2a/2ac926f354505ed72b487a94e91fe3444fd0bc76c88fc46bc5e13f6ed69dbf1c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/2b/2be6d191fa868ec44422674ca0880c148806868a4d64167ab625ef703709d59f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/2f/2fc5fa25e27cafbed75956af9ddc20df76e12e2fa77bcdb3585d00144b04afc0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/32/32d66ac42533d1ad78a69b8355253606e5383b161879b8c1f6d01477306b582b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/34/349576e2b5da4e472bdb19f0d6b3092295a65db506d46a7bfad5bb8b5c6db17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/36/36ba4e1f4b367d5f903cb135c246697d67d6a972a2e918fd93d6a9e506bbbf79" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/42/420bf5ea89ebe2f4b13bfac0d492db487cfa7e6e9b85d72500fbe57849d26b9d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/42/424a601a7f29f3bc4e7e29ebe14e4379620f1c3ea78d6ceaa9e3da7d48cfcbcb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/48/487836e2154c3fb0862ae7d6556d6c1ab33308a18cd45d06a1b59c5ec2a9ed5d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/49/49ab7491291563bd59ffa1b9aa8fbe730537cba869b0870b9f93d38087424d19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/4b/4b2bcfd2d142a2e44d24a02f12cdbd7baed01b2d18de19654c2cf0965cb4f535" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/4c/4c791190f4d682f35d022fa5be88fbdaecf0615bcbf66035b79de96a113bcaba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/55/551063d89acf4d930bbe45ef8a809a8ebd1300eaaba148be78044f7b6a9bcf8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/57/57b432b8099d6541e853fb74d51f15d7e79ddcdc4adf1f0b565c20cf8238089b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/58/580cf6f41a6ad17dd82cd4b05cc52faa45bc0255b2b7f48536e68dbf43e7d37c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/58/587f046198d8117f15c07425e58f779047079662c6ac5792f2d442f8d263773a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/59/59585793307798d3c14190461312bcfaa746caff42be21dfe1b9c7a953cbcb6c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/5b/5b663f42725f21931fb158acd2d4c4419e14267f2942fabec0f84ab4264b809b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/5d/5d68cf65a976a4db1103e2b9dcda94a39f1bf63b01099649ce240851cc10d8b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/5f/5f4f6386adaddb06e296cae3a7087d37d2dbb3a5ec81dda0b1ae15516ec42539" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/5f/5f5acae55835a7b0be886f4bac92dda28a36fa245aeb2128f182bce0266355a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/61/611092823dd567f1afd63e88ef532e44da2efeed56477f2ab8c8192254307a28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/6c/6cb73787f5f8e04eca01c8686f894c04c737440850768a88bbee3fcf3d442846" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/6e/6e0bf99fed12f399f4ca0dfb7a461b3ac1a765d0d84ce2ade6f1762c728180c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/71/71720831188588a409c35a281e5778890f90d91703a48eed9130296f5ea0fde" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/73/73aab066e747684cdf5e185c25a95a40bada863d1c6e4ea7fb9e80c1f96822a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/74/74dcf16a42e139f4724687ba1ad5057d536b04c21fb5d0b62be992fcf5c5f231" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/7b/7b19870f448d38dfadbb697c108814e973144831a007e9b8efa889b386bc891f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/7e/7e1b8218de2d4706d8373a4861df8f62c408f9f69140372825b7343699ba1bc7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/80/80d8bc169f2c2898b8b664b37b394127878816e0de3af524c5379fe6dceb57ae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/8f/8fc3905b859f3e676a565c6b2a44f99b87c1430fb7b30860949fa9e894eb73b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/92/921bed7fb322d3b1a1842da8dbf5e930ef9d1986fa18037bd837c14e222fbb9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/93/93cc7eab7d6fe6e97aef915b0f3609fde5fed7014d02b8e660fffc4e5b60efff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/95/9564e7bde6cfc4a3254cd1ead5fa82b53966aea66e4906d2b9acd1b199ffa3b7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/9d/9d8cd10842b76ac79ac3878bc4dcaaf9d6257392fa688ade67f39327bba407fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/a8/a8781ba184a98db7dbef77cfaa0b5ed19240fa7429db6311e904ef2e33c40f19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/a8/a8c252b957dd7513a4fc8432f80ca55fd803db202efcd57ed614801aba758ff6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/a8/a8d7e85082d1f7c436ea95371c839cc4194e74c51946c940f5e6b6736399f78b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ac/ac325eb33a16c44cfddcb2ab3e53588061b89793e120dfabd308332418bc2365" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/b4/b47c3859866e109a96c99d3aa46789e1858dbb54db9c2980866fb925269214db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ba/babf49a89c48e80f1a00a9cb2847bb20b3b9ae15f64681055dc24883b3019dba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c0/c0325d5e26104dc8774b9291409ecd21a05f9689c8513896ed25fe5edb88be11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c0/c0decb798aca5b2c05b965f93a8c5bbc2ecf8a278b32ec8175a0eb51c2034670" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c1/c19132ef4230c8a966e1e8593036d7a7aa0140706ab84147f58579ee457ec38e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c3/c34d5dd62a62db05eccd536b937f8dc88b847adccfc6528b3da1c477bbd6937b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c7/c776648ffcf4da79e1df9b26167c33c9496e2a4655f7b238ab87adb13682dfe3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c7/c779c3a9a9466c32f409f54d5c8a2ba320beb70eea1bb5cb2709a41680e33bc1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c9/c97b00daa2d51dfa24292df44010daf63d0266ef2b4376be8693b58e863ae70f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/cb/cbc6aa862143cca751a064df989613b9341eb73a1c0c2f246ee3d99969a7ae1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/cd/cd93e1a5e88d656cc490966513988004a8c35a69b72f3e2cfdda33b07681789b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/d1/d14000023186ceb8d7dd1f0cbd574d09e4cc5f79ad5a930aafcdc92884202b6a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/d1/d1f0bd93a30b8ae35b1fe479f6c78fcdd343862d4893a5cacc41bf7a1af1c811" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/d5/d516fd81a87b78b73df0e139a0dd25679978dcefc246d17bcde773119d648920" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/d9/d9151d4ee2446ec1cc9caccad9907385860c8525e7ebf6d7a0085efd8a1314ba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/e0/e005d42f48eb3cdd7c2f3111cc39825cc28246843fc1396e1cc3f96ae64aa97f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/e3/e3c228046c1fac263294e083b749895dd04893bc0d3ba9b46cb40cc919cc4543" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/e9/e99056b71135da43395c1aee4a39321fe92bb402d45e5c45e31f38e945ab58f5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ea/ea085607bf2ad0d66e6f7769ce9e23eee199263e12c27e2a5fa5945316ef4a57" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ea/ead7981a725ea4174bdd589a72774eb8c7664400d9e6e114d69f9ff377a1ca67" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ec/ec60b50807d936077b8015e305233bb4df907771439783c91d642f1c0fd39c62" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ed/ed68c16c30a1a19a858cfac332b08889e8a439ab76983bffaaabee9c21600a1e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ed/ed6c7c322a497f0dd807254f2d35d1a6adc6e5d2321019f75eeb38ab33a23784" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/f0/f0584ff3038217dcb7d6ff304b91882685269091a5174e3679440ce1a97c7122" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/f1/f12feb490408f51a555e3734e28a0fc36e079ebc812e81fb134783ddfeb8a065" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/f8/f81b882d068b032f81300e696b6c8cd527ab2c70cd6757c5710953942d360a63" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/fe/fe3ff7c6fafbd233aa9a4d2fb7f27b47ea8dde188df741d72c45b34d9f425ad0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_00.29.31-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_00.30.25-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_00.34.05-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_00.49.33-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.01.03-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.06.17-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.11.07-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.19.59-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.25.37-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.37.08-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.55.19-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_01.58.53-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_02.11.49-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_02.14.36-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_02.15.47-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_02.20.05-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_03.33.33-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_04.47.45-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_05.00.59-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_05.15.31-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_06.12.20-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_06.15.30-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_06.37.48-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_07.01.21-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-06_13.38.38-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid8552.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/click.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/pop.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/ChatHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/GuiAddAlt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/RectangleHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/movement/NoFall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/ByeBye.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/GuiPortScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/GuiProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/GuiUUIDSpoofer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/uts/UUID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_Vatuu_discord_rpc_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_nullnoname_paulscode_soundsystem_2013_04_17_unofficial.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_oshi_oshi_core_5_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_68_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mojang_authlib_1_5_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_25_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_vecmath_vecmath_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_2_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jutils_jutils_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_l33tlabs_twl_pngdecoder_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_util_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TroyClient.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/servers.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/Alt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/AltLoginThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/AltManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/GuiAddAlt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/GuiAltLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/GuiAltManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/GuiRenameAlt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alt/PasswordField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/CommandManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/Bypass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/BypassInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/BypassManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/BypassType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/argument/Argument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/argument/ArgumentParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/auth/Auth1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/auth/Auth1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/pex/PermissionExBypass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/pex/PermissionExBypass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/BypassCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ExploitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ExploitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/FakeGamemodeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/FakeGamemodeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/OnlineCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/OnlineCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ThreadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ThreadCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/Exploit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/Exploit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/argument/ArgumentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/argument/ArgumentParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/helper/MainMenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/helper/MainMenuHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/manager/AltManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/AltManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/manager/GuiAltManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/GuiAltManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/mods/alts/GuiAddAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/mods/alts/GuiAddAlt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/mods/alts/GuiRenameAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/mods/alts/GuiRenameAlt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/movement/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/movement/Fly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/movement/Sprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/movement/Sprint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/player/NoFall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/render/FullBright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/render/FullBright.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/Gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMultiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMultiplayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/network/NetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/network/NetworkManager.java" afterDir="false" />
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Added Version Switcher Support&#10;1.7 / 1.18">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_Vatuu_discord_rpc_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_nullnoname_paulscode_soundsystem_2013_04_17_unofficial.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_oshi_oshi_core_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_68_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mojang_authlib_1_5_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_vecmath_vecmath_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_2_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jutils_jutils_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_l33tlabs_twl_pngdecoder_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_util_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ViaBackwards_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ViaRewind_2_0_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ViaSnakeYaml_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ViaVersion_4_1_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TroyClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/1c/1cdbf4b8b9561d10fbe02a532730bcf3dea99887cf54bf05fcd019fa77694787" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/20/20efde9695ce18d7ae96286db70fa53571b854b8a792e660e748a5617fd232d7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/3c/3c13efb85ce7a4931b0cd01291672e9475cd27cf5a23497580606ceb53a81b0b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/47/47be1d35f28945e675bf0e375e862d9e3653d9985f46364978247b19ecc2f7be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/57/5711538001bf50c0338fd77eb7c602bf09202d11e2d8cd591f83757f074aaaa4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/6c/6c322442236b586d87be0f4544ac450c53ce6e9f609b797217288899df31afce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/97/97b6db68e680ae2eeb218d170898233b4e328d380f446f09318f212158ed5ecd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/a7/a7d28f20111d9a255e344302571429df6357e9e6b20f19082cbbcb77d15e426c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/b5/b58a18145c34a35e2a8a797f8cd79fa3ed8a53d3fcf6f1f693fc0a6bbbad581f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/d7/d73432a8ccdd4d18152f64f242eefa205aeed7d14cc04282a962205ef26cea5b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/f8/f880a76e77d08034ce6591af4d2ea4ad42f48f549170565d5853f0c0fe26c247" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/ViaBackwards-4.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/ViaRewind-2.0.2-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/ViaSnakeYaml-1.27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/ViaVersion-4.1.2-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/maven/it/md_4/TroyClient/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/maven/it/md_4/TroyClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/services/java.sql.Driver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/Alt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/AltLoginThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/GuiAltLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/GuiRenameAlt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/MagicField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/PasswordField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/proxy/ProxyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/proxy/ProxyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/ViaMCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/gui/GuiProtocolSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/gui/VersionSlider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/handler/CommonTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/handler/MCPDecodeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/handler/MCPEncodeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/loader/MCPBackwardsLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/loader/MCPRewindLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/loader/MCPViaLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/platform/MCPViaAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/platform/MCPViaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/platform/MCPViaInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/platform/MCPViaPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/protocols/ProtocolCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/utils/FutureTaskId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/utils/JLoggerToLog4j.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/viamcp/utils/NettyUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +206,7 @@
       <workItem from="1638694528008" duration="4309000" />
       <workItem from="1638725609151" duration="51960000" />
       <workItem from="1638791905971" duration="8054000" />
-      <workItem from="1638864774751" duration="898000" />
+      <workItem from="1638864774751" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -560,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638747307985</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added LICENSE Hooked With MySQL">
+      <created>1638866062057</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1638866062058</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added Version Switcher Support&#10;1.7 / 1.18">
+      <created>1638866193224</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1638866193224</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,6 +501,7 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added License System" />
     <MESSAGE value="Added LICENSE Hooked With MySQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added LICENSE Hooked With MySQL" />
+    <MESSAGE value="Added Version Switcher Support&#10;1.7 / 1.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Version Switcher Support&#10;1.7 / 1.18" />
   </component>
 </project>
