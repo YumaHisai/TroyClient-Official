@@ -1,5 +1,8 @@
 package net.minecraft.client.entity;
 
+import it.md_4.troy.Troy;
+import it.md_4.troy.modules.events.EventType;
+import it.md_4.troy.modules.events.listeners.EventUpdate;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSoundMinecartRiding;
 import net.minecraft.client.audio.PositionedSoundRecord;
@@ -188,6 +191,12 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void onUpdateWalkingPlayer()
     {
+
+        // md_4
+        EventUpdate e = new EventUpdate();
+        e.setType(EventType.PRE);
+        Troy.onEvent(e);
+
         boolean flag = this.isSprinting();
 
         if (flag != this.serverSprintState)

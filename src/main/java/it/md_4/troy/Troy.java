@@ -130,14 +130,14 @@ public enum Troy
     //SplashProgress.setProgress(1, "Troy - Reading Modules");
 
     Troy.altManager = new AltManager();
-    Display.setTitle("TroyClient 1.1.7 | By md_4 & ItzNull_");
+    Display.setTitle("TroyClient 1.3.6 | By md_4 & ItzNull_");
     OpenGlHelper.setWindowIcon("https://i.imgur.com/5Peeyxu.png", "https://i.imgur.com/DcjVAVX.png");
     // Modules
-    //modules.add(new Fly());
-    //modules.add(new Sprint());
+    modules.add(new Fly());
+    modules.add(new Sprint());
     modules.add(new FullBright());
-    //modules.add(new NoFall());
-    //modules.add(new TabGUI());
+    modules.add(new NoFall());
+    modules.add(new TabGUI());
     // Modules
   }
 
@@ -229,7 +229,7 @@ public enum Troy
 
   static {
     Troy.name = "TroyClient";
-    Troy.version = "1.1.7";
+    Troy.version = "1.3.6";
     Troy.creator = "md_4 & ItzNull_";
   }
 }

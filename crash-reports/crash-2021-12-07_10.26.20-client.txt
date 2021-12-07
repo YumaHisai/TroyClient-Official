@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 07/12/21 10.26
+Description: Updating screen events
+
+it.md_4.troy.exception.CommandException: &b • &bUsage: &3'crash <exploit/list/info> [exploit name / exploit arguments]
+	at it.md_4.troy.command.impl.ExploitCommand.execute(ExploitCommand.java:27)
+	at it.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:628)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:579)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1857)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1177)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:437)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at it.md_4.troy.command.impl.ExploitCommand.execute(ExploitCommand.java:27)
+	at it.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:628)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:579)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiChat
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 16 total; [EntityPlayerSP['md_4'/17086, l='MpServer', x=-0,93, y=69,00, z=18,37], EntityOtherPlayerMP['letriet'/46735, l='MpServer', x=-6,38, y=69,00, z=7,84], EntityOtherPlayerMP['THEshadow_hat'/46835, l='MpServer', x=9,69, y=69,00, z=25,69], EntityOtherPlayerMP['josemanu23'/46110, l='MpServer', x=-13,72, y=69,00, z=12,69], EntityOtherPlayerMP['LordDRACONIX'/46860, l='MpServer', x=-3,00, y=69,00, z=4,41], EntityOtherPlayerMP['arthgamer'/46352, l='MpServer', x=-9,44, y=80,70, z=8,19], EntityOtherPlayerMP['HIbychawastaken'/46829, l='MpServer', x=-1,72, y=69,23, z=4,73], EntityOtherPlayerMP['adamshii'/46584, l='MpServer', x=2,25, y=69,50, z=3,22], EntityOtherPlayerMP['ohheyhanna'/46845, l='MpServer', x=0,63, y=69,00, z=5,00], EntityOtherPlayerMP['HACKER1119'/46870, l='MpServer', x=0,78, y=69,00, z=26,31], EntityOtherPlayerMP['FIREDDRAGON'/46868, l='MpServer', x=0,56, y=69,76, z=14,49], EntityOtherPlayerMP['flamekaiser321'/46873, l='MpServer', x=-1,41, y=69,00, z=6,38], EntityOtherPlayerMP['Axmber'/46710, l='MpServer', x=2,10, y=69,94, z=20,40], EntityOtherPlayerMP['Tsotnedino'/46187, l='MpServer', x=-4,05, y=69,31, z=24,23], EntityOtherPlayerMP['ek38'/46332, l='MpServer', x=-1,96, y=69,00, z=30,69], EntityOtherPlayerMP['wizard_craft'/46872, l='MpServer', x=0,41, y=70,75, z=4,84]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 0,00,70,00,0,00 - World: (0,70,0), Chunk: (at 0,4,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 558337486 game time, 18000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: adventure (ID 2). Hardcore: false. Cheats: false
+	Forced entities: 118 total; [EntityOtherPlayerMP['HIbychawastaken'/46829, l='MpServer', x=-19,80, y=71,14, z=52,66], EntityOtherPlayerMP['itsBONITO'/46446, l='MpServer', x=-0,52, y=69,37, z=43,69], EntityArmorStand['§b§lHEROBRINE.ORG'/1, l='MpServer', x=0,50, y=70,47, z=14,50], EntityOtherPlayerMP['Axmber'/46710, l='MpServer', x=-4,53, y=70,13, z=34,31], EntityArmorStand['§fA Minecraft server with a large'/2, l='MpServer', x=0,50, y=70,22, z=14,50], EntityPlayerSP['md_4'/17086, l='MpServer', x=-0,93, y=69,00, z=18,37], EntityOtherPlayerMP['NOTARROWWARRIOR'/42237, l='MpServer', x=-21,32, y=69,00, z=41,19], EntityArmorStand['§fvariety of game modes to enjoy!'/3, l='MpServer', x=0,50, y=69,97, z=14,50], EntityArmorStand['§fDiscord at §dHerobrine.org'/4, l='MpServer', x=0,50, y=69,72, z=14,50], EntityArmorStand['§b§lHELP'/7, l='MpServer', x=7,50, y=71,16, z=12,50], EntityArmorStand['§fClick to view'/8, l='MpServer', x=7,50, y=70,91, z=12,50], EntityArmorStand['§b§lRANKS'/9, l='MpServer', x=-6,50, y=71,16, z=12,50], EntityOtherPlayerMP['SuperCHintu'/46733, l='MpServer', x=0,50, y=70,00, z=0,50], EntityArmorStand['§fClick to view'/10, l='MpServer', x=-6,50, y=70,91, z=12,50], EntityOtherPlayerMP['kasper124'/46734, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['LordDRACONIX'/46860, l='MpServer', x=-3,00, y=69,00, z=4,41], EntityOtherPlayerMP['Sarthak_21'/46781, l='MpServer', x=-6,06, y=69,35, z=8,58], EntityOtherPlayerMP['3ThornKing'/46418, l='MpServer', x=15,80, y=70,06, z=11,00], EntityOtherPlayerMP['GAMER_TANZIL_YT'/46807, l='MpServer', x=1,00, y=69,00, z=7,34], EntitySkeleton['Skeleton'/16, l='MpServer', x=7,50, y=69,00, z=12,50], EntityOtherPlayerMP['arthgamer'/46352, l='MpServer', x=-9,44, y=80,70, z=8,19], EntityOtherPlayerMP['NatsuDragon'/46810, l='MpServer', x=-2,16, y=69,50, z=4,19], EntitySkeleton['Skeleton'/17, l='MpServer', x=-6,50, y=69,00, z=12,50], EntityOtherPlayerMP['Itzyayaplayz128'/46555, l='MpServer', x=5,90, y=70,07, z=17,77], EntityOtherPlayerMP['MagicKoi'/46436, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['FIREDDRAGON'/46868, l='MpServer', x=0,56, y=69,76, z=14,49], EntityOtherPlayerMP['pritidiamond'/46821, l='MpServer', x=0,50, y=72,76, z=15,16], EntityOtherPlayerMP['Excuses'/46822, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['HACKER1119'/46870, l='MpServer', x=0,78, y=69,00, z=26,31], EntityOtherPlayerMP['tahieerfri'/46695, l='MpServer', x=9,16, y=69,00, z=22,26], EntityOtherPlayerMP['codyplant'/46823, l='MpServer', x=-1,56, y=77,41, z=23,75], EntityOtherPlayerMP['wizard_craft'/46872, l='MpServer', x=0,41, y=70,75, z=4,84], EntityOtherPlayerMP['BeastgamerYtube'/46824, l='MpServer', x=1,41, y=70,00, z=0,38], EntityOtherPlayerMP['flamekaiser321'/46873, l='MpServer', x=-1,41, y=69,00, z=6,38], EntityOtherPlayerMP['prince_mz'/46827, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['Tsotnedino'/46187, l='MpServer', x=-4,05, y=69,31, z=24,23], EntityOtherPlayerMP['niw1morte_'/46828, l='MpServer', x=0,52, y=69,77, z=15,88], EntityOtherPlayerMP['ek38'/46332, l='MpServer', x=-1,96, y=69,00, z=30,69], EntityOtherPlayerMP['HIbychawastaken'/46829, l='MpServer', x=6,02, y=77,92, z=20,07], EntityOtherPlayerMP['HRIDAY_PRO'/46830, l='MpServer', x=4,28, y=69,50, z=2,22], EntityOtherPlayerMP['adamshii'/46584, l='MpServer', x=2,25, y=69,50, z=3,22], EntityOtherPlayerMP['3ThornKing'/46418, l='MpServer', x=5,25, y=69,39, z=9,54], EntityOtherPlayerMP['josemanu23'/46110, l='MpServer', x=-13,72, y=69,00, z=12,69], EntityOtherPlayerMP['letriet'/46735, l='MpServer', x=-2,69, y=70,13, z=7,61], EntityFallingBlock['JumppadsEntity'/46881, l='MpServer', x=-6,53, y=77,56, z=5,22], EntityOtherPlayerMP['josemanu23'/46110, l='MpServer', x=-13,72, y=69,00, z=12,69], EntityOtherPlayerMP['Dark_thunder123'/46668, l='MpServer', x=-2,72, y=69,50, z=2,19], EntityOtherPlayerMP['dangbalam'/46747, l='MpServer', x=-0,03, y=70,00, z=-0,72], EntityOtherPlayerMP['arthgamer'/46352, l='MpServer', x=-11,88, y=69,00, z=14,25], EntityOtherPlayerMP['tt_gouns0202'/44187, l='MpServer', x=-17,03, y=70,00, z=9,38], EntityOtherPlayerMP['THEshadow_hat'/46835, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['Tsotnedino'/46187, l='MpServer', x=0,65, y=69,00, z=16,21], EntityOtherPlayerMP['IsakoPro290911'/46698, l='MpServer', x=15,81, y=70,72, z=14,53], EntityOtherPlayerMP['THEshadow_hat'/46835, l='MpServer', x=9,69, y=69,00, z=25,69], EntityOtherPlayerMP['dawgggg'/46585, l='MpServer', x=-18,65, y=69,00, z=50,35], EntityOtherPlayerMP['SHRIHANGOD'/46838, l='MpServer', x=0,50, y=70,00, z=1,81], EntityOtherPlayerMP['tt_gouns0202'/44187, l='MpServer', x=-17,92, y=69,03, z=11,60], EntityOtherPlayerMP['josemanu23'/46110, l='MpServer', x=-13,72, y=69,00, z=12,69], EntityOtherPlayerMP['Tsotnedino'/46187, l='MpServer', x=-3,07, y=77,45, z=37,52], EntityOtherPlayerMP['iwantps5'/46194, l='MpServer', x=-3,09, y=72,27, z=33,88], EntityOtherPlayerMP['letriet'/46735, l='MpServer', x=-6,38, y=69,00, z=7,84], EntityOtherPlayerMP['NOTARROWWARRIOR'/42237, l='MpServer', x=-20,41, y=69,00, z=37,81], EntityOtherPlayerMP['Tsotnedino'/46187, l='MpServer', x=-4,05, y=69,31, z=24,23], EntityOtherPlayerMP['ohheyhanna'/46845, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['rinse2k'/46366, l='MpServer', x=-12,91, y=68,91, z=44,44], EntityOtherPlayerMP['SeekNDestroy3000'/46367, l='MpServer', x=0,35, y=69,59, z=26,39], EntityOtherPlayerMP['ItzMeMandy'/46586, l='MpServer', x=-22,06, y=69,00, z=41,70], EntityOtherPlayerMP['tanmayoutop'/46846, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['prince_mz'/46827, l='MpServer', x=1,88, y=77,63, z=30,16], EntityOtherPlayerMP['Axmber'/46710, l='MpServer', x=2,10, y=69,94, z=20,40], EntityOtherPlayerMP['SeekNDestroy3000'/46367, l='MpServer', x=13,91, y=69,00, z=15,81], EntityOtherPlayerMP['wizard_craft'/46872, l='MpServer', x=0,41, y=70,75, z=4,84], EntityOtherPlayerMP['LordDRACONIX'/46860, l='MpServer', x=-3,00, y=69,00, z=4,41], EntityOtherPlayerMP['arthgamer'/46352, l='MpServer', x=-9,44, y=80,70, z=8,19], EntityOtherPlayerMP['HIbychawastaken'/46829, l='MpServer', x=-1,72, y=69,23, z=4,73], EntityOtherPlayerMP['moon_doggo'/46841, l='MpServer', x=0,28, y=69,00, z=3,34], EntityOtherPlayerMP['adamshii'/46584, l='MpServer', x=2,25, y=69,50, z=3,22], EntityOtherPlayerMP['CookieMater101'/46848, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['SeekNDestroy3000'/46367, l='MpServer', x=-21,23, y=70,10, z=33,56], EntityOtherPlayerMP['ohheyhanna'/46845, l='MpServer', x=0,63, y=69,00, z=5,00], EntityOtherPlayerMP['itsBONITO'/46446, l='MpServer', x=9,16, y=69,00, z=21,20], EntityOtherPlayerMP['letriet'/46735, l='MpServer', x=-6,38, y=69,00, z=7,84], EntityOtherPlayerMP['HACKER1119'/46870, l='MpServer', x=0,78, y=69,00, z=26,31], EntityOtherPlayerMP['Itzyayaplayz128'/46555, l='MpServer', x=13,36, y=69,00, z=10,49], EntityOtherPlayerMP['Mythic_niko1111'/46456, l='MpServer', x=2,73, y=70,10, z=2,97], EntityOtherPlayerMP['CookieMater101'/46848, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['Aditya_progammer'/46847, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['shadoggspro445'/46850, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['SuperCHintu'/46733, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['kasper124'/46734, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['_KUSHAN_'/46867, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['FIREDDRAGON'/46868, l='MpServer', x=0,56, y=69,76, z=14,49], EntityOtherPlayerMP['wizard_craft'/46872, l='MpServer', x=0,50, y=70,00, z=0,65], EntityOtherPlayerMP['flamekaiser321'/46873, l='MpServer', x=-1,41, y=69,00, z=6,38], EntityOtherPlayerMP['Sarthak_21'/46781, l='MpServer', x=1,78, y=78,67, z=-0,68], EntityOtherPlayerMP['Poonslayerpa'/45786, l='MpServer', x=4,69, y=70,00, z=1,13], EntityOtherPlayerMP['MagicKoi'/46436, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['Excuses'/46822, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['Mythic_niko1111'/46456, l='MpServer', x=-0,44, y=70,00, z=0,88], EntityOtherPlayerMP['Aditya_progammer'/46847, l='MpServer', x=-0,53, y=79,00, z=-1,16], EntityOtherPlayerMP['SeekNDestroy3000'/46367, l='MpServer', x=16,00, y=70,00, z=13,49], EntityOtherPlayerMP['Regice_07'/46849, l='MpServer', x=-10,76, y=69,00, z=37,09], EntityOtherPlayerMP['RED_X2008'/46449, l='MpServer', x=-15,32, y=70,06, z=10,57], EntityOtherPlayerMP['3ThornKing'/46418, l='MpServer', x=11,05, y=69,82, z=23,53], EntityOtherPlayerMP['codyplant'/46823, l='MpServer', x=2,72, y=69,50, z=45,09], EntityOtherPlayerMP['iwantps5'/46194, l='MpServer', x=-2,56, y=69,66, z=42,25], EntityOtherPlayerMP['ek38'/46332, l='MpServer', x=-0,23, y=69,00, z=43,17], EntityOtherPlayerMP['Mythic_niko1111'/46456, l='MpServer', x=-0,44, y=70,00, z=0,88], EntityOtherPlayerMP['somanshugaming8'/46843, l='MpServer', x=0,22, y=70,00, z=1,28], EntityOtherPlayerMP['BATATAROSA1234'/46844, l='MpServer', x=1,00, y=69,00, z=4,06], EntityOtherPlayerMP['Dream92'/46877, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['HIbychawastaken'/46829, l='MpServer', x=-1,72, y=69,23, z=4,73], EntityOtherPlayerMP['THEshadow_hat'/46835, l='MpServer', x=9,69, y=69,00, z=25,69], EntityOtherPlayerMP['adamshii'/46584, l='MpServer', x=2,25, y=69,50, z=3,22], EntityOtherPlayerMP['ek38'/46332, l='MpServer', x=-1,96, y=69,00, z=30,69], EntityOtherPlayerMP['ohheyhanna'/46845, l='MpServer', x=0,63, y=69,00, z=5,00], EntityOtherPlayerMP['Axmber'/46710, l='MpServer', x=2,10, y=69,94, z=20,40], EntityOtherPlayerMP['tahieerfri'/46695, l='MpServer', x=-9,72, y=69,00, z=37,59]]
+	Retry entities: 0 total; []
+	Server brand: vanilla§r
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2830)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:458)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (x86) version 10.0
+	CPU: <unknown>
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 47194688 bytes (45 MB) / 203096064 bytes (193 MB) up to 259522560 bytes (247 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: Troy
+	LWJGL: 2.9.3
+	OpenGL: NVIDIA GeForce GT 710/PCIe/SSE2 GL version 4.6.0 NVIDIA 472.12, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 472.12
+	OpenGlRenderer: NVIDIA GeForce GT 710/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 4

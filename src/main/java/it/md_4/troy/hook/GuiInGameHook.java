@@ -43,6 +43,8 @@ public class GuiInGameHook extends GuiIngame {
         Holder.setTPS(Holder.getTPS() - 0.01);
       }
 
+      mc.fontRendererObj.drawStringWithShadow("beta", 54, 10, OpenGlHelper.rainbowColor(3000, 1));
+
       mc.fontRendererObj
           .drawStringWithShadow(ChatHelper.fix("&bNick: &3" + mc.session.getUsername()), 5, 110,
               0);

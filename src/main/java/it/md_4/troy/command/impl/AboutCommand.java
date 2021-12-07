@@ -15,7 +15,7 @@ public class AboutCommand extends Command {
 
     @Override
     public void execute(String... args) {
-        ChatHelper.printMessage("&b • &3TroyClient v1.0.5 By", false);
+        ChatHelper.printMessage("&b • &3TroyClient v1.3.6 By", false);
         ChatHelper.printMessage("&b • &bDeveloper: &3md_4", false);
         ChatHelper.printMessage("&b • &bMethods: &3ItzNull_", false);
     }
