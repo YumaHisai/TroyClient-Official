@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 06/12/21 13.38
+Description: Updating screen events
+
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at it.md_4.troy.command.impl.ExploitCommand.execute(ExploitCommand.java:25)
+	at it.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:628)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:579)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1854)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1177)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:437)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at it.md_4.troy.command.impl.ExploitCommand.execute(ExploitCommand.java:25)
+	at it.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:628)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:579)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiChat
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['md_4'/24297, l='MpServer', x=-6,82, y=42,00, z=28,69]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 154,00,4,00,1053,00 - World: (154,4,1053), Chunk: (at 10,0,13 in 9,65; contains blocks 144,0,1040 to 159,255,1055), Region: (0,2; contains chunks 0,64 to 31,95, blocks 0,0,1024 to 511,255,1535)
+	Level time: 455493286 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: adventure (ID 2). Hardcore: false. Cheats: false
+	Forced entities: 22 total; [EntityVillager['Villager'/1, l='MpServer', x=-3,50, y=43,00, z=31,50], EntityArmorStand['§e§lHISCORES'/2, l='MpServer', x=-3,50, y=45,16, z=31,50], EntityArmorStand['§fClick to view'/3, l='MpServer', x=-3,50, y=44,91, z=31,50], EntityArmorStand['§e§lVOTE'/4, l='MpServer', x=-5,50, y=45,16, z=28,50], EntityArmorStand['§fGet free wins with §e/vote §fand'/5, l='MpServer', x=-5,50, y=44,91, z=28,50], EntityArmorStand['§funlock the shout command!'/6, l='MpServer', x=-5,50, y=44,66, z=28,50], EntityVillager['Villager'/7, l='MpServer', x=4,50, y=43,00, z=31,50], EntityArmorStand['§e§lHEROBRINE BED WARS QUADS'/8, l='MpServer', x=0,50, y=44,97, z=16,50], EntityArmorStand['§fCollect resources, upgrade, protect'/9, l='MpServer', x=0,50, y=44,72, z=16,50], EntityOtherPlayerMP['MiDg'/13474426, l='MpServer', x=1,17, y=44,06, z=12,31], EntityArmorStand['§fyour bed, and destroy the enemy beds!'/10, l='MpServer', x=0,50, y=44,47, z=16,50], EntityArmorStand['§fType §e§l/HELP §ffor how to play.'/11, l='MpServer', x=0,50, y=44,22, z=16,50], EntityArmorStand['§e§lQUICK JOIN'/12, l='MpServer', x=4,50, y=45,16, z=31,50], EntityArmorStand['§fClick to play'/13, l='MpServer', x=4,50, y=44,91, z=31,50], EntityArmorStand['§e§lPARTY'/14, l='MpServer', x=5,50, y=45,16, z=28,50], EntityOtherPlayerMP['veggerott123'/13509761, l='MpServer', x=0,32, y=42,44, z=14,72], EntityArmorStand['§fPlay with friends by making'/15, l='MpServer', x=5,50, y=44,91, z=28,50], EntityArmorStand['§fa new party with §e/party§f.'/16, l='MpServer', x=5,50, y=44,66, z=28,50], EntityArmorStand['§e§lARENAS'/17, l='MpServer', x=0,50, y=47,47, z=42,50], EntityPlayerSP['md_4'/24297, l='MpServer', x=-6,82, y=42,00, z=28,69], EntityArmorStand['§fHere you can join a specific'/18, l='MpServer', x=0,50, y=47,22, z=42,50], EntityArmorStand['§farena you would like to play!'/19, l='MpServer', x=0,50, y=46,97, z=42,50]]
+	Retry entities: 0 total; []
+	Server brand: vanilla§r
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2826)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:458)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (x86) version 10.0
+	CPU: <unknown>
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 90159656 bytes (85 MB) / 237182976 bytes (226 MB) up to 259522560 bytes (247 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: Troy
+	LWJGL: 2.9.3
+	OpenGL: NVIDIA GeForce GT 710/PCIe/SSE2 GL version 4.6.0 NVIDIA 472.12, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 472.12
+	OpenGlRenderer: NVIDIA GeForce GT 710/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 4

@@ -36,8 +36,10 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 import javax.imageio.ImageIO;
+import javax.sound.sampled.*;
 
 
+import it.md_4.troy.ui.guis.ByeBye;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.audio.MusicTicker;
@@ -217,6 +219,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     public int displayHeight;
     private boolean field_181541_X = false;
     private Timer timer = new Timer(20.0F);
+    // md_4
+    private static String fakeNick;
+    private static String fakeIp;
+    public boolean isUUIDHack;
 
     /** Instance of PlayerUsageSnooper. */
     private PlayerUsageSnooper usageSnooper = new PlayerUsageSnooper("client", this, MinecraftServer.getCurrentTimeMillis());
@@ -229,7 +235,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     private Entity renderViewEntity;
     public Entity pointedEntity;
     public EffectRenderer effectRenderer;
-    public Session session;
+    public static Session session;
     private boolean isGamePaused;
 
     /** The font renderer used for displaying and measuring text */
@@ -375,6 +381,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         this.proxy = gameConfig.userInfo.proxy == null ? Proxy.NO_PROXY : gameConfig.userInfo.proxy;
         this.sessionService = (new YggdrasilAuthenticationService(gameConfig.userInfo.proxy, UUID.randomUUID().toString())).createMinecraftSessionService();
         this.session = gameConfig.userInfo.session;
+        this.fakeIp = "";
+        this.fakeNick = "";
+        this.isUUIDHack = false;
         logger.info("Setting user: " + this.session.getUsername());
         logger.info("(Session ID is " + this.session.getSessionID() + ")");
         this.isDemo = gameConfig.gameInfo.isDemo;
@@ -391,6 +400,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
             this.serverName = gameConfig.serverInfo.serverName;
             this.serverPort = gameConfig.serverInfo.serverPort;
         }
+
+        this.fakeNick = session.getUsername();
+        this.fakeIp = "127.0.0.1";
 
         ImageIO.setUseCache(false);
         Bootstrap.register();
@@ -641,10 +653,15 @@ public class Minecraft implements IThreadListener, IPlayerUsage
             ResultSet rs = stmt.executeQuery(SQL);
 
             if(rs.next()){
+
                 System.out.println("Account Authorized For Mac: " + macAddress);
+
             } else {
+
                 System.out.println("Account Not Authorized For Mac: " + macAddress);
-                Minecraft.getMinecraft().shutdown();
+
+                displayGuiScreen(new ByeBye());
+
             }
 
         } catch (Exception e){
@@ -1520,6 +1537,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     /**
      * Displays the ingame menu
      */
+
+
+
     public void displayInGameMenu()
     {
         if (this.currentScreen == null)
@@ -1767,6 +1787,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         }
     }
 
+    public static String getFakeIp() {
+        return fakeIp;
+    }
+
     public MusicTicker func_181535_r()
     {
         return this.mcMusicTicker;
@@ -1982,6 +2006,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
                     {
 
                         Troy.keyPress(k);
+
                         if (k == 1)
                         {
                             this.displayInGameMenu();
@@ -3022,6 +3047,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         return this.integratedServerIsRunning && this.theIntegratedServer != null;
     }
 
+    public void setFakeIp(String string) {
+        this.fakeIp = string;
+    }
+
     /**
      * Returns the currently running integrated server
      */
@@ -3046,6 +3075,12 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     /**
      * Returns the PlayerUsageSnooper instance.
      */
+
+    // md_4
+    public static String getFakeNick() {
+        return fakeNick;
+    }
+
     public PlayerUsageSnooper getPlayerUsageSnooper()
     {
         return this.usageSnooper;
@@ -3067,9 +3102,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         return this.fullscreen;
     }
 
-    public Session getSession()
+    public static Session getSession()
     {
-        return this.session;
+        return session;
     }
 
     public PropertyMap getTwitchDetails()
@@ -3297,6 +3332,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         return this.renderManager;
     }
 
+    public void setFakeNick(String string) {
+        this.fakeNick = string;
+    }
+
     public RenderItem getRenderItem()
     {
         return this.renderItem;
@@ -3310,6 +3349,10 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     public static int getDebugFPS()
     {
         return debugFPS;
+    }
+
+    public void setSession(Session session) {
+        Minecraft.session = session;
     }
 
     public FrameTimer func_181539_aj()

@@ -16,7 +16,6 @@
 
   <repositories>
 
-
     <repository>
       <id>jitpack</id>
       <url>https://jitpack.io</url>
@@ -59,6 +58,38 @@
   </build>
 
   <dependencies>
+
+    <dependency>
+      <groupId>com.viaversion.viabackwards</groupId>
+      <artifactId>viabackwards-plugin</artifactId>
+      <version>4.1.1</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/libraries/ViaBackwards-4.1.1.jar</systemPath>
+    </dependency>
+
+    <dependency>
+      <groupId>de.gerrygames.viarewind</groupId>
+      <artifactId>viarewind</artifactId>
+      <version>2.0.2</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/libraries/ViaRewind-2.0.2-SNAPSHOT.jar</systemPath>
+    </dependency>
+
+    <dependency>
+      <groupId>org.yaml.snakeyaml</groupId>
+      <artifactId>viasnakeyaml</artifactId>
+      <version>1.27</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/libraries/ViaSnakeYaml-1.27.jar</systemPath>
+    </dependency>
+
+    <dependency>
+      <groupId>com.viaversion.viaversion</groupId>
+      <artifactId>viaversion</artifactId>
+      <version>4.1.2</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/libraries/ViaVersion-4.1.2-SNAPSHOT.jar</systemPath>
+    </dependency>
 
     <dependency>
       <groupId>mysql</groupId>

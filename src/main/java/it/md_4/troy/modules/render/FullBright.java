@@ -1,20 +1,19 @@
 package it.md_4.troy.modules.render;
 
 import it.md_4.troy.modules.Module;
+import net.minecraft.client.Minecraft;
 import org.lwjgl.input.Keyboard;
 
 public class FullBright extends Module {
     public FullBright() {
-        super("FullBright", Keyboard.KEY_O, Category.RENDER);
+        super("FullBright", Keyboard.KEY_B, Category.RENDER);
     }
 
     public void onEnable() {
-        mc.gameSettings.gammaSetting = 100;
+        Minecraft.getMinecraft().gameSettings.gammaSetting = 100.0F;
     }
 
     public void onDisable() {
-        mc.gameSettings.gammaSetting = 1;
+        Minecraft.getMinecraft().gameSettings.gammaSetting = 1.0F;
     }
-
-
 }

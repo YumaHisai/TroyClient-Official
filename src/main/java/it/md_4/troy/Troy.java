@@ -1,19 +1,16 @@
 package it.md_4.troy;
 
+import it.md_4.troy.alts.AltManager;
 import it.md_4.troy.modules.Module;
 import it.md_4.troy.modules.events.Event;
 import it.md_4.troy.modules.events.listeners.EventKey;
 import it.md_4.troy.sql.MySQL;
 import it.md_4.troy.ui.HUD;
 import it.md_4.troy.ui.Manager;
-import it.md_4.troy.alt.AltManager;
 import it.md_4.troy.command.CommandManager;
-import it.md_4.troy.command.bypass.Bypass;
-import it.md_4.troy.command.bypass.BypassManager;
 import it.md_4.troy.command.bypass.auth.Auth1;
 import it.md_4.troy.command.bypass.pex.PermissionExBypass;
 import it.md_4.troy.command.impl.*;
-import it.md_4.troy.exploit.Exploit;
 import it.md_4.troy.exploit.ExploitManager;
 import it.md_4.troy.exploit.impl.multiverse.MultiverseCore;
 import it.md_4.troy.exploit.impl.nbt.Goro1;
@@ -25,10 +22,11 @@ import it.md_4.troy.exploit.impl.other.FaweExploit;
 import it.md_4.troy.helper.OpenGlHelper;
 import it.md_4.troy.modules.movement.Fly;
 import it.md_4.troy.modules.movement.Sprint;
-import it.md_4.troy.modules.player.NoFall;
+import it.md_4.troy.modules.movement.NoFall;
 import it.md_4.troy.modules.render.FullBright;
 import it.md_4.troy.modules.render.TabGUI;
 import it.md_4.troy.rpc.DiscordRichPresenceManager;
+import it.md_4.troy.viamcp.ViaMCP;
 import net.arikia.dev.drpc.DiscordRPC;
 import java.io.IOException;
 import java.net.InetAddress;
@@ -50,7 +48,6 @@ public enum Troy
 
   private final CommandManager commandManager;
   private final ExploitManager exploitManager;
-  private final BypassManager bypassManager;
   private final DiscordRichPresenceManager discordRichPresence;
   public static AltManager altManager;
   public static String name;
@@ -72,15 +69,46 @@ public enum Troy
 
   private Troy() {
     this.discordRichPresence = new DiscordRichPresenceManager();
-    this.commandManager = new CommandManager(new ExploitCommand(), new BypassCommand(), new HelpCommand(), new OnlineCommand(), new FakeGamemodeCommand(), new AboutCommand(), new MethodCommand(), new ClearChatCommand(), new ThreadCommand());
-    this.exploitManager = new ExploitManager((Exploit<?>[])new Exploit[] { new FaweExploit(), new ChunkLoadExploit(), new OnePacket(), new Ruyu1(), new Goro1(), new Shogun1(), new MultiverseCore()});
-    this.bypassManager = new BypassManager((Bypass<?>[])new Bypass[] { new PermissionExBypass(), new Auth1() });
+
+    this.commandManager = new CommandManager(
+            new ExploitCommand(),
+            new HelpCommand(), new
+            OnlineCommand(), new
+            FakeGamemodeCommand(),
+            new AboutCommand(),
+            new MethodCommand(),
+            new ClearChatCommand(),
+            new ThreadCommand()
+    );
+    this.exploitManager = new ExploitManager(
+            new FaweExploit(),
+            new ChunkLoadExploit(),
+            new OnePacket(),
+            new Ruyu1(),
+            new Goro1(),
+            new Shogun1(),
+            new MultiverseCore(),
+            new PermissionExBypass(),
+            new Auth1()
+    );
+
     final GameSettings gameSettings = Minecraft.getMinecraft().gameSettings;
     gameSettings.gammaSetting += 9999.0f;
     Minecraft.getMinecraft().gameSettings.ofFastRender = true;
   }
 
   public void setDisplay() throws IOException {
+
+    try
+    {
+      ViaMCP.getInstance().start();
+    }
+    catch (Exception e)
+    {
+      e.printStackTrace();
+    }
+
+
     // MySQL
 
 
@@ -101,24 +129,16 @@ public enum Troy
     Troy.HUD = new HUD();
     //SplashProgress.setProgress(1, "Troy - Reading Modules");
 
-    // Modules
-    modules.add(new Fly());
-    modules.add(new Sprint());
-    modules.add(new FullBright());
-    modules.add(new NoFall());
-    modules.add(new TabGUI());
-    // Modules
     Troy.altManager = new AltManager();
     Display.setTitle("TroyClient 1.1.7 | By md_4 & ItzNull_");
     OpenGlHelper.setWindowIcon("https://i.imgur.com/5Peeyxu.png", "https://i.imgur.com/DcjVAVX.png");
-  }
-
-  public static void GoodBye() {
-
-  }
-
-  public static void checkHwid() {
-
+    // Modules
+    //modules.add(new Fly());
+    //modules.add(new Sprint());
+    modules.add(new FullBright());
+    //modules.add(new NoFall());
+    //modules.add(new TabGUI());
+    // Modules
   }
 
   public void shutDown() {
@@ -131,10 +151,6 @@ public enum Troy
 
   public ExploitManager getExploitManager() {
     return this.exploitManager;
-  }
-
-  public BypassManager getBypassManager() {
-    return this.bypassManager;
   }
 
   @Deprecated

@@ -1,7 +1,7 @@
 package it.md_4.troy.helper;
 
 
-import it.md_4.troy.manager.GuiAltManager;
+import it.md_4.troy.alts.GuiAltManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.*;
 import net.minecraft.util.ResourceLocation;

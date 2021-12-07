@@ -23,29 +23,18 @@ public class CommandManager {
 
   public boolean handleCommand(String message) {
     if (/*message.isBlank() ||*/ message.isEmpty()) {
-      return true;
+      return false;
     }
 
     String[] args = message.substring(1).split(" ");
     try {
       getCommand(args[0])
-          .orElseThrow(() -> new CommandException(String
-              .format("Command \"%s\" not found. Use \"'help\" to see command list.", args[0])))
-          .execute(Arrays.copyOfRange(args, 1, args.length));
+              .orElseThrow(() -> new CommandException(String
+                      .format("Command \"%s\" not found. Use \"'help\" to see command list.", args[0])))
+              .execute(Arrays.copyOfRange(args, 1, args.length));
     } catch (CommandException e) {
       ChatHelper.printMessage(e.getMessage());
-      return true;
     }
-
-    /*getCommand(args[0]).ifPresentOrElse(command -> {
-      try {
-        command.execute(Arrays.copyOfRange(args, 1, args.length));
-      } catch (CommandException e) {
-        ChatHelper.printMessage(e.getMessage());
-      }
-    }, () -> ChatHelper.printMessage(
-        String.format("Command \"%s\" not found. Use \".help\" to see command list.", args[0])));*/
-
     return true;
   }
 

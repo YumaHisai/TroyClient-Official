@@ -3,9 +3,6 @@ package it.md_4.troy.command.impl;
 import it.md_4.troy.command.Command;
 import it.md_4.troy.command.CommandInfo;
 import it.md_4.troy.exception.CommandException;
-import net.minecraft.command.CommandBase;
-import net.minecraft.command.NumberInvalidException;
-import net.minecraft.world.WorldSettings;
 import net.minecraft.world.WorldSettings.GameType;
 import it.md_4.troy.helper.ChatHelper;
 
@@ -17,48 +14,35 @@ import it.md_4.troy.helper.ChatHelper;
 )
 public class FakeGamemodeCommand extends Command {
 
-  private GameType savedType;
-
   @Override
   public void execute(String... args) throws CommandException {
-    if (args.length <= 0) {
-      throw new CommandException(getUsage());
-    }
+    if (args.length == 0) {
+      ChatHelper.printMessage("&b • &bUse &3&l'&b&lfgm &3<&b1&3/&b0&3>.");
+    } else {
+      if (args[0].equalsIgnoreCase("1")) {
 
-    if (args[0].equalsIgnoreCase("revert") && savedType != null) {
-      mc.playerController.setGameType(savedType);
-      ChatHelper.printMessage("&b • &bYour client gamemode was reverted to &3" + savedType.getName());
+        mc.playerController.setGameType(GameType.CREATIVE);
 
-      savedType = null;
-    }
+        ChatHelper.printMessage("&b • &bClient gamemode set to &3CREATIVE.");
 
-    try {
-      GameType gameType = getGameModeFromCommand(args[0]);
-      if (savedType == null) {
-        savedType = mc.playerController.getCurrentGameType();
+      } else if (args[0].equalsIgnoreCase("1") && args.length > 1) {
+
+        mc.playerController.setGameType(GameType.CREATIVE);
+
+        ChatHelper.printMessage("&b • &bClient gamemode set to &3CREATIVE.");
+
       }
+      if(args[0].equalsIgnoreCase("0")){
+        mc.playerController.setGameType(GameType.SURVIVAL);
 
-      mc.playerController.setGameType(gameType);
-      ChatHelper.printMessage("&b • &bYour client gamemode was set to &3" + gameType.getName());
-    } catch (Exception e) {
-      throw new CommandException(getUsage());
+        ChatHelper.printMessage("&b • &bClient gamemode set to &3SURVIVAL.");
+      } else if (args[0].equalsIgnoreCase("0") && args.length > 1) {
+
+        mc.playerController.setGameType(GameType.SURVIVAL);
+
+        ChatHelper.printMessage("&b • &bClient gamemode set to &3SURVIVAL.");
+
+      }
     }
-  }
-
-  //Don't kill me it's mojang code
-  private WorldSettings.GameType getGameModeFromCommand(String argument)
-      throws NumberInvalidException {
-    return !argument.equalsIgnoreCase(WorldSettings.GameType.SURVIVAL.getName()) && !argument
-        .equalsIgnoreCase("s")
-        ? (!argument.equalsIgnoreCase(WorldSettings.GameType.CREATIVE.getName()) && !argument
-        .equalsIgnoreCase("c")
-        ? (!argument.equalsIgnoreCase(WorldSettings.GameType.ADVENTURE.getName()) && !argument
-        .equalsIgnoreCase("a")
-        ? (!argument.equalsIgnoreCase(WorldSettings.GameType.SPECTATOR.getName()) && !argument
-        .equalsIgnoreCase("sp")
-        ? WorldSettings.getGameTypeById(
-        CommandBase.parseInt(argument, 0, WorldSettings.GameType.values().length - 2))
-        : WorldSettings.GameType.SPECTATOR) : WorldSettings.GameType.ADVENTURE)
-        : WorldSettings.GameType.CREATIVE) : WorldSettings.GameType.SURVIVAL;
   }
 }

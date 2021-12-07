@@ -1,6 +1,6 @@
 package it.md_4.troy.mods.alts;
 
-import it.md_4.troy.manager.GuiAltManager;
+import it.md_4.troy.alts.GuiAltManager;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.GuiTextField;

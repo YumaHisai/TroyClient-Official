@@ -11,7 +11,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import it.md_4.troy.manager.GuiAltManager;
+import it.md_4.troy.alts.GuiAltManager;
+import it.md_4.troy.viamcp.gui.GuiProtocolSelector;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.OpenGlHelper;
@@ -214,6 +215,8 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         this.buttonList.add(new GuiButton(0, this.width / 2 - 100, j + 72 + 12, 98, 20, I18n.format("menu.options", new Object[0])));
         this.buttonList.add(new GuiButton(4, this.width / 2 + 2, j + 72 + 12, 98, 20, I18n.format("menu.quit", new Object[0])));
         this.buttonList.add(new GuiButtonLanguage(5, this.width / 2 - 124, j + 72 + 12));
+        this.buttonList.add(new GuiButton(69, 5, 5, 90, 20, "Switch Version"));
+
 
         synchronized (this.threadLock)
         {
@@ -269,6 +272,12 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         {
             this.mc.displayGuiScreen(new GuiLanguage(this, this.mc.gameSettings, this.mc.getLanguageManager()));
         }
+
+        if (button.id == 69)
+        {
+            this.mc.displayGuiScreen(new GuiProtocolSelector(this));
+        }
+
 
         if (button.id == 1)
         {

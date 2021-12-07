@@ -7,27 +7,19 @@ import it.md_4.troy.exception.CommandException;
 import it.md_4.troy.helper.ChatHelper;
 
 @CommandInfo(
-    alias = "help"
+        alias = "help"
 )
 public class HelpCommand extends Command {
 
   @Override
   public void execute(String... args) throws CommandException {
-    if (args.length > 0) {
-      ChatHelper.printMessage("\n", false);
-      Command command = Troy.INSTANCE.getCommandManager().getCommand(args[0])
-          .orElseThrow(
-              () -> new CommandException(String.format("&b • &bCommand \"&3%s\" &bnot found.\n&3", args[0])));
-
-      ChatHelper
-          .printMessage(String.format("&3%s&f: &d%s\n", command.getAlias(), command.getUsage()));
-
-      return;
-    }
-
-    Troy.INSTANCE.getCommandManager().getCommands().stream()
-        .filter(command -> !(command instanceof HelpCommand))
-        .forEach(command -> ChatHelper.printMessage(
-            String.format("&3%s &f- &b%s", command.getAlias(), command.getDescription())));
+    ChatHelper.printMessage("&b • &3&l'&b&lcrash &b• Crasher List");
+    ChatHelper.printMessage("&b • &3&l'&b&lypass &b• Bypass List");
+    ChatHelper.printMessage("&b • &3&l'&b&lmethod &b• List Of Methods");
+    ChatHelper.printMessage("&b • &3&l'&b&lthread &b• Show Threads");
+    ChatHelper.printMessage("&b • &3&l'&b&lcc &b• Clear Chat");
+    ChatHelper.printMessage("&b • &3&l'&b&lfgm &b• Client GameMode");
+    ChatHelper.printMessage("&b • &3&l'&b&labout &b• Client Informations");
+    ChatHelper.printMessage("&b • &3&l'&b&lonline &b• Show Online Players");
   }
 }

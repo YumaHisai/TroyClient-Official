@@ -2,6 +2,9 @@ package net.minecraft.network;
 
 import com.google.common.collect.Queues;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import com.viaversion.viaversion.api.connection.UserConnection;
+import com.viaversion.viaversion.connection.UserConnectionImpl;
+import com.viaversion.viaversion.protocol.ProtocolPipelineImpl;
 import it.md_4.troy.helper.TimeHelper;
 import it.md_4.troy.holder.Holder;
 import io.netty.bootstrap.Bootstrap;
@@ -33,6 +36,12 @@ import java.net.SocketAddress;
 import java.util.Queue;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import javax.crypto.SecretKey;
+
+import it.md_4.troy.viamcp.ViaMCP;
+import it.md_4.troy.viamcp.handler.CommonTransformer;
+import it.md_4.troy.viamcp.handler.MCPDecodeHandler;
+import it.md_4.troy.viamcp.handler.MCPEncodeHandler;
+import it.md_4.troy.viamcp.utils.NettyUtil;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.util.CryptManager;
@@ -102,6 +111,7 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
 
     public static NetworkManager func_181124_a(InetAddress p_181124_0_, int p_181124_1_, boolean p_181124_2_)
     {
+
         final NetworkManager networkmanager = new NetworkManager(EnumPacketDirection.CLIENTBOUND);
         Class <? extends SocketChannel > oclass;
         LazyLoadBase <? extends EventLoopGroup > lazyloadbase;
@@ -131,6 +141,7 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
                 }
 
                 p_initChannel_1_.pipeline().addLast("timeout", new ReadTimeoutHandler(30)).addLast(
+
                     "splitter",
                     new MessageDeserializer2()).addLast(
                     "decoder",
@@ -141,6 +152,15 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
                     new MessageSerializer(EnumPacketDirection.SERVERBOUND)).addLast(
                     "packet_handler",
                     networkmanager);
+
+                if (p_initChannel_1_ instanceof SocketChannel && ViaMCP.getInstance().getVersion() != ViaMCP.PROTOCOL_VERSION)
+                {
+                    UserConnection user = new UserConnectionImpl(p_initChannel_1_, true);
+                    new ProtocolPipelineImpl(user);
+                    p_initChannel_1_.pipeline().addBefore("encoder", CommonTransformer.HANDLER_ENCODER_NAME, new MCPEncodeHandler(user)).addBefore("decoder", CommonTransformer.HANDLER_DECODER_NAME, new MCPDecodeHandler(user));
+                }
+
+
             }
         }).channel(oclass).connect(p_181124_0_, p_181124_1_).syncUninterruptibly();
         return networkmanager;
@@ -467,7 +487,8 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
             }
             else
             {
-                this.channel.pipeline().addBefore("decoder", "decompress", new NettyCompressionDecoder(treshold));
+             //Old   //this.channel.pipeline().addBefore("decoder", "decompress", new NettyCompressionDecoder(treshold));
+                NettyUtil.decodeEncodePlacement(channel.pipeline(), "decoder", "decompress", new NettyCompressionDecoder(treshold));
             }
 
             if (this.channel.pipeline().get("compress") instanceof NettyCompressionEncoder)
@@ -476,7 +497,9 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
             }
             else
             {
-                this.channel.pipeline().addBefore("encoder", "compress", new NettyCompressionEncoder(treshold));
+              //Old  //this.channel.pipeline().addBefore("encoder", "compress", new NettyCompressionEncoder(treshold));
+                NettyUtil.decodeEncodePlacement(channel.pipeline(), "encoder", "compress", new NettyCompressionEncoder(treshold));
+
             }
         }
         else

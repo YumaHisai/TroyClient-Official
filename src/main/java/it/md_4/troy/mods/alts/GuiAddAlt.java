@@ -1,12 +1,12 @@
 package it.md_4.troy.mods.alts;
 
-import it.md_4.troy.alt.Alt;
-import it.md_4.troy.manager.AltManager;
-import it.md_4.troy.manager.GuiAltManager;
+import it.md_4.troy.alts.Alt;
 import com.mojang.authlib.Agent;
 import com.mojang.authlib.exceptions.AuthenticationException;
 import com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService;
 import com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication;
+import it.md_4.troy.alts.AltManager;
+import it.md_4.troy.alts.GuiAltManager;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.GuiTextField;

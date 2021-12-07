@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 06/12/21 5.01
+Description: Updating screen events
+
+it.md_4.troy.exception.CommandException: 'fakegm <mode/revert>
+	at it.md_4.troy.command.impl.FakeGamemodeCommand.execute(FakeGamemodeCommand.java:42)
+	at it.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:628)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:579)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1847)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1170)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:435)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at it.md_4.troy.command.impl.FakeGamemodeCommand.execute(FakeGamemodeCommand.java:42)
+	at it.md_4.troy.command.CommandManager.handleCommand(CommandManager.java:34)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:484)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:628)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:579)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiChat
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 7 total; [EntityPlayerSP['md_4'/4971, l='MpServer', x=-3,05, y=69,00, z=9,38], EntityOtherPlayerMP['yesmatypie_pro12'/11431, l='MpServer', x=3,69, y=70,17, z=-0,18], EntityOtherPlayerMP['GARRY_WAS_TAKEN'/11443, l='MpServer', x=2,69, y=69,50, z=1,97], EntityOtherPlayerMP['HackerMuDen'/11402, l='MpServer', x=0,09, y=69,09, z=8,09], EntityOtherPlayerMP['gamerprokedar'/11465, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['anime_notnico'/11315, l='MpServer', x=-1,83, y=70,40, z=2,47], EntityOtherPlayerMP['fsxD'/11466, l='MpServer', x=0,50, y=70,00, z=0,50]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 0,00,70,00,0,00 - World: (0,70,0), Chunk: (at 0,4,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 577556026 game time, 18000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: adventure (ID 2). Hardcore: false. Cheats: false
+	Forced entities: 23 total; [EntityArmorStand['§b§lHEROBRINE.ORG'/1, l='MpServer', x=0,50, y=70,47, z=14,50], EntityArmorStand['§fA Minecraft server with a large'/2, l='MpServer', x=0,50, y=70,22, z=14,50], EntityPlayerSP['md_4'/4971, l='MpServer', x=-3,05, y=69,00, z=9,38], EntityArmorStand['§fvariety of game modes to enjoy!'/3, l='MpServer', x=0,50, y=69,97, z=14,50], EntityArmorStand['§fDiscord at §dHerobrine.org'/4, l='MpServer', x=0,50, y=69,72, z=14,50], EntityArmorStand['§b§lHELP'/7, l='MpServer', x=7,50, y=71,16, z=12,50], EntityOtherPlayerMP['yesmatypie_pro12'/11431, l='MpServer', x=3,69, y=70,17, z=-0,18], EntityOtherPlayerMP['NotSHANZUKI'/11461, l='MpServer', x=1,19, y=72,31, z=25,28], EntityArmorStand['§fClick to view'/8, l='MpServer', x=7,50, y=70,91, z=12,50], EntityArmorStand['§b§lRANKS'/9, l='MpServer', x=-6,50, y=71,16, z=12,50], EntityOtherPlayerMP['gamerprokedar'/11465, l='MpServer', x=0,50, y=70,00, z=0,50], EntityArmorStand['§fClick to view'/10, l='MpServer', x=-6,50, y=70,91, z=12,50], EntityOtherPlayerMP['HackerMuDen'/11402, l='MpServer', x=0,09, y=69,09, z=8,09], EntityOtherPlayerMP['fsxD'/11466, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['yesmatypie_pro12'/11431, l='MpServer', x=3,69, y=70,17, z=-0,18], EntityOtherPlayerMP['GARRY_WAS_TAKEN'/11443, l='MpServer', x=2,69, y=69,50, z=1,97], EntitySkeleton['Skeleton'/16, l='MpServer', x=7,50, y=69,00, z=12,50], EntitySkeleton['Skeleton'/17, l='MpServer', x=-6,50, y=69,00, z=12,50], EntityOtherPlayerMP['gamerprokedar'/11465, l='MpServer', x=0,50, y=70,00, z=0,50], EntityOtherPlayerMP['GARRY_WAS_TAKEN'/11443, l='MpServer', x=2,69, y=69,50, z=1,97], EntityOtherPlayerMP['anime_notnico'/11315, l='MpServer', x=-1,83, y=70,40, z=2,47], EntityOtherPlayerMP['anime_notnico'/11315, l='MpServer', x=-1,83, y=70,40, z=2,47], EntityOtherPlayerMP['fsxD'/11466, l='MpServer', x=0,50, y=70,00, z=0,50]]
+	Retry entities: 0 total; []
+	Server brand: vanilla§r
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2819)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:456)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (x86) version 10.0
+	CPU: <unknown>
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 63816224 bytes (60 MB) / 174362624 bytes (166 MB) up to 259522560 bytes (247 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: Troy
+	LWJGL: 2.9.3
+	OpenGL: NVIDIA GeForce GT 710/PCIe/SSE2 GL version 4.6.0 NVIDIA 472.12, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 472.12
+	OpenGlRenderer: NVIDIA GeForce GT 710/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 4

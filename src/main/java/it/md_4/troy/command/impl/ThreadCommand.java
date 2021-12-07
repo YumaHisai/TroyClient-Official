@@ -18,7 +18,7 @@ public class ThreadCommand extends Command {
     public void execute(String... args) throws CommandException {
         Set<Thread> threadSet = Thread.getAllStackTraces().keySet();
         if (args.length <= 0) {
-            throw new CommandException("&b • &3Correct usage: &b/&3threads &b[&3list&b/&3count&b]");
+            ChatHelper.printMessage("&b • &bUse &3&l'&b&lthread &3<&bCount&3/&bList&3>.");
         } else {
             System.gc();
             System.runFinalization();
@@ -32,8 +32,9 @@ public class ThreadCommand extends Command {
                 ChatHelper.printMessage("&b • &bAll threads in usage: &3", true);
                 threadSet.forEach((thread) -> ChatHelper.printMessage("&b • &3" + thread, false));
                 ChatHelper.printMessage("", false);
+            } else {
+                ChatHelper.printMessage("&b • &bParameter not found.");
             }
-
         }
     }
 }

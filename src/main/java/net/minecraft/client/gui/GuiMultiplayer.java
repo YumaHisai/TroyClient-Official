@@ -4,6 +4,10 @@ import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
 import java.io.IOException;
 import java.util.List;
+
+import it.md_4.troy.ui.guis.GuiPortScan;
+import it.md_4.troy.ui.guis.GuiProxy;
+import it.md_4.troy.ui.guis.GuiUUIDSpoofer;
 import net.minecraft.client.multiplayer.GuiConnecting;
 import net.minecraft.client.multiplayer.ServerData;
 import net.minecraft.client.multiplayer.ServerList;
@@ -98,6 +102,9 @@ public class GuiMultiplayer extends GuiScreen implements GuiYesNoCallback
         this.buttonList.add(new GuiButton(3, this.width / 2 + 4 + 50, this.height - 52, 100, 20, I18n.format("selectServer.add", new Object[0])));
         this.buttonList.add(new GuiButton(8, this.width / 2 + 4, this.height - 28, 70, 20, I18n.format("selectServer.refresh", new Object[0])));
         this.buttonList.add(new GuiButton(0, this.width / 2 + 4 + 76, this.height - 28, 75, 20, I18n.format("gui.cancel", new Object[0])));
+        //this.buttonList.add(new GuiButton(666, this.width / 2 + 4 + 160, this.height - 28, 75, 20, "UUID Spoofer"));
+        //this.buttonList.add(new GuiButton(667, this.width / 2 + 4 + 160, this.height - 52, 75, 20, "Port Scanner"));
+        //this.buttonList.add(new GuiButton(668, this.width / 2 + 4 - 240, this.height - 28, 75, 20, "Proxy"));
         this.selectServer(this.serverListSelector.func_148193_k());
     }
 
@@ -184,6 +191,17 @@ public class GuiMultiplayer extends GuiScreen implements GuiYesNoCallback
             {
                 this.mc.displayGuiScreen(this.parentScreen);
             }
+
+            if (button.id == 666) {
+                this.mc.displayGuiScreen(new GuiUUIDSpoofer(this));
+            }
+            if (button.id == 667) {
+                this.mc.displayGuiScreen(new GuiPortScan(this));
+            }
+            if (button.id == 668) {
+                this.mc.displayGuiScreen(new GuiProxy(this));
+            }
+
             else if (button.id == 8)
             {
                 this.refreshServerList();

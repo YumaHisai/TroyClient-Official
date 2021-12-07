@@ -16,20 +16,28 @@ public class OnlineCommand extends Command {
 
   @Override
   public void execute(String... args) throws CommandException {
-    Type type = args.length > 0 ? Type.valueOf(args[0].toUpperCase()) : Type.PLAYER_DATA;
-    int onlinePlayers = -1;
 
-    switch (type) {
-      case PLAYER_DATA:
-        onlinePlayers = PlayerHelper.getOnlinePlayer().size();
-        break;
-      case TAB_COMPLETE:
-        //TODO: LOL I'M LAZY AS FUK
-        break;
+    if (args.length == 0) {
+      Type type = args.length > 0 ? Type.valueOf(args[0].toUpperCase()) : Type.PLAYER_DATA;
+      int onlinePlayers = -1;
+
+      switch (type) {
+        case PLAYER_DATA:
+          onlinePlayers = PlayerHelper.getOnlinePlayer().size();
+          break;
+        case TAB_COMPLETE:
+          break;
+      }
+
+      ChatHelper.printMessage("&b • &bOnline players: &3" + onlinePlayers);
+    } else if (args.length > 1) {
+      ChatHelper.printMessage("&b • &bParameter not found.");
     }
-
-    ChatHelper.printMessage("&b • &bOnline players: &3" + onlinePlayers);
   }
+
+
+
+
 
   enum Type {
     TAB_COMPLETE, PLAYER_DATA
