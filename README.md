@@ -91,6 +91,8 @@
     <img src="https://i.imgur.com/uPsO7Ua.png" alt="Logo" width="" height="">
   </a>
 
+<hr style="width:50%;text-align:left;margin-left:0">
+
   <br />
 <div align="center"> <b>✅ Added Discord-Rich-Presence</b> </div>
 <div align="center">
@@ -99,9 +101,37 @@
 </a>
 </div>
 
+<hr style="width:50%;text-align:left;margin-left:0">
+
+
 <img src="https://i.imgur.com/HivAnmn.png" alt="Logo" width="" height="">  
 
+
+<hr style="width:50%;text-align:left;margin-left:0">
+
+  <br />
+<div align="center"> <b>✅ Fixed TabGUI (beta)</b> </div>
+<div align="center"> <b>✅ Added License System (Anti-Paracy)</b> </div>
+<div align="center">
+  <a href="">
+    <img src="https://img.shields.io/badge/Version-1.3.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
+    <img src="https://i.imgur.com/RZFktSB.png" alt="Logo" width="" height="">
+  </a>
+
+<hr style="width:50%;text-align:left;margin-left:0">
+
+  <br />
+<div align="center"> <b>✅ Added Version Switch 1.7 / 1.18</b> </div>
+<div align="center">
+  <a href="">
+    <img src="https://img.shields.io/badge/Version-1.3.6-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
+    <img src="https://i.imgur.com/lqVlkPT.png" alt="Logo" width="" height="">
+  </a>
+
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
