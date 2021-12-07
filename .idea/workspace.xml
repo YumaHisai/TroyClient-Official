@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Fix All Bugs&#10;TabGui = Beta">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +113,7 @@
       <workItem from="1638694528008" duration="4309000" />
       <workItem from="1638725609151" duration="51960000" />
       <workItem from="1638791905971" duration="8054000" />
-      <workItem from="1638864774751" duration="12301000" />
+      <workItem from="1638864774751" duration="12667000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -419,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638879993329</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Updated README.md">
+      <created>1638890949253</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1638890949255</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,12 +454,12 @@
     <MESSAGE value="Updated Classes Tp 1.1.7 ✅" />
     <MESSAGE value="Updated Classes To 1.1.7 ✅" />
     <MESSAGE value="Added Copyright (c)&#10;Updated README.md" />
-    <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added License System" />
     <MESSAGE value="Added LICENSE Hooked With MySQL" />
     <MESSAGE value="Added Version Switcher Support&#10;1.7 / 1.18" />
     <MESSAGE value="Fix All Bugs" />
     <MESSAGE value="Fix All Bugs&#10;TabGui = Beta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix All Bugs&#10;TabGui = Beta" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>
