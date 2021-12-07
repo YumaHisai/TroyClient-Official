@@ -4,54 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Added Version Switcher Support&#10;1.7 / 1.18">
-      <change afterPath="$PROJECT_DIR$/assets/skins/16/16cb55723dde982723531bebf6ef2ea7aca6ba57f85ccdf84d2499f3599f4db6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/21/218cb85444b326af735177c4fba9ea941aa8a6987777af929015ffe21f7dfccf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/23/23ad71d3cb718e7ca294b929cfb8c4368c81dd6d24d37eee1d78b874603723d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/26/2699c45e0e93b7e5c9438b69ba70ac58245a7cbd2d0b9d646011ea7ef131fe21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/34/34a62b7bdf07e44a08b41ea9c1b5b5316bcb0cd386d99ce4ee27bea71843ddea" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/5c/5cdccd7b8799a23d8e98486b0a868a5e11d9b97ba428eea368fb8f01248d2e44" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/67/67ad674597a53dd5f73efb019fb35434c92e8ad4cd2afd603d9ce56238da6fbe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/68/68aae48be7d91dc4a1256f09b5cb85fe81d81bbcb845bf28656be4256d5078eb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/7c/7c1b475883b3e6257489ca45a54c4ef96d39359a45f6e24b773f72fb10311dbc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/85/857dba8511b93ade146e3ecdba62fd04036157f589f8619c0bb36ea475427a5a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/a1/a12d1acd6c8fd1dc976b431551d02d660ef7c838aadecd2d2b89f7049b222d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/a4/a423dfea4d3e2cad9dee93af02a5a5f97d6fc303804a52e11d8b8a2b47802170" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/a9/a93f194226c609077468012ec9286197dfb147bff2109de1f3307874a095a1a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/b6/b6a82326e59847bfb1e72cab720f2573982428ca8e7e831e9e2db20efdbf1324" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/de/de57660d5a44d149d948d44ae2d38fd61641d9649f8f5046152f9eaa6410e1e2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/e7/e73f57e9453f00f1ac4b3ba8123ed8359afff234cf2452f89f39d4065e6b53aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/f8/f873702b4cf37d4df68c165f62f0d967ca9357ba0504ce1f6e5371342b07f3da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/fb/fbd923d318ee3b7d2c74c74ed502c6191cdd0da64f9eff3951b0946de8e6c24c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/fe/fefffa43b14a992624aa761d5d10763ae315ec4b902eb46ac4536942bb3db428" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-07_10.26.20-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/data/Mineshaft.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/data/villages.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/data/villages_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/data/villages_nether.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/level.dat_mcr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/playerdata/90225661-4f3a-3382-86fa-e49a5f85b425.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/playerdata/b6738008-cb59-3498-a817-418e36d006f2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/stats/90225661-4f3a-3382-86fa-e49a5f85b425.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/Test/stats/b6738008-cb59-3498-a817-418e36d006f2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/AboutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/AboutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ExploitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ExploitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/MethodCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/MethodCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/hook/GuiInGameHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/hook/GuiInGameHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/entity/EntityPlayerSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/entity/EntityPlayerSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" afterDir="false" />
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Fix All Bugs&#10;TabGui = Beta">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/15e4c8ac1324e0dc8eb32914e1aed5ed85da474accc089beb17d3824661bba31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/1e4b8de935cd9270507ea81598f5b4dea357d66c02eb5fb33c5441da4df12c51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/506948e81d7c95985f917ae7a9cbde8728bec7d789a5cafad0c4f78ed1a59043" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/6bab76107c6924dc52559077c165cb02b4e244d14d7dcc42ab91a6ed87c971c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/ad49c3984b18e2c5d9d847d954bfa0570322e48612573cbb044270f10d3c5366" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/b128474df2f317d1348fea0c9fae1ba374840b2e61d271284f71294d015694d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/c90205780b7011df32dff11fbe8c49ba031250d85b22cf4931fc65d574812250" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/d4cd915b1728472a9544380e6ce7af748e0afd7786a010dcaad982174022a37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f44c2abb1893b92578ab3178ca2db89ed1e5bc494e63b04dda170fa1d03de3a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f6463d0d72c6cae13f6fbb4455c6e54da19f69909d0e13999fb514a60f1780b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f6889edb791e326ddbae8fd4cbfc3f183266b032b55e1c5578cedf1c95ec665a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/15/15e4c8ac1324e0dc8eb32914e1aed5ed85da474accc089beb17d3824661bba31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/1e/1e4b8de935cd9270507ea81598f5b4dea357d66c02eb5fb33c5441da4df12c51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/50/506948e81d7c95985f917ae7a9cbde8728bec7d789a5cafad0c4f78ed1a59043" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/6b/6bab76107c6924dc52559077c165cb02b4e244d14d7dcc42ab91a6ed87c971c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/ad/ad49c3984b18e2c5d9d847d954bfa0570322e48612573cbb044270f10d3c5366" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/b1/b128474df2f317d1348fea0c9fae1ba374840b2e61d271284f71294d015694d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/c9/c90205780b7011df32dff11fbe8c49ba031250d85b22cf4931fc65d574812250" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/d4/d4cd915b1728472a9544380e6ce7af748e0afd7786a010dcaad982174022a37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/f4/f44c2abb1893b92578ab3178ca2db89ed1e5bc494e63b04dda170fa1d03de3a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/f6/f6463d0d72c6cae13f6fbb4455c6e54da19f69909d0e13999fb514a60f1780b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/f6/f6889edb791e326ddbae8fd4cbfc3f183266b032b55e1c5578cedf1c95ec665a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +137,7 @@
       <workItem from="1638694528008" duration="4309000" />
       <workItem from="1638725609151" duration="51960000" />
       <workItem from="1638791905971" duration="8054000" />
-      <workItem from="1638864774751" duration="6377000" />
+      <workItem from="1638864774751" duration="7831000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -429,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638866214084</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fix All Bugs">
+      <created>1638873051253</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1638873051253</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +447,8 @@
     <MESSAGE value="Added License System" />
     <MESSAGE value="Added LICENSE Hooked With MySQL" />
     <MESSAGE value="Added Version Switcher Support&#10;1.7 / 1.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Version Switcher Support&#10;1.7 / 1.18" />
+    <MESSAGE value="Fix All Bugs" />
+    <MESSAGE value="Fix All Bugs&#10;TabGui = Beta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix All Bugs&#10;TabGui = Beta" />
   </component>
 </project>
