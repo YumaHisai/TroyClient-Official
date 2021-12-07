@@ -5,29 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Fix All Bugs&#10;TabGui = Beta">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/15e4c8ac1324e0dc8eb32914e1aed5ed85da474accc089beb17d3824661bba31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/1e4b8de935cd9270507ea81598f5b4dea357d66c02eb5fb33c5441da4df12c51" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/506948e81d7c95985f917ae7a9cbde8728bec7d789a5cafad0c4f78ed1a59043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/6bab76107c6924dc52559077c165cb02b4e244d14d7dcc42ab91a6ed87c971c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/ad49c3984b18e2c5d9d847d954bfa0570322e48612573cbb044270f10d3c5366" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/b128474df2f317d1348fea0c9fae1ba374840b2e61d271284f71294d015694d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/c90205780b7011df32dff11fbe8c49ba031250d85b22cf4931fc65d574812250" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/d4cd915b1728472a9544380e6ce7af748e0afd7786a010dcaad982174022a37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f44c2abb1893b92578ab3178ca2db89ed1e5bc494e63b04dda170fa1d03de3a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f6463d0d72c6cae13f6fbb4455c6e54da19f69909d0e13999fb514a60f1780b8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f6889edb791e326ddbae8fd4cbfc3f183266b032b55e1c5578cedf1c95ec665a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/15/15e4c8ac1324e0dc8eb32914e1aed5ed85da474accc089beb17d3824661bba31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/1e/1e4b8de935cd9270507ea81598f5b4dea357d66c02eb5fb33c5441da4df12c51" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/50/506948e81d7c95985f917ae7a9cbde8728bec7d789a5cafad0c4f78ed1a59043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/6b/6bab76107c6924dc52559077c165cb02b4e244d14d7dcc42ab91a6ed87c971c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ad/ad49c3984b18e2c5d9d847d954bfa0570322e48612573cbb044270f10d3c5366" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/b1/b128474df2f317d1348fea0c9fae1ba374840b2e61d271284f71294d015694d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c9/c90205780b7011df32dff11fbe8c49ba031250d85b22cf4931fc65d574812250" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/d4/d4cd915b1728472a9544380e6ce7af748e0afd7786a010dcaad982174022a37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/f4/f44c2abb1893b92578ab3178ca2db89ed1e5bc494e63b04dda170fa1d03de3a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/f6/f6463d0d72c6cae13f6fbb4455c6e54da19f69909d0e13999fb514a60f1780b8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/f6/f6889edb791e326ddbae8fd4cbfc3f183266b032b55e1c5578cedf1c95ec665a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/21/218ef51724d855c6a815e1d367f2136fad58830cc15e108272de1b1f944d0019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/29/29599f8e13ed1664087c2db1da27f3db6af6d6f13883d133dd5f1f3911091c10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/36/362507e3678f05e6e11baeb7be514ed4d8326e25ae813ade116c32a2318f4ac0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/5e/5e3996e17289464ef5043616de1f74ff01a2103741a48d803d23c8a00c082fa2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/75/756616a4c533ca299efdb60999cc95baa70d117e11a2932dce1c2e609236b6c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/77/77fd7acd6f9fb99b76d3ea98402d3fc1b6678bdbf7a03d9f9b02de6dfb5b8d08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/80/806887fe210b49619d6e6d7e17fc8aa50b2b1aa3ea32894b40a96e4e998113ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/81/8164d2fa6339fb601e918dcb68b88c265f61e6a8dbf841adee61fb959b8e442f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/ca/ca93f6fc40488f1877cda94a830b54e9f6f54ab58a5453bad5c947726dd1f473" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/d9/d9d6b13aeea2de79d6f9e2a6279b21ffc7c5f7c3131ac99fae2497024aa50b6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/f9/f9a6d0c333fb250253afd6744465525c7e0aca308f936b09cda8423daff91271" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/fd/fd06c8ea6ec4684a8896f261f38b97052deaa56a25d11c39d25abc80553443f0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/skins/fe/fe31e6da47f46afb13c6f7db12d159875d2eb50c110a3f782c660973719b12de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/options.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +129,7 @@
       <workItem from="1638694528008" duration="4309000" />
       <workItem from="1638725609151" duration="51960000" />
       <workItem from="1638791905971" duration="8054000" />
-      <workItem from="1638864774751" duration="7831000" />
+      <workItem from="1638864774751" duration="8887000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -412,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638873051253</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fix All Bugs&#10;TabGui = Beta">
+      <created>1638877103029</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1638877103029</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fix All Bugs&#10;TabGui = Beta">
+      <created>1638877514613</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1638877514613</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
