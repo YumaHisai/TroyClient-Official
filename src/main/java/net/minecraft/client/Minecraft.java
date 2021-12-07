@@ -39,6 +39,7 @@ import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
 
 
+import it.md_4.troy.ui.guis.BanBan;
 import it.md_4.troy.ui.guis.ByeBye;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -662,6 +663,17 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
                 displayGuiScreen(new ByeBye());
 
+            }
+
+            String SQLB = "SELECT * FROM bannedaccounts WHERE mac='" + macAddress + "'";
+
+            ResultSet rsb = stmt.executeQuery(SQLB);
+
+            if(rsb.next()){
+
+                System.out.println("Account Banned For Mac: " + macAddress);
+
+                displayGuiScreen(new BanBan());
             }
 
         } catch (Exception e){

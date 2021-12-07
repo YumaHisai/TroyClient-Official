@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md" />
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ui/guis/BanBan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +74,7 @@
       <recent name="C:\Users\zcrac\OneDrive\Desktop\TroyClient\src\main\java\it\md_4\troy\ui\guis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.md_4.troy.ui.guis" />
       <recent name="com.md_4.troy.command.impl" />
     </key>
   </component>
@@ -113,7 +118,8 @@
       <workItem from="1638694528008" duration="4309000" />
       <workItem from="1638725609151" duration="51960000" />
       <workItem from="1638791905971" duration="8054000" />
-      <workItem from="1638864774751" duration="12667000" />
+      <workItem from="1638864774751" duration="13517000" />
+      <workItem from="1638892670514" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -423,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638890949255</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Updated README.md">
+      <created>1638891069793</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1638891069793</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
