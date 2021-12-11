@@ -1,6 +1,7 @@
 package it.md_4.troy;
 
 import it.md_4.troy.alts.AltManager;
+import it.md_4.troy.exploit.impl.nbt.*;
 import it.md_4.troy.modules.Module;
 import it.md_4.troy.modules.events.Event;
 import it.md_4.troy.modules.events.listeners.EventKey;
@@ -13,10 +14,6 @@ import it.md_4.troy.command.bypass.pex.PermissionExBypass;
 import it.md_4.troy.command.impl.*;
 import it.md_4.troy.exploit.ExploitManager;
 import it.md_4.troy.exploit.impl.multiverse.MultiverseCore;
-import it.md_4.troy.exploit.impl.nbt.Goro1;
-import it.md_4.troy.exploit.impl.nbt.OnePacket;
-import it.md_4.troy.exploit.impl.nbt.Ruyu1;
-import it.md_4.troy.exploit.impl.nbt.Shogun1;
 import it.md_4.troy.exploit.impl.other.ChunkLoadExploit;
 import it.md_4.troy.exploit.impl.other.FaweExploit;
 import it.md_4.troy.helper.OpenGlHelper;
@@ -89,7 +86,8 @@ public enum Troy
             new Shogun1(),
             new MultiverseCore(),
             new PermissionExBypass(),
-            new Auth1()
+            new Auth1(),
+            new Tudoku()
     );
 
     final GameSettings gameSettings = Minecraft.getMinecraft().gameSettings;

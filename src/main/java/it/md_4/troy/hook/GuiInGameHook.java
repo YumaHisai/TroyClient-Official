@@ -52,6 +52,8 @@ public class GuiInGameHook extends GuiIngame {
           .drawStringWithShadow(ChatHelper.fix("&bIP: &3" + mc.getCurrentServerData().serverIP),
               5, 120, 0);
 
+
+
       if (mc.thePlayer.getClientBrand() != null) {
         String brand = mc.thePlayer.getClientBrand().contains("<- ") ?
             mc.thePlayer.getClientBrand().split(" ")[0] + " -> " + mc.thePlayer.getClientBrand()
@@ -71,6 +73,10 @@ public class GuiInGameHook extends GuiIngame {
 
         mc.fontRendererObj
             .drawStringWithShadow(ChatHelper.fix(String.format("&bTPS: &3%s", tps)), 5, 150, 0);
+
+        mc.fontRendererObj
+                .drawStringWithShadow(ChatHelper.fix("&bSERVER PING: &3" + mc.getCurrentServerData().pingToServer + "&bms"),
+                        5, 160, 0);
       }
 
       if (Holder.getLastPacketMS() != -1) {
