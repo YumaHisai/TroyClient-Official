@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated Crashers, Discord Log System">
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Changed Owners">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/rpc/DiscordRichPresenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/rpc/DiscordRichPresenceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/itznull_/data/AdvencedCrash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/gialli/data/AdvencedCrash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/itznull_/managers/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/gialli/managers/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/credits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/credits.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/splashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/splashes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +131,7 @@
       <workItem from="1639598588195" duration="1030000" />
       <workItem from="1639716859211" duration="9384000" />
       <workItem from="1639746670672" duration="486000" />
-      <workItem from="1639753374255" duration="2715000" />
+      <workItem from="1639753374255" duration="3771000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -476,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639753886718</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Changed Owners">
+      <created>1639756805412</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1639756805412</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,6 +515,7 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Updated GuiInGameHook.java" />
     <MESSAGE value="Updated Crashers, Discord Log System" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Crashers, Discord Log System" />
+    <MESSAGE value="Changed Owners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Owners" />
   </component>
 </project>
