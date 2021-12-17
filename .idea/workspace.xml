@@ -5,79 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated Crashers, Discord Log System">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_opus_java_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_opus_java_natives_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_dv8tion_JDA_4_2_1_253.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/21/21efa48d040db304477d5edbabaccf8c256a1fc4d290b2d3cd57932cae019e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/2a/2aa1e600a088802bbbbe6395e5974bc4403ad4a7d271506c6fd32ad0121fb852" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/45/45a1c81f4bb8a7b4f7189cf438d681f8a5b1a8d5b1f803d65b4ad0c73e072db4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/55/553fcf450e7a615d17ab1595ef223cfc97fcfec76b3a548034d4e5bb12bc86fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/5d/5db46b99a5f8061c3fd64f98dd40c681bb7c0259fdc8802632a06908a41704b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/82/82b658d3229626072996fb439e17e41a1c1a88b767f632aaaab7aacbd0103111" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/93/938848c0a9e01c83cb52274048d9219849b02d8654c524830c65b4e53710c7f6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/9c/9c1d3ddcbc85619111aeab464b2c7bc144be99bc2b8591a085e71b8bd0a0460b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/9e/9eaa93f725ee2015e7e35e2891bab37399c14d6fb2793cd69bfba5ef99920361" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/a8/a8bbad837fe0876ef4b6865e81d933925750a33053147ef623af8d3a610a5cae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ab/abcb5548e170047408acb4aa3c7edb4ec001b759d64290fdc5a1ef3396eee6cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/b0/b060743515e2a4729b0b1429ceae6e7f7c21ecaba9b0cb7003e40362df14e957" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/c2/c213d076ad06bffd5534d6a4979fb80c48191e21722a70ca852ed9007ef40e94" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/d8/d87ab546d8283481b847c4b453351f6b0e306d34ac68d0000d36902f698b32ef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/skins/ed/ed61cead5be4a45279b5c5b2b3fb008be11c57748f24127c886d45f1cc8d31c0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-17_06.26.11-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-17_06.41.48-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-17_06.47.42-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crash-reports/crash-2021-12-17_06.48.44-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ip/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/ip/IpChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/15e4c8ac1324e0dc8eb32914e1aed5ed85da474accc089beb17d3824661bba31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/1e4b8de935cd9270507ea81598f5b4dea357d66c02eb5fb33c5441da4df12c51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/506948e81d7c95985f917ae7a9cbde8728bec7d789a5cafad0c4f78ed1a59043" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/6bab76107c6924dc52559077c165cb02b4e244d14d7dcc42ab91a6ed87c971c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/ad49c3984b18e2c5d9d847d954bfa0570322e48612573cbb044270f10d3c5366" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/b128474df2f317d1348fea0c9fae1ba374840b2e61d271284f71294d015694d9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/c90205780b7011df32dff11fbe8c49ba031250d85b22cf4931fc65d574812250" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/d4cd915b1728472a9544380e6ce7af748e0afd7786a010dcaad982174022a37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f44c2abb1893b92578ab3178ca2db89ed1e5bc494e63b04dda170fa1d03de3a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f6463d0d72c6cae13f6fbb4455c6e54da19f69909d0e13999fb514a60f1780b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/f6889edb791e326ddbae8fd4cbfc3f183266b032b55e1c5578cedf1c95ec665a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_11_31__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TroyClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TroyClient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/servers.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/Troy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/AltLoginThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/alts/AltLoginThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/CommandManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/auth/Auth1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/auth/Auth1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/pex/PermissionExBypass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/bypass/pex/PermissionExBypass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/AboutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/AboutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ClearChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ClearChatCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ExploitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ExploitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/FakeGamemodeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/FakeGamemodeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/MethodCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/MethodCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/OnlineCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/OnlineCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ThreadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/ThreadCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/Exploit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/Exploit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/impl/nbt/Tudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/exploit/impl/nbt/Tudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/sql/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/sql/MySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/GuiMainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/rpc/DiscordRichPresenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/rpc/DiscordRichPresenceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/itznull_/data/AdvencedCrash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/gialli/data/AdvencedCrash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/itznull_/managers/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/xyz/gialli/managers/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/credits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/credits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/splashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/splashes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +138,7 @@
       <workItem from="1639598588195" duration="1030000" />
       <workItem from="1639716859211" duration="9384000" />
       <workItem from="1639746670672" duration="486000" />
-      <workItem from="1639753374255" duration="436000" />
+      <workItem from="1639753374255" duration="2715000" />
     </task>
     <task id="LOCAL-00001" summary="Firt Update">
       <created>1638586266797</created>
@@ -527,7 +462,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639257522277</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Updated Crashers, Discord Log System">
+      <created>1639753868241</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1639753868241</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Updated Crashers, Discord Log System">
+      <created>1639753886718</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1639753886718</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

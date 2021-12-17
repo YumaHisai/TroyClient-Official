@@ -41,7 +41,6 @@ import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.TextChannel;
-import net.minecraft.client.entity.EntityPlayerSP;
 import org.lwjgl.opengl.Display;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.client.Minecraft;
@@ -162,7 +161,7 @@ public enum Troy
     //SplashProgress.setProgress(1, "Troy - Reading Modules");
 
     Troy.altManager = new AltManager();
-    Display.setTitle("TroyClient 1.3.6 | By md_4 & ItzNull_");
+    Display.setTitle("TroyClient 1.8.4 | By TroyClient-Studios");
     OpenGlHelper.setWindowIcon("https://i.imgur.com/5Peeyxu.png", "https://i.imgur.com/DcjVAVX.png");
     // Modules
     modules.add(new Fly());
@@ -260,8 +259,6 @@ public enum Troy
 
       if(
               macAddress.equals("00-E0-4C-36-43-04") // md_4
-              ||
-              macAddress.equals("00-D8-61-5B-20-0E") // ItzNull_
       )
       {
         System.out.println("Licese Active On " + macAddress);
@@ -282,7 +279,7 @@ public enum Troy
 
   static {
     Troy.name = "TroyClient";
-    Troy.version = "1.3.6";
-    Troy.creator = "md_4 & ItzNull_";
+    Troy.version = "1.8.4";
+    Troy.creator = "TroyClient-Studios";
   }
 }

@@ -1,7 +1,7 @@
-package it.md_4.xyz.itznull_.managers;
+package it.md_4.xyz.gialli.managers;
 
 
-import it.md_4.xyz.itznull_.data.AdvencedCrash;
+import it.md_4.xyz.gialli.data.AdvencedCrash;
 
 import java.io.File;
 import java.io.FileWriter;

@@ -3,4 +3,5 @@
 [C]§f===============
 
 §7Created by:
-§f			Md_4 & ItzNull_
+§f			TroyClient-Studios
+§f			Developer md_4
