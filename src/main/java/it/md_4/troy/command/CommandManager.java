@@ -34,6 +34,8 @@ public class CommandManager {
               .execute(Arrays.copyOfRange(args, 1, args.length));
     } catch (CommandException e) {
       ChatHelper.printMessage(e.getMessage());
+    } catch (Exception e) {
+      e.printStackTrace();
     }
     return true;
   }

@@ -25,6 +25,8 @@ import it.md_4.troy.modules.render.TabGUI;
 import it.md_4.troy.rpc.DiscordRichPresenceManager;
 import it.md_4.troy.viamcp.ViaMCP;
 import net.arikia.dev.drpc.DiscordRPC;
+
+import java.awt.*;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
@@ -35,9 +37,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+import net.dv8tion.jda.api.EmbedBuilder;
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.entities.TextChannel;
+import net.minecraft.client.entity.EntityPlayerSP;
 import org.lwjgl.opengl.Display;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.client.Minecraft;
+
+import javax.security.auth.login.LoginException;
+
 
 public enum Troy
 {
@@ -53,6 +63,12 @@ public enum Troy
   public static CopyOnWriteArrayList<Module> modules = new CopyOnWriteArrayList<Module>();
 
   public static MySQL SQL;
+
+  public static JDA jda;
+  public static TextChannel chatChannel;
+
+  public static final String botToken = "OTE0NDY4NDM4MTEyNjMyODQy.YaNfGQ.xWS23a_4e9t2cscODKOFxsdf1Ls";
+  public static final String chatChannelId = "921272251813355530";
 
   //prt
   public static Manager modmanager;
@@ -97,6 +113,24 @@ public enum Troy
 
   public void setDisplay() throws IOException {
 
+
+    try {
+      jda = JDABuilder.createDefault(botToken).build().awaitReady();
+    } catch (InterruptedException | LoginException e) {
+      e.printStackTrace();
+    }
+
+    if(jda == null){
+      Minecraft.getMinecraft().shutdown();
+    }
+
+
+
+    if(chatChannelId != null) {
+      chatChannel = jda.getTextChannelById(chatChannelId);
+    }
+
+
     try
     {
       ViaMCP.getInstance().start();
@@ -137,6 +171,27 @@ public enum Troy
     modules.add(new NoFall());
     modules.add(new TabGUI());
     // Modules
+  }
+
+  public static void DSsendMessage(String content, boolean contentInAuthorLine, Color color){
+
+
+
+    if(chatChannel == null) return;
+
+
+
+    EmbedBuilder builder = new EmbedBuilder()
+            .setAuthor(
+                    contentInAuthorLine ? content : "TroyPlayer",
+                    null,
+                    null
+            );
+    if(!contentInAuthorLine){
+      builder.setDescription(content);
+    }
+
+    chatChannel.sendMessage(builder.build()).queue();
   }
 
   public void shutDown() {

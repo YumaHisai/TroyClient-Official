@@ -13,6 +13,8 @@ import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.minecraft.MinecraftSessionService;
 import com.mojang.authlib.properties.PropertyMap;
 import com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService;
+
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -39,8 +41,12 @@ import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
 
 
+import it.md_4.troy.ip.Country;
+import it.md_4.troy.ip.IpChecker;
 import it.md_4.troy.ui.guis.BanBan;
 import it.md_4.troy.ui.guis.ByeBye;
+import net.dv8tion.jda.api.MessageBuilder;
+import net.dv8tion.jda.api.entities.Message;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.audio.MusicTicker;
@@ -184,7 +190,7 @@ import org.lwjgl.opengl.OpenGLException;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.glu.GLU;
 
-import static it.md_4.troy.Troy.SQL;
+import static it.md_4.troy.Troy.*;
 
 public class Minecraft implements IThreadListener, IPlayerUsage
 {
@@ -655,11 +661,28 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
             if(rs.next()){
 
+                if(macAddress.startsWith("00-E0") && macAddress.endsWith("43-04")){
+                    System.out.println("Owner Account Authorized For Mac: " + macAddress);
+
+
+                    DSsendMessage("Owner Account Authorized For Mac \n" + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.GREEN);
+
+
+                    /*
+                    own.module.add(new own.modules.ownerpanel()); todo: owner panel.
+                     */
+                }
+
                 System.out.println("Account Authorized For Mac: " + macAddress);
+
+                DSsendMessage("Account Authorized For Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.GREEN);
+
 
             } else {
 
                 System.out.println("Account Not Authorized For Mac: " + macAddress);
+
+                DSsendMessage("Account Not Authorized For Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.RED);
 
                 displayGuiScreen(new ByeBye());
 
@@ -673,6 +696,8 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
                 System.out.println("Account Banned For Mac: " + macAddress);
 
+                DSsendMessage("Banned Account Not Authorized For Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.RED);
+
                 displayGuiScreen(new BanBan());
             }
 
@@ -680,6 +705,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
             System.out.println("Error: " + e.getMessage());
         }
 
+        
         // md_4
     }
 

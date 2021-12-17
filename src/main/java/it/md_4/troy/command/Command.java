@@ -23,7 +23,7 @@ public abstract class Command {
     this.aliases = Arrays.asList(commandInfo.aliases());
   }
 
-  public abstract void execute(String... var1) throws CommandException;
+  public abstract void execute(String... var1) throws Exception;
 
   public boolean is(String string) {
     return string.equalsIgnoreCase(this.alias) || this.aliases.stream().anyMatch((stream) -> stream.equalsIgnoreCase(string));

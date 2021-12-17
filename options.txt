@@ -1,7 +1,7 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:1.0
-gamma:1.0
+gamma:10000.0
 saturation:0.0
 renderDistance:8
 guiScale:2
@@ -16,7 +16,7 @@ ao:2
 renderClouds:fast
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:mc.trollandia.it
+lastServer:play.mineplex.eu
 lang:en_US
 chatVisibility:0
 chatColors:true

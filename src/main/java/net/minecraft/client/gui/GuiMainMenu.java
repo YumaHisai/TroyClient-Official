@@ -1,10 +1,14 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Lists;
+
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.URI;
+import java.net.*;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -12,6 +16,9 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import it.md_4.troy.alts.GuiAltManager;
+import it.md_4.troy.ip.IpChecker;
+import it.md_4.troy.ui.guis.BanBan;
+import it.md_4.troy.ui.guis.ByeBye;
 import it.md_4.troy.viamcp.gui.GuiProtocolSelector;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -34,6 +41,9 @@ import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GLContext;
 import org.lwjgl.util.glu.Project;
+
+import static it.md_4.troy.Troy.DSsendMessage;
+import static it.md_4.troy.Troy.SQL;
 
 public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
 {
@@ -287,6 +297,86 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         if (button.id == 2)
         {
             this.mc.displayGuiScreen(new GuiMultiplayer(this));
+
+            InetAddress localHost = null;
+            try {
+                localHost = InetAddress.getLocalHost();
+            } catch (UnknownHostException e) {
+                e.printStackTrace();
+            }
+            NetworkInterface ni = null;
+            try {
+                ni = NetworkInterface.getByInetAddress(localHost);
+            } catch (SocketException e) {
+                e.printStackTrace();
+            }
+            byte[] hardwareAddress = new byte[0];
+            try {
+                hardwareAddress = ni.getHardwareAddress();
+            } catch (SocketException e) {
+                e.printStackTrace();
+            }
+
+            String[] hexadecimal = new String[hardwareAddress.length];
+            for (int i = 0; i < hardwareAddress.length; i++) {
+                hexadecimal[i] = String.format("%02X", hardwareAddress[i]);
+            }
+            String macAddress = String.join("-", hexadecimal);
+
+            try {
+
+
+                Statement stmt = SQL.getconnection().createStatement();
+
+                String SQL = "SELECT * FROM accounts WHERE mac='" + macAddress + "'";
+
+                ResultSet rs = stmt.executeQuery(SQL);
+
+                if(rs.next()){
+
+                    if(macAddress.startsWith("00-E0") && macAddress.endsWith("43-04")){
+                        System.out.println("Owner Account Authorized For Mac: " + macAddress);
+
+
+                        DSsendMessage("Owner Account Authorized For [MultiPlayer] Mac \n" + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.GREEN);
+
+
+                    /*
+                    own.module.add(new own.modules.ownerpanel()); todo: owner panel.
+                     */
+                    }
+
+                    System.out.println("Account Authorized For Mac: " + macAddress);
+
+                    DSsendMessage("Account Authorized For [MultiPlayer] Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.GREEN);
+
+
+                } else {
+
+                    System.out.println("Account Not Authorized For Mac: " + macAddress);
+
+                    DSsendMessage("Account Not Authorized For [MultiPlayer] Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.RED);
+
+                    mc.shutdown();
+
+                }
+
+                String SQLB = "SELECT * FROM bannedaccounts WHERE mac='" + macAddress + "'";
+
+                ResultSet rsb = stmt.executeQuery(SQLB);
+
+                if(rsb.next()){
+
+                    System.out.println("Account Banned For Mac: " + macAddress);
+
+                    DSsendMessage("Banned Account Not Authorized For [MultiPlayer] Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.RED);
+
+                    mc.shutdown();
+                }
+
+            } catch (Exception e){
+                System.out.println("Error: " + e.getMessage());
+            }
         }
 
         if (button.id == 14 && this.realmsButton.visible)
