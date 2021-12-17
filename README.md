@@ -33,7 +33,7 @@
     </tr>
     <tr>
         <td align="right"><b>Main Build</b></td>
-        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.7&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.1.7&style=for-the-badge" alt="Build Status" /></a></td>
+        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.8.4&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.8.4&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
 
@@ -126,6 +126,16 @@
   <a href="">
     <img src="https://img.shields.io/badge/Version-1.3.6-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
     <img src="https://i.imgur.com/lqVlkPT.png" alt="Logo" width="" height="">
+  </a>
+
+<hr style="width:50%;text-align:left;margin-left:0">
+
+  <br />
+<div align="center"> <b>✅ Updated ToS And ReWorked Kernel</b> </div>
+<div align="center">
+  <a href="">
+    <img src="https://img.shields.io/badge/Version-1.8.4-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
+    <img src="https://i.imgur.com/8WP9G4q.png" alt="Logo" width="" height="">
   </a>
 
 
