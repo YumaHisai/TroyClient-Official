@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Changed Owners">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/AboutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/AboutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/command/impl/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/movement/Sprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/modules/movement/Sprint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/md_4/troy/rpc/DiscordRichPresenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/md_4/troy/rpc/DiscordRichPresenceManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="cccea7b9-bc27-4d36-b14d-f0c822fbe801" name="Changes" comment="Updated To 1.8.4 beta v2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,14 +129,7 @@
       <workItem from="1639598588195" duration="1030000" />
       <workItem from="1639716859211" duration="9384000" />
       <workItem from="1639746670672" duration="486000" />
-      <workItem from="1639753374255" duration="5137000" />
-    </task>
-    <task id="LOCAL-00002" summary="Firt Update">
-      <created>1638587075124</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1638587075124</updated>
+      <workItem from="1639753374255" duration="5632000" />
     </task>
     <task id="LOCAL-00003" summary="Updated Changelog ✅">
       <created>1638628434760</created>
@@ -480,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639759111192</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Updated To 1.8.4 beta v2">
+      <created>1639760890255</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1639760890255</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,6 +514,7 @@
     <MESSAGE value="Updated GuiInGameHook.java" />
     <MESSAGE value="Updated Crashers, Discord Log System" />
     <MESSAGE value="Changed Owners" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Owners" />
+    <MESSAGE value="Updated To 1.8.4 beta v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated To 1.8.4 beta v2" />
   </component>
 </project>
