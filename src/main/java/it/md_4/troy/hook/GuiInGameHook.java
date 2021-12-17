@@ -74,9 +74,6 @@ public class GuiInGameHook extends GuiIngame {
         mc.fontRendererObj
             .drawStringWithShadow(ChatHelper.fix(String.format("&bTPS: &3%s", tps)), 5, 150, 0);
 
-        mc.fontRendererObj
-                .drawStringWithShadow(ChatHelper.fix("&bSERVER PING: &3" + mc.getCurrentServerData().pingToServer + "&bms"),
-                        5, 160, 0);
       }
 
       if (Holder.getLastPacketMS() != -1) {
@@ -88,7 +85,7 @@ public class GuiInGameHook extends GuiIngame {
         mc.fontRendererObj
             .drawStringWithShadow(ChatHelper.fix(
                 lastPacketMS > 30500 ? "&bLast packet: &3Broken pipe"
-                    : String.format("&bLast packet: &3%s &bms", packetMs)), 5, 170, 0);
+                    : String.format("&bLast packet: &3%s &bms", packetMs)), 5, 160, 0);
 
 
         //Collections.sort(Troy.modules, new ModuleComparator());

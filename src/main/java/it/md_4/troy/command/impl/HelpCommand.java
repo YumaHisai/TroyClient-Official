@@ -24,7 +24,6 @@ public class HelpCommand extends Command {
   @Override
   public void execute(String... args) throws Exception {
     ChatHelper.printMessage("&b • &3&l'&b&lcrash &b• Crasher List");
-    ChatHelper.printMessage("&b • &3&l'&b&lypass &b• Bypass List");
     ChatHelper.printMessage("&b • &3&l'&b&lmethod &b• List Of Methods");
     ChatHelper.printMessage("&b • &3&l'&b&lthread &b• Show Threads");
     ChatHelper.printMessage("&b • &3&l'&b&lcc &b• Clear Chat");

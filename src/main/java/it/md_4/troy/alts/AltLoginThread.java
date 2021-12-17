@@ -86,13 +86,10 @@ public final class AltLoginThread extends Thread {
             String macAddress = String.join("-", hexadecimal);
 
             try {
-                DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Changed Nick To [xAuth]" +  "]", true, Color.GREEN);
+                DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Changed Nick To [" + this.username +  "]]", true, Color.GREEN);
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
-            //Ayakashi.nettyServer.getChannel().writeAndFlush(new AddUserPacket(this.mc.session.getUsername()));
-            //Ayakashi.nettyServer.getChannel().writeAndFlush(new AddUserPacket(UserNameApi.getName()));
 
         } else {
             this.status = EnumChatFormatting.YELLOW + "Logging in...";
@@ -101,16 +98,10 @@ public final class AltLoginThread extends Thread {
                 this.status = EnumChatFormatting.RED + "Login failed!";
             } else {
 
-                //Ayakashi.nettyServer.getChannel().writeAndFlush(new RemoveUserPacket(this.mc.session.getUsername()));
-
-                //Ayakashi.nettyServer.getChannel().writeAndFlush(new RemoveUserPacket(UserNameApi.getName()));
 
                 AltManager.lastAlt = new Alt(this.username, this.password);
                 this.status = EnumChatFormatting.GREEN + "Logged in. (" + auth.getUsername() + ")";
                 this.mc.session = auth;
-
-                //Ayakashi.nettyServer.getChannel().writeAndFlush(new AddUserPacket(this.mc.session.getUsername()));
-                //Ayakashi.nettyServer.getChannel().writeAndFlush(new AddUserPacket(UserNameApi.getName()));
 
             }
 
