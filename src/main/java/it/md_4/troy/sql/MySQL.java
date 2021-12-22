@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class MySQL {
-    private String host = "51.255.219.130";
+    private String host = "localhost";
     private String port = "3306";
     private String database = "troyclient";
     private String username = "troy";
