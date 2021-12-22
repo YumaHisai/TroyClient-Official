@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class MySQL {
-    private String host = "178.174.14.140";
+    private String host = "51.255.219.130";
     private String port = "3306";
     private String database = "troyclient";
     private String username = "troy";
-    private String password = "Hwdcop5625010";
+    private String password = "Hwdcop5625010--";
     private Connection connection;
 
     public MySQL() {

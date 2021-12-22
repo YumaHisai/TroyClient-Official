@@ -44,7 +44,7 @@ public enum EnumChatFormatting
     private final String name;
 
     /** The formatting code that produces this format. */
-    private final char formattingCode;
+    public final char formattingCode;
     private final boolean fancyStyling;
 
     /**

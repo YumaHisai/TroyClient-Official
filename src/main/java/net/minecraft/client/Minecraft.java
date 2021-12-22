@@ -43,6 +43,9 @@ import javax.sound.sampled.*;
 
 import it.md_4.troy.ip.Country;
 import it.md_4.troy.ip.IpChecker;
+import it.md_4.troy.ip.MacAddress;
+import it.md_4.troy.ui.MainMenu;
+import it.md_4.troy.ui.SplashProgress;
 import it.md_4.troy.ui.guis.BanBan;
 import it.md_4.troy.ui.guis.ByeBye;
 import net.dv8tion.jda.api.MessageBuilder;
@@ -515,8 +518,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         this.refreshResources();
         this.renderEngine = new TextureManager(this.mcResourceManager);
         this.mcResourceManager.registerReloadListener(this.renderEngine);
-        this.drawSplashScreen(this.renderEngine);
+        //this.drawSplashScreen(this.renderEngine); //todo: DrawSplashScreen
         this.initStream();
+
         this.skinManager = new SkinManager(this.renderEngine, new File(this.fileAssets, "skins"), this.sessionService);
         this.saveLoader = new AnvilSaveConverter(new File(this.mcDataDir, "saves"));
         this.mcSoundHandler = new SoundHandler(this.mcResourceManager, this.gameSettings);
@@ -524,6 +528,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         this.mcMusicTicker = new MusicTicker(this);
         this.fontRendererObj = new FontRenderer(this.gameSettings, new ResourceLocation("textures/font/ascii.png"), this.renderEngine, false);
 
+        SplashProgress.drawSplash(getTextureManager());
         if (this.gameSettings.language != null)
         {
             this.fontRendererObj.setUnicodeFlag(this.isUnicode());
@@ -581,7 +586,6 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         this.renderGlobal = new RenderGlobal(this);
         this.mcResourceManager.registerReloadListener(this.renderGlobal);
         this.guiAchievement = new GuiAchievement(this);
-        GlStateManager.viewport(0, 0, this.displayWidth, this.displayHeight);
         this.effectRenderer = new EffectRenderer(this.theWorld, this.renderEngine);
         this.checkGLError("Post startup");
 
@@ -593,11 +597,11 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
         if (this.serverName != null)
         {
-            this.displayGuiScreen(new GuiConnecting(new GuiMainMenu(), this, this.serverName, this.serverPort));
+            this.displayGuiScreen(new GuiConnecting(new MainMenu(), this, this.serverName, this.serverPort)); //todo: md_4 GuiMainMenu()
         }
         else
         {
-            this.displayGuiScreen(new GuiMainMenu());
+            this.displayGuiScreen(new MainMenu()); //todo: md_4 GuiMainMenu()
         }
 
         this.renderEngine.deleteTexture(this.mojangLogo);
@@ -662,29 +666,33 @@ public class Minecraft implements IThreadListener, IPlayerUsage
             if(rs.next()){
 
                 if(macAddress.startsWith("00-E0") && macAddress.endsWith("43-04")){
-                    System.out.println("Owner Account Authorized For Mac: " + macAddress);
+                    System.out.println("Owner Account Authorized For \nMac: " + macAddress);
 
 
-                    DSsendMessage("Owner Account Authorized For Mac \n" + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.GREEN);
+                    DSsendMessage("Owner Account Authorized For\n Mac " + "[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")", true, Color.GREEN);
 
+                    MacAddress.isVerified = true;
 
                     /*
                     own.module.add(new own.modules.ownerpanel()); todo: owner panel.
                      */
                 }
 
-                System.out.println("Account Authorized For Mac: " + macAddress);
+                System.out.println("Account Authorized For \nMac: " + macAddress);
 
-                DSsendMessage("Account Authorized For Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.GREEN);
+                DSsendMessage("Account Authorized For\n Mac " + "[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")", true, Color.GREEN);
 
+                MacAddress.isVerified = true;
 
             } else {
 
-                System.out.println("Account Not Authorized For Mac: " + macAddress);
+                System.out.println("Account Not Authorized \nFor Mac: " + macAddress);
 
-                DSsendMessage("Account Not Authorized For Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.RED);
+                DSsendMessage("Account Not Authorized For \nMac " + "[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")", true, Color.RED);
 
                 displayGuiScreen(new ByeBye());
+
+                MacAddress.isVerified = true;
 
             }
 
@@ -699,13 +707,15 @@ public class Minecraft implements IThreadListener, IPlayerUsage
                 DSsendMessage("Banned Account Not Authorized For Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.RED);
 
                 displayGuiScreen(new BanBan());
+
+                MacAddress.isVerified = true;
             }
 
         } catch (Exception e){
             System.out.println("Error: " + e.getMessage());
         }
 
-        
+
         // md_4
     }
 
@@ -1087,14 +1097,14 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
         if (guiScreenIn == null && this.theWorld == null)
         {
-            guiScreenIn = new GuiMainMenu();
+            guiScreenIn = new MainMenu(); //todo: md_4 GuiMainMenu()
         }
         else if (guiScreenIn == null && this.thePlayer.getHealth() <= 0.0F)
         {
             guiScreenIn = new GuiGameOver();
         }
 
-        if (guiScreenIn instanceof GuiMainMenu)
+        if (guiScreenIn instanceof MainMenu) //todo: md_4 GuiMainMenu()
         {
             this.gameSettings.showDebugInfo = false;
             this.ingameGUI.getChatGUI().clearChatMessages();
@@ -1617,7 +1627,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         }
     }
 
-    private void clickMouse()
+    public void clickMouse()
     {
         if (this.leftClickCounter <= 0)
         {
@@ -1664,8 +1674,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
     /**
      * Called when user clicked he's mouse right button (place)
-     */
-    private void rightClickMouse()
+     */ public void rightClickMouse()
     {
         if (!this.playerController.func_181040_m())
         {

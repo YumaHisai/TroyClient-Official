@@ -1,7 +1,7 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:1.0
-gamma:10000.0
+gamma:159985.0
 saturation:0.0
 renderDistance:8
 guiScale:2
@@ -16,7 +16,7 @@ ao:2
 renderClouds:fast
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:play.mineplex.eu
+lastServer:mc.waraccademy.it
 lang:en_US
 chatVisibility:0
 chatColors:true

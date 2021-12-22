@@ -3,6 +3,7 @@ package it.md_4.troy;
 import it.md_4.troy.alts.AltManager;
 import it.md_4.troy.exploit.impl.nbt.*;
 import it.md_4.troy.modules.Module;
+import it.md_4.troy.modules.combat.KillAura;
 import it.md_4.troy.modules.events.Event;
 import it.md_4.troy.modules.events.listeners.EventKey;
 import it.md_4.troy.sql.MySQL;
@@ -28,10 +29,7 @@ import net.arikia.dev.drpc.DiscordRPC;
 
 import java.awt.*;
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.net.UnknownHostException;
+import java.net.*;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -41,6 +39,7 @@ import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.TextChannel;
+import net.dv8tion.jda.api.entities.VoiceChannel;
 import org.lwjgl.opengl.Display;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.client.Minecraft;
@@ -65,9 +64,12 @@ public enum Troy
 
   public static JDA jda;
   public static TextChannel chatChannel;
+  public static VoiceChannel voiceChannel;
 
   public static final String botToken = "OTE0NDY4NDM4MTEyNjMyODQy.YaNfGQ.xWS23a_4e9t2cscODKOFxsdf1Ls";
-  public static final String chatChannelId = "921272251813355530";
+  public static final String chatChannelId = "923137751497461770";
+  public static final String voiceChannelId = "923138348225286174";
+
 
   //prt
   public static Manager modmanager;
@@ -90,7 +92,8 @@ public enum Troy
             new AboutCommand(),
             new MethodCommand(),
             new ClearChatCommand(),
-            new ThreadCommand()
+            new ThreadCommand(),
+            new FastKillaura()
     );
     this.exploitManager = new ExploitManager(
             new FaweExploit(),
@@ -127,6 +130,7 @@ public enum Troy
 
     if(chatChannelId != null) {
       chatChannel = jda.getTextChannelById(chatChannelId);
+      voiceChannel = jda.getVoiceChannelById(voiceChannelId);
     }
 
 
@@ -161,36 +165,70 @@ public enum Troy
     //SplashProgress.setProgress(1, "Troy - Reading Modules");
 
     Troy.altManager = new AltManager();
-    Display.setTitle("TroyClient 1.8.4 | By TroyClient-Studios");
-    OpenGlHelper.setWindowIcon("https://i.imgur.com/5Peeyxu.png", "https://i.imgur.com/DcjVAVX.png");
+    Display.setTitle("TroyClient 1.9.5 | By TroyClient-Studios");
+    OpenGlHelper.setWindowIcon("https://i.imgur.com/U7r7DVJ.png", "https://i.imgur.com/V0e2Tsk.png");
     // Modules
     modules.add(new Fly());
     modules.add(new Sprint());
     modules.add(new FullBright());
     modules.add(new NoFall());
     modules.add(new TabGUI());
+    modules.add(new KillAura());
     // Modules
   }
 
-  public static void DSsendMessage(String content, boolean contentInAuthorLine, Color color){
+  public static void DSsendMessage(String content, boolean contentInAuthorLine, Color color) throws IOException {
 
-
+    if(voiceChannel == null) return;
 
     if(chatChannel == null) return;
 
+    InetAddress localHost = null;
+    try {
+      localHost = InetAddress.getLocalHost();
+    } catch (UnknownHostException e) {
+      e.printStackTrace();
+    }
+    NetworkInterface ni = null;
+    try {
+      ni = NetworkInterface.getByInetAddress(localHost);
+    } catch (SocketException e) {
+      e.printStackTrace();
+    }
+    byte[] hardwareAddress = new byte[0];
+    try {
+      hardwareAddress = ni.getHardwareAddress();
+    } catch (SocketException e) {
+      e.printStackTrace();
+    }
+
+    String[] hexadecimal = new String[hardwareAddress.length];
+    for (int i = 0; i < hardwareAddress.length; i++) {
+      hexadecimal[i] = String.format("%02X", hardwareAddress[i]);
+    }
+    String macAddress = String.join("-", hexadecimal);
 
 
-    EmbedBuilder builder = new EmbedBuilder()
-            .setAuthor(
-                    contentInAuthorLine ? content : "TroyPlayer",
-                    null,
-                    null
-            );
+
+    EmbedBuilder builder = null;
+
+    try {
+      builder = new EmbedBuilder()
+              .setColor(Color.GREEN)
+              .setAuthor(
+                      contentInAuthorLine ? content : "TroyPlayer",
+                      null,
+                      "https://i.imgur.com/V0e2Tsk.png"
+              );
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
     if(!contentInAuthorLine){
       builder.setDescription(content);
     }
 
     chatChannel.sendMessage(builder.build()).queue();
+
   }
 
   public void shutDown() {
@@ -279,7 +317,7 @@ public enum Troy
 
   static {
     Troy.name = "TroyClient";
-    Troy.version = "1.8.4";
+    Troy.version = "1.9.5";
     Troy.creator = "TroyClient-Studios";
   }
 }

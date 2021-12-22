@@ -18,4 +18,9 @@ public class NoFall extends Module {
         }
 
     }
+
+    @Override
+    public void onUpdate() {
+
+    }
 }

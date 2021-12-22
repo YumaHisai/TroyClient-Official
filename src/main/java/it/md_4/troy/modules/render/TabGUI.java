@@ -107,4 +107,9 @@ public class TabGUI extends Module {
 
     }
 
+    @Override
+    public void onUpdate() {
+
+    }
+
 }

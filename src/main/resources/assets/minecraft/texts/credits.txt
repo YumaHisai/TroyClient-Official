@@ -5,3 +5,4 @@
 §7Created by:
 §f			TroyClient-Studios
 §f			Developer md_4
+§f			Developer Gialli

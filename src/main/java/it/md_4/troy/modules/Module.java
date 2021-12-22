@@ -3,7 +3,7 @@ package it.md_4.troy.modules;
 import it.md_4.troy.modules.events.Event;
 import net.minecraft.client.Minecraft;
 
-public class Module {
+public abstract class Module {
 
     public String name;
     public boolean toggled;
@@ -45,6 +45,8 @@ public class Module {
     public void onDisable() {
 
     }
+
+    public abstract void onUpdate();
 
     public enum Category {
         COMBAT("Combat"),

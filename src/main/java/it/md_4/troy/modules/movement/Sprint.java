@@ -8,7 +8,7 @@ import org.lwjgl.input.Keyboard;
 
 public class Sprint extends Module {
     public Sprint() {
-        super("Sprint", Keyboard.KEY_RCONTROL, Category.MOVEMENT);
+        super("Sprint", Keyboard.KEY_LCONTROL, Category.MOVEMENT);
     }
 
     public void onEnable() {
@@ -16,6 +16,11 @@ public class Sprint extends Module {
 
     public void onDisable() {
         Minecraft.getMinecraft().thePlayer.setSprinting(Minecraft.getMinecraft().gameSettings.keyBindSprint.isPressed());
+    }
+
+    @Override
+    public void onUpdate() {
+
     }
 
     public void onEvent(Event e) {

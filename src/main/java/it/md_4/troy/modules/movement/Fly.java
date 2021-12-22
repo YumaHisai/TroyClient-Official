@@ -15,6 +15,11 @@ public class Fly extends Module {
         Minecraft.getMinecraft().thePlayer.capabilities.isFlying = false;
     }
 
+    @Override
+    public void onUpdate() {
+
+    }
+
     public void onEvent(Event e) {
         if (e instanceof EventUpdate && e.isPre()) {
             Minecraft.getMinecraft().thePlayer.capabilities.isFlying = true;

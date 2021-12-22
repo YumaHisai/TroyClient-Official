@@ -17,8 +17,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import it.md_4.troy.alts.GuiAltManager;
 import it.md_4.troy.ip.IpChecker;
-import it.md_4.troy.ui.guis.BanBan;
-import it.md_4.troy.ui.guis.ByeBye;
 import it.md_4.troy.viamcp.gui.GuiProtocolSelector;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;

@@ -41,7 +41,7 @@ public class ScaledResolution
     }
 
     public static int getScaledWidth() {
-        return ScaledResolution.scaledWidth;
+        return scaledWidth;
     }
 
     public int getScaledHeight()

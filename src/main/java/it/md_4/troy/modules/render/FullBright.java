@@ -16,4 +16,9 @@ public class FullBright extends Module {
     public void onDisable() {
         Minecraft.getMinecraft().gameSettings.gammaSetting = 1.0F;
     }
+
+    @Override
+    public void onUpdate() {
+
+    }
 }
