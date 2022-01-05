@@ -673,9 +673,6 @@ public class Minecraft implements IThreadListener, IPlayerUsage
 
                     MacAddress.isVerified = true;
 
-                    /*
-                    own.module.add(new own.modules.ownerpanel()); todo: owner panel.
-                     */
                 }
 
                 System.out.println("Account Authorized For \nMac: " + macAddress);

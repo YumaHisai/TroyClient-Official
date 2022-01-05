@@ -1,9 +1,7 @@
 package it.md_4.troy.ui;
 
-import it.md_4.troy.Troy;
 import it.md_4.troy.alts.GuiAltManager;
 import it.md_4.troy.ip.IpChecker;
-import it.md_4.troy.ip.MacAddress;
 import it.md_4.troy.ui.guis.BanBan;
 import it.md_4.troy.ui.guis.ByeBye;
 import it.md_4.troy.ui.guis.Quit;
@@ -26,6 +24,7 @@ import java.sql.Statement;
 import static it.md_4.troy.Troy.DSsendMessage;
 import static it.md_4.troy.Troy.SQL;
 
+@SuppressWarnings("all")
 public class MainMenu extends GuiScreen {
 
 
