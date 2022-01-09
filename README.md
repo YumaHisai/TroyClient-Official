@@ -41,7 +41,7 @@
   <div id="codebox">
      <pre><code data-language="css">'crash • This Command
 'crash list • Crasher List
-'crash info [Crasher] • Crasher List
+'crash info [Crasher] • Crasher Info
 'method • List Of Methods
 'thread • Show Threads
 'cc • Clear Chat
