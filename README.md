@@ -21,7 +21,7 @@
 <h3 align="center">Troy Client</h3>
 
   <p align="center">
-    Best Hacked / Crash Client 2021 Fps Boost
+    Best Hacked / Crash Client 2022 Fps Boost
   </p>
 </div>
 
