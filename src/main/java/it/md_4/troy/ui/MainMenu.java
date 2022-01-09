@@ -103,62 +103,16 @@ public class MainMenu extends GuiScreen {
                         break;
                     case "MultiPlayer":
 
+                        System.out.println("[MultiPlayer] Account Authorized For \nMac: " + macAddress);
+
                         try {
-
-
-                            Statement stmt = SQL.getconnection().createStatement();
-
-                            String SQL = "SELECT * FROM accounts WHERE mac='" + macAddress + "'";
-
-                            ResultSet rs = stmt.executeQuery(SQL);
-
-                            if(rs.next()){
-
-                                if(macAddress.startsWith("00-E0") && macAddress.endsWith("43-04")){
-                                    System.out.println("[MultiPlayer] Owner Account Authorized For \nMac: " + macAddress);
-
-
-                                    DSsendMessage("[MultiPlayer] Owner Account Authorized For\n Mac " + "[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")", true, Color.GREEN);
-
-                                    mc.displayGuiScreen(new GuiMultiplayer(this));
-                                    break;
-
-                                }
-
-                                System.out.println("[MultiPlayer] Account Authorized For \nMac: " + macAddress);
-
-                                DSsendMessage("[MultiPlayer] Account Authorized For\n Mac " + "[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")", true, Color.GREEN);
-
-                                mc.displayGuiScreen(new GuiMultiplayer(this));
-                                break;
-
-                            } else {
-
-                                System.out.println("[MultiPlayer] Account Not Authorized \nFor Mac: " + macAddress);
-
-                                DSsendMessage("[MultiPlayer] Account Not Authorized For \nMac " + "[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")", true, Color.RED);
-
-                                mc.displayGuiScreen(new ByeBye());
-                            }
-
-                            String SQLB = "SELECT * FROM bannedaccounts WHERE mac='" + macAddress + "'";
-
-                            ResultSet rsb = stmt.executeQuery(SQLB);
-
-                            if(rsb.next()){
-
-                                System.out.println("[MultiPlayer] Account Banned For Mac: " + macAddress);
-
-                                DSsendMessage("[MultiPlayer] Banned Account Not Authorized For Mac " + "[" + macAddress + " Connected With IP => (" + IpChecker.getIp() +")]", true, Color.RED);
-
-                                mc.displayGuiScreen(new BanBan());
-                                break;
-                            }
-
-                        } catch (Exception e){
-                            System.out.println("Error: " + e.getMessage());
-                            break;
+                            DSsendMessage("[MultiPlayer] Account Authorized For\n Mac " + "[" + macAddress + "]\n Connected With IP => \n(" + IpChecker.getIp() +")", true, Color.GREEN);
+                        } catch (Exception e) {
+                            e.printStackTrace();
                         }
+
+                        mc.displayGuiScreen(new GuiMultiplayer(this));
+
                         break;
                     case "AltManager":
                         mc.displayGuiScreen(new GuiAltManager());

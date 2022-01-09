@@ -30,7 +30,6 @@ import net.arikia.dev.drpc.DiscordRPC;
 import java.awt.*;
 import java.io.IOException;
 import java.net.*;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -146,7 +145,7 @@ public enum Troy
 
     // MySQL
 
-
+    /*
     SQL = new MySQL();
 
     try {
@@ -159,13 +158,15 @@ public enum Troy
       System.out.println("Pulling MySQL Requests From TroyClient...");
     }
 
+     */
+
     // MySQL
 
     Troy.HUD = new HUD();
     //SplashProgress.setProgress(1, "Troy - Reading Modules");
 
     Troy.altManager = new AltManager();
-    Display.setTitle("TroyClient 1.9.5 | By TroyClient-Studios");
+    Display.setTitle("TroyClient 1.10.5 | By TroyClient-Studios");
     OpenGlHelper.setWindowIcon("https://i.imgur.com/U7r7DVJ.png", "https://i.imgur.com/V0e2Tsk.png");
     // Modules
     modules.add(new Fly());
@@ -317,7 +318,7 @@ public enum Troy
 
   static {
     Troy.name = "TroyClient";
-    Troy.version = "1.9.5";
+    Troy.version = "1.10.5";
     Troy.creator = "TroyClient-Studios";
   }
 }
