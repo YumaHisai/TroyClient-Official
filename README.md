@@ -37,6 +37,23 @@
     </tr>
 </table>
 
+<div class="codeheader" id="codeheader_css"><b>Commands</b></div>
+  <div id="codebox">
+     <pre><code data-language="css">'crash • This Command
+'crash list • Crasher List
+'crash info [Crasher] • Crasher List
+'method • List Of Methods
+'thread • Show Threads
+'cc • Clear Chat
+'fgm • Client GameMode
+'about • Client Informations
+'online • Show Online Players
+'fka &b• Enable FastKillAura
+</code></pre>
+  </div>
+<div align="center"> <b>📢 The client will now be public</b> </div>
+<div align="center">
+
 </div>
 
 <div align="center">
@@ -138,6 +155,17 @@
     <img src="https://i.imgur.com/8WP9G4q.png" alt="Logo" width="" height="">
   </a>
 
+<hr style="width:50%;text-align:left;margin-left:0">
+
+  <br />
+<div align="center"> <b>✅ Updated Graphics</b> </div>
+<div align="center"> <b>✅ Updated Modules</b> </div>
+<div align="center"> <b>✅ Addedd FKA (FastKillAura)</b> </div>
+  
+<img src="https://img.shields.io/badge/Version-1.10.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
+<img src="https://i.imgur.com/qGJszeh.png" alt="Logo" width="" height="">    
+<img src="https://i.imgur.com/6zVLfZV.png" alt="Logo" width="" height="">
+  </div>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
