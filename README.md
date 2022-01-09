@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="https://i.imgur.com/DcjVAVX.png" alt="Logo" width="100" height="100">
+    <img src="https://i.imgur.com/tWMuevX.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Troy Client</h3>
