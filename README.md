@@ -162,15 +162,14 @@
 <div align="center"> <b>✅ Updated Modules</b> </div>
 <div align="center"> <b>✅ Addedd FKA (FastKillAura)</b> </div>
   
-<img src="https://img.shields.io/badge/Version-1.10.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height=""> 
-  <br />
-
+<img src="https://img.shields.io/badge/Version-1.10.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
+<img src="https://i.imgur.com/6zVLfZV.png" alt="Logo" width="" height="">
+  </div>
+<br />
 <div align="center">
   <a href="">
     <img src="https://i.imgur.com/qGJszeh.png" alt="Logo" width="" height="">
   </a>
-<img src="https://i.imgur.com/6zVLfZV.png" alt="Logo" width="" height="">
-  </div>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
