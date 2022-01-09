@@ -147,11 +147,11 @@
 
 <hr style="width:50%;text-align:left;margin-left:0">
 
+<img src="https://img.shields.io/badge/Version-1.8.4-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
   <br />
 <div align="center"> <b>✅ Updated ToS And ReWorked Kernel</b> </div>
 <div align="center">
   <a href="">
-    <img src="https://img.shields.io/badge/Version-1.8.4-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
     <img src="https://i.imgur.com/8WP9G4q.png" alt="Logo" width="" height="">
   </a>
 
@@ -162,14 +162,14 @@
 <div align="center"> <b>✅ Updated Modules</b> </div>
 <div align="center"> <b>✅ Addedd FKA (FastKillAura)</b> </div>
   
-<img src="https://img.shields.io/badge/Version-1.10.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height="">
-<img src="https://i.imgur.com/6zVLfZV.png" alt="Logo" width="" height="">
-  </div>
-<br />
+<img src="https://img.shields.io/badge/Version-1.10.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height=""> 
+  <br />
 <div align="center">
   <a href="">
     <img src="https://i.imgur.com/qGJszeh.png" alt="Logo" width="" height="">
   </a>
+<img src="https://i.imgur.com/6zVLfZV.png" alt="Logo" width="" height="">
+  </div>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
