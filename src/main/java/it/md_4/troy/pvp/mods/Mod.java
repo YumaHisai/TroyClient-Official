@@ -6,7 +6,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 
 public class Mod {
-
+    // ModClass
     private boolean isEnabled = true;
 
     public static Minecraft mc;
