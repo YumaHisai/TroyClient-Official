@@ -27,7 +27,6 @@ public class KillAura extends Module {
     }
 
     public void onDisable() {
-
     }
 
     @Override
