@@ -1,0 +1,47 @@
+
+>
+java:S1659"#Declare "prevY" on a separate line.(ºØñşÿÿÿÿ
+^
+java:S32525"HUse static access with "net.minecraft.client.gui.GuiScreen" for "width".(¹¶¯Ë
+K
+java:S22095"5Change this instance-reference to a static reference.(¹¶¯Ë
+_
+java:S32525"IUse static access with "net.minecraft.client.gui.GuiScreen" for "height".(¹¶¯Ë
+K
+java:S22095"5Change this instance-reference to a static reference.(¹¶¯Ë
+J
+java:S28647"4Iterate over the "entrySet" instead of the "keySet".(£ÔÈÖ
+I
+java:S1611L"3Remove the parentheses around the "entry" parameter(”à˜†
+B
+java:S1602L",Remove useless curly braces around statement(”à˜†
+M
+java:S1135_"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+J
+java:S2864j"4Iterate over the "entrySet" instead of the "keySet".(£ÔÈÖ
+S
+java:S1854{"=Remove this useless assignment to local variable "absoluteY".(Òıí
+X
+java:S1854z"=Remove this useless assignment to local variable "absoluteX".(ş”ì¸úÿÿÿÿ
+K
+java:S2209w"5Change this instance-reference to a static reference.(¼ÏÇÒ
+I
+java:S1481z".Remove this unused "absoluteX" local variable.(ş”ì¸úÿÿÿÿ
+D
+java:S1481{".Remove this unused "absoluteY" local variable.(Òıí
+7
+java:S1659‘" Declare "my" on a separate line.(¢ê‚õ
+X
+java:S1126 "AReplace this if-then-else statement by a single return statement.(šœíú
+G
+java:S1172§"+Remove this unused method parameter "arg0".(£‡ó±şÿÿÿÿ
+N
+java:S1135¨"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+L
+java:S1128"1Remove this unused import 'javax.swing.Renderer'.(¯¶çŞÿÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'javax.tools.JavaCompiler'.(ÚÍõÖ
+S
+java:S1128"=Remove this unused import 'com.google.common.base.Predicate'.(ÎÏè¦
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğÿæ

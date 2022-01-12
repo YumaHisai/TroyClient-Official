@@ -4,6 +4,9 @@ import it.md_4.troy.command.impl.FastKillaura;
 import it.md_4.troy.modules.Module;
 import it.md_4.troy.modules.events.Event;
 import it.md_4.troy.modules.events.listeners.EventMotion;
+import it.md_4.troy.ui.notification.Notification;
+import it.md_4.troy.ui.notification.NotificationManager;
+import it.md_4.troy.ui.notification.NotificationType;
 import it.md_4.troy.ui.utils.Timer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -23,10 +26,11 @@ public class KillAura extends Module {
     }
 
     public void onEnable() {
-
+        NotificationManager.show(new Notification(NotificationType.INFO, "KillAura", "KillAura Enabled", 2));
     }
 
     public void onDisable() {
+        NotificationManager.show(new Notification(NotificationType.INFO, "KillAura", "KillAura Disabled", 2));
     }
 
     @Override

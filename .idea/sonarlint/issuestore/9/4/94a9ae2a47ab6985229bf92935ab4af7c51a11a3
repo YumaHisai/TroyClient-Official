@@ -1,0 +1,33 @@
+
+p	java:S1168"VRename this field "FONT_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¥¦‹üÿÿÿÿ
+<
+java:S11708"!Make this final field static too.(ü¥¦‹üÿÿÿÿ
+s
+java:S2234*"]Parameters to getFontOnPC have the same names but not the same order as the method arguments.(Ëþ½î
+E
+java:S1172?"/Remove this unused method parameter "fontType".(€”š
+n
+java:S3776™"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(úÝ©øÿÿÿÿ
+D
+java:S1905§"(Remove this unnecessary cast to "float".(•Æ˜Šùÿÿÿÿ
+D
+java:S1905¨"(Remove this unnecessary cast to "float".(‰é±Ùýÿÿÿÿ
+D
+java:S1905©"(Remove this unnecessary cast to "float".(ÇÇ×§þÿÿÿÿ
+?
+java:S1905ª"(Remove this unnecessary cast to "float".(çÉ°…
+n
+java:S3776…"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(šã·åúÿÿÿÿ
+n
+java:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(‰ú³¹þÿÿÿÿ
+?
+java:S1905¾"(Remove this unnecessary cast to "float".(ÿó«
+?
+java:S1905Ö"(Remove this unnecessary cast to "float".(úãï²
+s	java:S127‘"XRefactor the code in order to not assign to this loop counter from within the loop body.(¦ý¾Œýÿÿÿÿ
+
+java:S1319à"eThe type of "lines" should be an interface such as "List" rather than the implementation "ArrayList".(ÛªáÝÿÿÿÿÿ
+\
+java:S2184ä"@Cast one of the operands of this integer division to a "double".(±í„–øÿÿÿÿ
+y
+java:S4165Ç"bRemove this useless assignment; "var9" already holds the assigned value along all execution paths.(Èšó¾

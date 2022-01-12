@@ -53,7 +53,8 @@ public abstract class Module {
         EXPLOIT("Malicious"),
         PLAYERS("User"),
         COSMETICS("Cosmetics"),
-        EXPLOITS("Exploit");
+        EXPLOITS("Exploit"),
+        NULL("Null");
 
         public String name;
         public int moduleIndex;

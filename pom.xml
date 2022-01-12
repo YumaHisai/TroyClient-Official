@@ -84,14 +84,6 @@
     </dependency>
 
     <dependency>
-      <groupId>org.jcraft</groupId>
-      <artifactId>jorbis</artifactId>
-      <version>0.0.17</version>
-      <scope>system</scope>
-      <systemPath>${basedir}/libraries/jnlp.jar</systemPath>
-    </dependency>
-
-    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.5</version>

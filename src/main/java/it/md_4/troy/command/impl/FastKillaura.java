@@ -3,6 +3,10 @@ package it.md_4.troy.command.impl;
 import it.md_4.troy.command.Command;
 import it.md_4.troy.command.CommandInfo;
 import it.md_4.troy.helper.ChatHelper;
+import it.md_4.troy.ui.notification.Notification;
+import it.md_4.troy.ui.notification.NotificationManager;
+import it.md_4.troy.ui.notification.NotificationType;
+
 import java.util.ArrayList;
 
 @CommandInfo(
@@ -22,10 +26,14 @@ public class FastKillaura extends Command {
             FastKillaura.clear();
             FastKillaura.add("false");
             ChatHelper.printMessage("&b • &3FastKillAura Disabled", false);
+
+            NotificationManager.show(new Notification(NotificationType.INFO, "Combat-:-Killaura", "FastKillaura Disabled", 2));
         } else {
             FastKillaura.clear();
             FastKillaura.add("true");
             ChatHelper.printMessage("&b • &3FastKillAura Enabled", false);
+
+            NotificationManager.show(new Notification(NotificationType.INFO, "Combat-:-Killaura", "FastKillaura Enabled", 2));
         }
     }
 }

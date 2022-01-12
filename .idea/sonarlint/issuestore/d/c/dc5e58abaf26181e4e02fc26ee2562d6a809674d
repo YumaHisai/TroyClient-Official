@@ -1,0 +1,58 @@
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(à´ëß
+T
+java:S1854'">Remove this useless assignment to local variable "usedMemory".(Ê¯§
+P
+java:S1854&"5Remove this useless assignment to local variable "z".(÷„››ıÿÿÿÿ
+P
+java:S1854&"5Remove this useless assignment to local variable "y".(÷„››ıÿÿÿÿ
+P
+java:S1854&"5Remove this useless assignment to local variable "x".(÷„››ıÿÿÿÿ
+P
+java:S2209""5Change this instance-reference to a static reference.(˜Ë‰Ëûÿÿÿÿ
+Y
+java:S1659&">Declare "y" and all following declarations on a separate line.(÷„››ıÿÿÿÿ
+A
+java:S1481&"&Remove this unused "x" local variable.(÷„››ıÿÿÿÿ
+A
+java:S1481&"&Remove this unused "y" local variable.(÷„››ıÿÿÿÿ
+A
+java:S1481&"&Remove this unused "z" local variable.(÷„››ıÿÿÿÿ
+E
+java:S1481'"/Remove this unused "usedMemory" local variable.(Ê¯§
+=
+java:S1905("'Remove this unnecessary cast to "long".(ùåÕÔ
+P
+java:S2209."5Change this instance-reference to a static reference.(³¾Íñşÿÿÿÿ
+K
+java:S22090"5Change this instance-reference to a static reference.(ÒûÈğ
+K
+java:S22091"5Change this instance-reference to a static reference.(Ö¸Å×
+K
+java:S22093"5Change this instance-reference to a static reference.(ÒûÈğ
+P
+java:S2209="5Change this instance-reference to a static reference.(áçÙİúÿÿÿÿ
+K
+java:S2209A"5Change this instance-reference to a static reference.(ÒûÈğ
+K
+java:S2209J"5Change this instance-reference to a static reference.(ÒûÈğ
+K
+java:S2209U"5Change this instance-reference to a static reference.(ÒûÈğ
+Q	java:S125["<This block of commented-out lines of code should be removed.(ë­µÃ
+P
+java:S2209c"5Change this instance-reference to a static reference.(™İ´Ãşÿÿÿÿ
+K
+java:S2209l"5Change this instance-reference to a static reference.( àÎĞ
+K
+java:S2209l"5Change this instance-reference to a static reference.( àÎĞ
+P
+java:S2209m"5Change this instance-reference to a static reference.(šª÷¨ûÿÿÿÿ
+P
+java:S2209m"5Change this instance-reference to a static reference.(šª÷¨ûÿÿÿÿ
+P
+java:S2209n"5Change this instance-reference to a static reference.(šªıÿÿÿÿ
+_
+java:S2184n"DCast one of the operands of this subtraction operation to a "float".(šªıÿÿÿÿ
+\
+java:S2184n"ACast one of the operands of this addition operation to a "float".(šªıÿÿÿÿ

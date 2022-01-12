@@ -1,0 +1,19 @@
+
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŸÚ…ß
+k
+java:S3008	"PRename this field "BLOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðð‰šÿÿÿÿÿ
+j
+java:S3008
+"ORename this field "ITEM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¶¾Œþÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(‡ÆÐè
+l
+java:S1104	"QMake BLOCK a static final constant or non-public and provide accessors if needed.(ðð‰šÿÿÿÿÿ
+k
+java:S1104
+"PMake ITEM a static final constant or non-public and provide accessors if needed.(ä¶¾Œþÿÿÿÿ
+F
+java:S1444	"+Make this "public static BLOCK" field final(ðð‰šÿÿÿÿÿ
+E
+java:S1444
+"*Make this "public static ITEM" field final(ä¶¾Œþÿÿÿÿ

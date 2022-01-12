@@ -72,7 +72,6 @@ public enum Troy
   public static final String chatChannelId = "923137751497461770";
   public static final String voiceChannelId = "923138348225286174";
 
-
   //prt
   public static Manager modmanager;
   public static Troy instace;
@@ -121,6 +120,7 @@ public enum Troy
   }
 
   public void setDisplay() throws IOException {
+
 
     // PvP
 

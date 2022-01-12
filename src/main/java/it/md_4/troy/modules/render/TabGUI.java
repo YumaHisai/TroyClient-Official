@@ -5,6 +5,9 @@ import it.md_4.troy.modules.Module;
 import it.md_4.troy.modules.events.Event;
 import it.md_4.troy.modules.events.listeners.EventKey;
 import it.md_4.troy.modules.events.listeners.EventRenderGUI;
+import it.md_4.troy.ui.notification.Notification;
+import it.md_4.troy.ui.notification.NotificationManager;
+import it.md_4.troy.ui.notification.NotificationType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;
@@ -94,7 +97,7 @@ public class TabGUI extends Module {
                 if(expanded && modules.size() != 0){
                     Module module = modules.get(category.moduleIndex);
                     if(!module.name.equals("TabGUI"))
-                        module.toggle();
+                            module.toggle();
                 } else {
                     expanded = true;
                 }

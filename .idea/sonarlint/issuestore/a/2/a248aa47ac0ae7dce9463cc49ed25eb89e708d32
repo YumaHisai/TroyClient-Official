@@ -1,0 +1,5 @@
+
+r
+java:S1450	"]Remove the "modArmorStatus" field and declare it as a local variable in the relevant methods.(¾ñº
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¸‘„¦

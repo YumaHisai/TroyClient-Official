@@ -1,0 +1,767 @@
+
+E
+java:S3740["/Provide the parametrized type for this generic.(²‘…í
+E
+java:S3740\"/Provide the parametrized type for this generic.(çº°‚
+E
+java:S3740q"/Provide the parametrized type for this generic.(‹¹şò
+E
+java:S3740|"/Provide the parametrized type for this generic.(ÿ¢©
+K
+java:S3740À
+"/Provide the parametrized type for this generic.(çô³©ÿÿÿÿÿ
+F
+java:S3740Ü"/Provide the parametrized type for this generic.(ßÑ½Ğ
+u	java:S115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œç®ùÿÿÿÿ
+n	java:S116\"YRename this field "field_183018_l" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çº°‚
+o	java:S116ˆ"YRename this field "field_181150_U" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã½„§
+t	java:S116‰"YRename this field "field_181151_V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÒ¥ıÿÿÿÿ
+u	java:S116­"ZRename this field "field_181657_aC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÙÑİÿÿÿÿÿ
+x	java:S116“"]Rename this field "CLIENT_GUI_MOD_POS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇñÄšùÿÿÿÿ
+t	java:S1155"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶°±üÿÿÿÿ
+H
+java:S1135‘"2Complete the task associated to this TODO comment.(íà¬w
+K
+java:S1905—"/Remove this unnecessary cast to "KeyBinding[]".(Íßé¡üÿÿÿÿ
+K
+java:S1905—"/Remove this unnecessary cast to "KeyBinding[]".(Íßé¡üÿÿÿÿ
+K
+java:S1905¢"/Remove this unnecessary cast to "KeyBinding[]".(ŞĞúÜúÿÿÿÿ
+K
+java:S1905¢"/Remove this unnecessary cast to "KeyBinding[]".(ŞĞúÜúÿÿÿÿ
+H
+java:S1135¨"2Complete the task associated to this TODO comment.(íà¬w
+K
+java:S1905¯"/Remove this unnecessary cast to "KeyBinding[]".(Íßé¡üÿÿÿÿ
+K
+java:S1905¯"/Remove this unnecessary cast to "KeyBinding[]".(Íßé¡üÿÿÿÿ
+H
+java:S1135¶"2Complete the task associated to this TODO comment.(íà¬w
+H
+java:S1135½"2Complete the task associated to this TODO comment.(íà¬w
+F
+java:S1905¿"/Remove this unnecessary cast to "KeyBinding[]".(¤«ÌÕ
+O
+java:S3878È"8Remove this array creation and simply pass the elements.(…¿Õ
+O
+java:S3878È"8Remove this array creation and simply pass the elements.(…¿Õ
+C
+java:S1125Ñ"'Remove the unnecessary boolean literal.(á­Èşùÿÿÿÿ
+C
+java:S1125Ñ"'Remove the unnecessary boolean literal.(á­Èşùÿÿÿÿ
+n
+java:S3776à"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(úÅûÿÿÿÿ
+D
+java:S1905¤"(Remove this unnecessary cast to "float".(Èğñ‹øÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(ÜÆ¡â
+R	java:S125Ç"<This block of commented-out lines of code should be removed.(ÜÆ¡â
+n
+java:S3776Ø"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(³Øóùÿÿÿÿ
+L
+java:S2209ø"5Change this instance-reference to a static reference.(³’Ö•
+j
+java:S3776ù"SRefactor this method to reduce its Cognitive Complexity from 284 to the 15 allowed.(’Á‹…
+?
+java:S1905û"(Remove this unnecessary cast to "float".(Æƒ™Æ
+7
+java:S3878Å"Remove this array creation.(ÒÃòÿÿÿÿÿ
+o
+java:S3776Ë"SRefactor this method to reduce its Cognitive Complexity from 256 to the 15 allowed.(³Æçëÿÿÿÿÿ
+M
+java:S1854"6Remove this useless assignment to local variable "s2".(Û”ãĞ
+2
+java:S3878Õ"Remove this array creation.(‡Š‰Š
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+T
+java:S3878Û"8Remove this array creation and simply pass the elements.(­ÈËÙøÿÿÿÿ
+7
+java:S3878Û"Remove this array creation.(­ÈËÙøÿÿÿÿ
+7
+java:S3878à"Remove this array creation.(çöÌûıÿÿÿÿ
+7
+java:S3878à"Remove this array creation.(çöÌûıÿÿÿÿ
+7
+java:S3878è"Remove this array creation.(ŠÖÛÿÿÿÿÿ
+2
+java:S3878Š"Remove this array creation.(£ä
+>
+java:S1481"'Remove this unused "s2" local variable.(Û”ãĞ
+7
+java:S3878"Remove this array creation.(‰†ß ùÿÿÿÿ
+j
+java:S3776œ"SRefactor this method to reduce its Cognitive Complexity from 158 to the 15 allowed.(†Ú²
+E
+java:S1905¡")Remove this unnecessary cast to "String".(±“½ßøÿÿÿÿ
+@
+java:S1905«")Remove this unnecessary cast to "String".(¬ùÜâ
+]
+java:S3457–	"AFormat specifiers should be used instead of string concatenation.(Ø¿ˆóşÿÿÿÿ
+@
+java:S1905 	")Remove this unnecessary cast to "String".(åÓ¼
+C
+java:S1905 	",Remove this unnecessary cast to "Throwable".(åÓ¼
+7
+java:S3878µ	"Remove this array creation.(öûºªøÿÿÿÿ
+7
+java:S3878·	"Remove this array creation.(Äñµ§øÿÿÿÿ
+8	java:S131Ğ	""Add a default case to this switch.(Ééî„
+E
+java:S1905Ş	")Remove this unnecessary cast to "Object".(ó³ÓÉÿÿÿÿÿ
+@
+java:S1905ß	")Remove this unnecessary cast to "Object".(·…¬„
+E
+java:S1905œ
+")Remove this unnecessary cast to "String".(£Ëøÿÿÿÿ
+H
+java:S1905œ
+",Remove this unnecessary cast to "Throwable".(£Ëøÿÿÿÿ
+d	java:S100á
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ú©
+i	java:S100æ
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÜßüÿÿÿÿ
+n
+java:S3776ë
+"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.( åÜŠûÿÿÿÿ
+8
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ
+j
+java:S3776¬"SRefactor this method to reduce its Cognitive Complexity from 117 to the 15 allowed.(‘¾÷ğ
+S
+java:S1172¬"<Remove this unused method parameter "p_setOptionValueOF_2_".(‘¾÷ğ
+L
+java:S2209ü"5Change this instance-reference to a static reference.(»ß–—
+R
+java:S2696¢"6Make the enclosing method "static" or remove this set.(¨€Ñ¾şÿÿÿÿ
+i
+java:S3776‹"SRefactor this method to reduce its Cognitive Complexity from 211 to the 15 allowed.(ÛÖİ@
+2
+java:S3878"Remove this array creation.(ƒà„õ
+7
+java:S3878—"Remove this array creation.(«Œ·½ıÿÿÿÿ
+2
+java:S3878œ"Remove this array creation.(‚×ÿ’
+7
+java:S3878¢"Remove this array creation.(µ¾ş¦ùÿÿÿÿ
+2
+java:S3878¨"Remove this array creation.(õ›àŒ
+G
+java:S4524‰"+Move this default to the end of the switch.(İ–Ò˜ÿÿÿÿÿ
+7
+java:S3878¼"Remove this array creation.(©İİüûÿÿÿÿ
+j
+java:S3776Ä"SRefactor this method to reduce its Cognitive Complexity from 206 to the 15 allowed.(ˆªúÆ
+P
+java:S2130ß"9Use "Integer.parseInt" for this string-to-int conversion.(üŞ¸Í
+P
+java:S2130å"9Use "Integer.parseInt" for this string-to-int conversion.(Âöáï
+R
+java:S2130ë";Use "Float.parseFloat" for this string-to-float conversion.(íÈ¬ş
+U
+java:S2130ú"9Use "Integer.parseInt" for this string-to-int conversion.(Äëî¯üÿÿÿÿ
+X
+java:S2130€"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(µ“£
+]
+java:S2130…"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(˜Á‹Šùÿÿÿÿ
+]
+java:S2130Š"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(»à¦üÿÿÿÿ
+W
+java:S2130";Use "Float.parseFloat" for this string-to-float conversion.(Œöø´ıÿÿÿÿ
+O
+java:S2130•"9Use "Integer.parseInt" for this string-to-int conversion.(ÎÅ­
+R
+java:S2130œ";Use "Float.parseFloat" for this string-to-float conversion.(ş¨ÅÇ
+P
+java:S2130¢"9Use "Integer.parseInt" for this string-to-int conversion.(ù£›‡
+P
+java:S2130¨"9Use "Integer.parseInt" for this string-to-int conversion.(ûÈÔ‡
+U
+java:S2130®"9Use "Integer.parseInt" for this string-to-int conversion.(¯¡áüÿÿÿÿ
+U
+java:S2130´"9Use "Integer.parseInt" for this string-to-int conversion.(éŒ‘ıÿÿÿÿ
+U
+java:S2130º"9Use "Integer.parseInt" for this string-to-int conversion.(ƒ´¥ƒşÿÿÿÿ
+]
+java:S2130À"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(å±Õøÿÿÿÿ
+]
+java:S2130Å"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(•Ø¹ÿÿÿÿÿ
+X
+java:S2130Ê"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(îÛ“’
+X
+java:S2130Ï"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(¨³À’
+]
+java:S2130Ô"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(®¨Ú™üÿÿÿÿ
+]
+java:S2130Ù"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(¦Ï‚øÿÿÿÿ
+X
+java:S2130Ş"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(¤Áªæ
+X
+java:S2130ã"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(õ¢À¶
+]
+java:S2130è"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(˜î¿½ıÿÿÿÿ
+X
+java:S2130í"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(â„Å
+]
+java:S2130ò"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ÎàÿÊøÿÿÿÿ
+]
+java:S2130÷"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(íÔØ“øÿÿÿÿ
+X
+java:S2130ü"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ˆóÕ
+]
+java:S2130"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(”óˆÎÿÿÿÿÿ
+]
+java:S2130†"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(â–¼Îıÿÿÿÿ
+X
+java:S2130‹"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(å×°ñ
+X
+java:S2130"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(í¼÷Ï
+P
+java:S2130•"9Use "Integer.parseInt" for this string-to-int conversion.(‰Ò§›
+P
+java:S2130›"9Use "Integer.parseInt" for this string-to-int conversion.(¼ÁÇ•
+U
+java:S2130¡"9Use "Integer.parseInt" for this string-to-int conversion.(«ÆÆ—ùÿÿÿÿ
+X
+java:S2130§"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(Î´ı©
+]
+java:S2130¬"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ùîÏûÿÿÿÿ
+]
+java:S2130±"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(éš˜ëùÿÿÿÿ
+]
+java:S2130¶"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(Ğ­ß½ùÿÿÿÿ
+P
+java:S2130»"9Use "Integer.parseInt" for this string-to-int conversion.(šíÖŞ
+P
+java:S2130Á"9Use "Integer.parseInt" for this string-to-int conversion.(¯±Š
+]
+java:S2130Ç"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ä£àçüÿÿÿÿ
+P
+java:S2130Ì"9Use "Integer.parseInt" for this string-to-int conversion.(‹ÉÛ¬
+X
+java:S2130Ò"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(—¢ÈÏ
+U
+java:S2130Ø"9Use "Integer.parseInt" for this string-to-int conversion.(¬ÿ¤áûÿÿÿÿ
+U
+java:S2130Ş"9Use "Integer.parseInt" for this string-to-int conversion.(–ŒäÈûÿÿÿÿ
+]
+java:S2130ä"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(¯ü¢¯ûÿÿÿÿ
+]
+java:S2130é"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(÷ïå€ùÿÿÿÿ
+X
+java:S2130î"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ÖóÏÉ
+]
+java:S2130ó"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ÍÄãˆùÿÿÿÿ
+X
+java:S2130ø"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(§ùæ¥
+X
+java:S2130ı"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ï¬Íí
+X
+java:S2130‚"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(àè‰—
+]
+java:S2130‡"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(øÖÖÖûÿÿÿÿ
+X
+java:S2130Œ"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ïåÉ
+]
+java:S2130‘"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(Ó†õªÿÿÿÿÿ
+]
+java:S2130–"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(£÷öÃÿÿÿÿÿ
+]
+java:S2130›"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ú—Œÿÿÿÿÿ
+X
+java:S2130 "AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(Ùœìø
+P
+java:S2130¥"9Use "Integer.parseInt" for this string-to-int conversion.(³ßĞ½
+]
+java:S2130°"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(ˆ˜‹üÿÿÿÿ
+R
+java:S2696±"6Make the enclosing method "static" or remove this set.(¨€Ñ¾şÿÿÿÿ
+]
+java:S2130¶"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(¹ˆ‰ªùÿÿÿÿ
+P
+java:S2130»"9Use "Integer.parseInt" for this string-to-int conversion.(¸äİ›
+M
+java:S2696”"6Make the enclosing method "static" or remove this set.(ƒğÀ¿
+R
+java:S2696¥"6Make the enclosing method "static" or remove this set.(­¤ƒ›ÿÿÿÿÿ
+p	java:S115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§Ì¬¬
+V
+java:S1118ê":Add a private constructor to hide the implicit public one.(íµ±êûÿÿÿÿ
+8
+java:S1116÷"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116€"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116‰"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116’"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116›"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116¤"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116­"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116¶"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116¿"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116È"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116Ñ"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116Ú"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116ã"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116ì"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116õ"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116ş"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116‡"Remove this empty statement.(Åñ­õşÿÿÿÿ
+p	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÍÈ™Ï
+S
+java:S3066¸"<Lower the visibility of this setter or remove it altogether.(ÍÌ›ˆ
+i
+java:S2786Œ"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(¼õÓ«
+W
+java:S1172•";Remove these unused method parameters "p_i1_3_", "p_i1_4_".(æº™‚ûÿÿÿÿ
+D
+java:S1905Ñ"(Remove this unnecessary cast to "float".(é—îğüÿÿÿÿ
+G
+java:S1068Â"+Remove this unused "__OBFID" private field.(Œç®ùÿÿÿÿ
+F
+java:S10685"+Remove this unused "__OBFID" private field.(¶°±üÿÿÿÿ
+B
+java:S1068í"+Remove this unused "__OBFID" private field.(§Ì¬¬
+o
+java:S1192Š"XDefine a constant instead of duplicating this literal "key.categories.movement" 7 times.(€Âƒ…
+]
+java:S1192…"FDefine a constant instead of duplicating this literal "false" 3 times.(ú‰Æˆ
+t
+java:S1192’"XDefine a constant instead of duplicating this literal "key.categories.gameplay" 4 times.(Ôê£ûÿÿÿÿ
+r
+java:S1192L"WDefine a constant instead of duplicating this literal "options.graphics.fancy" 3 times.(µ‰æÚùÿÿÿÿ
+h
+java:S1192á"QUse already-defined constant 'DEFAULT_STR' instead of duplicating its value here.(’¡»î
+g
+java:S1192L"LDefine a constant instead of duplicating this literal "options.off" 5 times.(µ‰æÚùÿÿÿÿ
+r
+java:S1192–"[Define a constant instead of duplicating this literal "key.categories.multiplayer" 3 times.(ûóı
+p
+java:S1192‘"ZDefine a constant instead of duplicating this literal "key.categories.inventory" 10 times.(“¢ï
+
+p
+java:S1192™"TDefine a constant instead of duplicating this literal "key.categories.misc" 6 times.(µÇ‡‘ûÿÿÿÿ
+q
+java:S1192L"VDefine a constant instead of duplicating this literal "options.graphics.fast" 4 times.(µ‰æÚùÿÿÿÿ
+r
+java:S1192"VDefine a constant instead of duplicating this literal "key.categories.stream" 4 times.(ó÷Ç‘úÿÿÿÿ
+Q
+java:S1141«"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+Q
+java:S1141Ù"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+\	java:S107•"AConstructor has 8 parameters, which is greater than 7 authorized.(æº™‚ûÿÿÿÿ
+g	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ô°Û
+f	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Û®
+l	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë²‘Ëúÿÿÿÿ
+l	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öµ´øÿÿÿÿ
+l	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öµ´øÿÿÿÿ
+l	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÅûÿÿÿÿ
+l	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÅûÿÿÿÿ
+l	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Øóùÿÿÿÿ
+l	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Øóùÿÿÿÿ
+g	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Á‹…
+g	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘«Œ˜
+l	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áçî¨ÿÿÿÿÿ
+l	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áçî¨ÿÿÿÿÿ
+l	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Æçëÿÿÿÿÿ
+g	java:S117©	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¦·
+l	java:S117£
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÃÙ®ıÿÿÿÿ
+l	java:S117¨
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‚Åéøÿÿÿÿ
+l	java:S117¨
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‚Åéøÿÿÿÿ
+f	java:S117Å
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äé¥8
+f	java:S117Å
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äé¥8
+l	java:S117Ó
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¨ôÚıÿÿÿÿ
+l	java:S117ë
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( åÜŠûÿÿÿÿ
+l	java:S117ë
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( åÜŠûÿÿÿÿ
+g	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¾÷ğ
+g	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¾÷ğ
+f	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÖİ@
+g	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ü‹Ş
+g	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§´Ë£
+g	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§´Ë£
+l	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ‹»şÿÿÿÿ
+l	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ‹»şÿÿÿÿ
+l	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÆ¤îÿÿÿÿÿ
+l	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÆ¤îÿÿÿÿÿ
+l	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¹ä®øÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‘µıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‘µıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‘µıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‘µıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‘µıÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº™‚ûÿÿÿÿ
+g	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÌ›ˆ
+l	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øı›Ãÿÿÿÿÿ
+g	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ş¹¿
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ÿ«Å
+l	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Ã™ şÿÿÿÿ
+r
+java:S1104M"\Make mouseSensitivity a static final constant or non-public and provide accessors if needed.(ÛÇ…†
+r
+java:S1104N"WMake invertMouse a static final constant or non-public and provide accessors if needed.(ˆô§Üùÿÿÿÿ
+v
+java:S1104O"`Make renderDistanceChunks a static final constant or non-public and provide accessors if needed.(Ã¡à¸
+m
+java:S1104P"WMake viewBobbing a static final constant or non-public and provide accessors if needed.(ª«°¢
+o
+java:S1104Q"TMake anaglyph a static final constant or non-public and provide accessors if needed.(Íƒ¦˜úÿÿÿÿ
+k
+java:S1104R"UMake fboEnable a static final constant or non-public and provide accessors if needed.(˜à ş
+u
+java:S1104S"ZMake limitFramerate a static final constant or non-public and provide accessors if needed.(ÁÂ¿Ãûÿÿÿÿ
+h
+java:S1104V"RMake clouds a static final constant or non-public and provide accessors if needed.(ª½ÓÀ
+t
+java:S1104W"YMake fancyGraphics a static final constant or non-public and provide accessors if needed.(×‘½øÿÿÿÿ
+r
+java:S1104Z"\Make ambientOcclusion a static final constant or non-public and provide accessors if needed.(‡äˆÓ
+o
+java:S1104["YMake resourcePacks a static final constant or non-public and provide accessors if needed.(²‘…í
+p
+java:S1104\"ZMake field_183018_l a static final constant or non-public and provide accessors if needed.(çº°‚
+p
+java:S1104]"ZMake chatVisibility a static final constant or non-public and provide accessors if needed.(³´¤Á
+m
+java:S1104^"WMake chatColours a static final constant or non-public and provide accessors if needed.(ÖéôÌ
+k
+java:S1104_"UMake chatLinks a static final constant or non-public and provide accessors if needed.(¸õ¥
+v
+java:S1104`"[Make chatLinksPrompt a static final constant or non-public and provide accessors if needed.(—Á¥Çùÿÿÿÿ
+r
+java:S1104a"WMake chatOpacity a static final constant or non-public and provide accessors if needed.(Î©™¿úÿÿÿÿ
+p
+java:S1104b"ZMake snooperEnabled a static final constant or non-public and provide accessors if needed.(Ü†úË
+q
+java:S1104c"VMake fullScreen a static final constant or non-public and provide accessors if needed.(¨âïÇûÿÿÿÿ
+m
+java:S1104d"WMake enableVsync a static final constant or non-public and provide accessors if needed.(Ê‚õÿ
+m
+java:S1104e"RMake useVbo a static final constant or non-public and provide accessors if needed.(ûòŒ†ıÿÿÿÿ
+x
+java:S1104f"bMake allowBlockAlternatives a static final constant or non-public and provide accessors if needed.(ğìä½
+w
+java:S1104g"\Make reducedDebugInfo a static final constant or non-public and provide accessors if needed.(Ÿ‘–ÿÿÿÿÿ
+x
+java:S1104h"]Make hideServerAddress a static final constant or non-public and provide accessors if needed.(×ˆøëıÿÿÿÿ
+u
+java:S1104m"`Make advancedItemTooltips a static final constant or non-public and provide accessors if needed.(¿ô*
+r
+java:S1104p"\Make pauseOnLostFocus a static final constant or non-public and provide accessors if needed.(´íÇæ
+m
+java:S1104r"WMake touchscreen a static final constant or non-public and provide accessors if needed.(í¨×Á
+t
+java:S1104s"YMake overrideWidth a static final constant or non-public and provide accessors if needed.(òÄ´—ÿÿÿÿÿ
+p
+java:S1104t"ZMake overrideHeight a static final constant or non-public and provide accessors if needed.(†•øß
+w
+java:S1104u"\Make heldItemTooltips a static final constant or non-public and provide accessors if needed.(¦Óà®üÿÿÿÿ
+p
+java:S1104v"UMake chatScale a static final constant or non-public and provide accessors if needed.(€ø £ùÿÿÿÿ
+k
+java:S1104w"UMake chatWidth a static final constant or non-public and provide accessors if needed.(Û€Î
+z
+java:S1104x"_Make chatHeightUnfocused a static final constant or non-public and provide accessors if needed.(¤óğïúÿÿÿÿ
+s
+java:S1104y"]Make chatHeightFocused a static final constant or non-public and provide accessors if needed.(‚™Œ
+~
+java:S1104z"hMake showInventoryAchievementHint a static final constant or non-public and provide accessors if needed.(¢úÜï
+s
+java:S1104{"XMake mipmapLevels a static final constant or non-public and provide accessors if needed.(šÅÆ×şÿÿÿÿ
+z
+java:S1104}"_Make streamBytesPerPixel a static final constant or non-public and provide accessors if needed.(æêæ±ıÿÿÿÿ
+v
+java:S1104~"[Make streamMicVolume a static final constant or non-public and provide accessors if needed.(’õ—Šùÿÿÿÿ
+r
+java:S1104"\Make streamGameVolume a static final constant or non-public and provide accessors if needed.(Îõ¬­
+r
+java:S1104€"VMake streamKbps a static final constant or non-public and provide accessors if needed.(“Š…ûÿÿÿÿ
+q
+java:S1104"UMake streamFps a static final constant or non-public and provide accessors if needed.(è„àãÿÿÿÿÿ
+t
+java:S1104‚"]Make streamCompression a static final constant or non-public and provide accessors if needed.(ºëé 
+u
+java:S1104ƒ"^Make streamSendMetadata a static final constant or non-public and provide accessors if needed.(ôÏí•
+x
+java:S1104„"aMake streamPreferredServer a static final constant or non-public and provide accessors if needed.(ÄÂ„€
+y
+java:S1104…"]Make streamChatEnabled a static final constant or non-public and provide accessors if needed.(çÿÀ™ÿÿÿÿÿ
+w
+java:S1104†"`Make streamChatUserFilter a static final constant or non-public and provide accessors if needed.(ÄŸöÆ
+z
+java:S1104‡"cMake streamMicToggleBehavior a static final constant or non-public and provide accessors if needed.(Ê™ıà
+q
+java:S1104ˆ"ZMake field_181150_U a static final constant or non-public and provide accessors if needed.(Ã½„§
+v
+java:S1104‰"ZMake field_181151_V a static final constant or non-public and provide accessors if needed.(œÒ¥ıÿÿÿÿ
+q
+java:S1104Š"ZMake keyBindForward a static final constant or non-public and provide accessors if needed.(€Âƒ…
+n
+java:S1104‹"WMake keyBindLeft a static final constant or non-public and provide accessors if needed.(‹àìÉ
+s
+java:S1104Œ"WMake keyBindBack a static final constant or non-public and provide accessors if needed.(ñˆÉÿûÿÿÿÿ
+t
+java:S1104"XMake keyBindRight a static final constant or non-public and provide accessors if needed.(©¢‘ûıÿÿÿÿ
+s
+java:S1104"WMake keyBindJump a static final constant or non-public and provide accessors if needed.(ÿğ³ùÿÿÿÿ
+o
+java:S1104"XMake keyBindSneak a static final constant or non-public and provide accessors if needed.(á¶ã
+p
+java:S1104"YMake keyBindSprint a static final constant or non-public and provide accessors if needed.(¦Ù¥Ç
+r
+java:S1104‘"\Make keyBindInventory a static final constant or non-public and provide accessors if needed.(“¢ï
+
+v
+java:S1104’"ZMake keyBindUseItem a static final constant or non-public and provide accessors if needed.(Ôê£ûÿÿÿÿ
+n
+java:S1104“"WMake keyBindDrop a static final constant or non-public and provide accessors if needed.(Šê¹¯
+u
+java:S1104”"YMake keyBindAttack a static final constant or non-public and provide accessors if needed.(Èã—Íÿÿÿÿÿ
+s
+java:S1104•"\Make keyBindPickBlock a static final constant or non-public and provide accessors if needed.(ü©†Ç
+n
+java:S1104–"WMake keyBindChat a static final constant or non-public and provide accessors if needed.(ûóı
+y
+java:S1104—"]Make keyBindPlayerList a static final constant or non-public and provide accessors if needed.(‘ ¿Ûıÿÿÿÿ
+q
+java:S1104˜"ZMake keyBindCommand a static final constant or non-public and provide accessors if needed.(€úòÃ
+y
+java:S1104™"]Make keyBindScreenshot a static final constant or non-public and provide accessors if needed.(µÇ‡‘ûÿÿÿÿ
+{
+java:S1104š"dMake keyBindTogglePerspective a static final constant or non-public and provide accessors if needed.(ê–Èö
+v
+java:S1104›"_Make keyBindSmoothCamera a static final constant or non-public and provide accessors if needed.(‰™¾Ï
+y
+java:S1104œ"]Make keyBindFullscreen a static final constant or non-public and provide accessors if needed.(ö³Ğ®ıÿÿÿÿ
+{
+java:S1104"dMake keyBindSpectatorOutlines a static final constant or non-public and provide accessors if needed.(½ÜÎ‚
+~
+java:S1104"bMake keyBindStreamStartStop a static final constant or non-public and provide accessors if needed.(ó÷Ç‘úÿÿÿÿ
+
+java:S1104Ÿ"eMake keyBindStreamPauseUnpause a static final constant or non-public and provide accessors if needed.(¡³î¡ùÿÿÿÿ
+{
+java:S1104 "dMake keyBindStreamCommercials a static final constant or non-public and provide accessors if needed.(ˆ‘úŸ
+~
+java:S1104¡"bMake keyBindStreamToggleMic a static final constant or non-public and provide accessors if needed.(™Àÿşÿÿÿÿ
+v
+java:S1104¢"ZMake keyBindsHotbar a static final constant or non-public and provide accessors if needed.(ğÂ‹ªøÿÿÿÿ
+m
+java:S1104£"WMake keyBindings a static final constant or non-public and provide accessors if needed.(É¡‚z
+m
+java:S1104¦"VMake difficulty a static final constant or non-public and provide accessors if needed.(«å¾•
+j
+java:S1104§"SMake hideGUI a static final constant or non-public and provide accessors if needed.(ÉñÑ¶
+w
+java:S1104¨"[Make thirdPersonView a static final constant or non-public and provide accessors if needed.(æßÜšÿÿÿÿÿ
+u
+java:S1104«"YMake showDebugInfo a static final constant or non-public and provide accessors if needed.(”Ú‡•ûÿÿÿÿ
+y
+java:S1104¬"bMake showDebugProfilerChart a static final constant or non-public and provide accessors if needed.(üÇúá
+w
+java:S1104­"[Make field_181657_aC a static final constant or non-public and provide accessors if needed.(´ÙÑİÿÿÿÿÿ
+r
+java:S1104°"VMake lastServer a static final constant or non-public and provide accessors if needed.(°ÈÜæûÿÿÿÿ
+n
+java:S1104³"XMake smoothCamera a static final constant or non-public and provide accessors if needed.(»«º&
+v
+java:S1104´"ZMake debugCamEnable a static final constant or non-public and provide accessors if needed.(¾¡²Œùÿÿÿÿ
+r
+java:S1104µ"VMake fovSetting a static final constant or non-public and provide accessors if needed.(‡º‡‰ÿÿÿÿÿ
+t
+java:S1104¶"XMake gammaSetting a static final constant or non-public and provide accessors if needed.(¬Ï•çıÿÿÿÿ
+r
+java:S1104·"VMake saturation a static final constant or non-public and provide accessors if needed.(–ç‡Ìıÿÿÿÿ
+k
+java:S1104º"TMake guiScale a static final constant or non-public and provide accessors if needed.(¨”ş»
+w
+java:S1104½"[Make particleSetting a static final constant or non-public and provide accessors if needed.(°‚ˆ°ıÿÿÿÿ
+k
+java:S1104À"TMake language a static final constant or non-public and provide accessors if needed.(‚¼ş
+x
+java:S1104Á"\Make forceUnicodeFont a static final constant or non-public and provide accessors if needed.(äŒ¼ÿÿÿÿÿÿ
+q
+java:S1104Ã"UMake ofFogType a static final constant or non-public and provide accessors if needed.(ûÛÕ×ÿÿÿÿÿ
+r
+java:S1104Ä"VMake ofFogStart a static final constant or non-public and provide accessors if needed.(Àôœ¼ıÿÿÿÿ
+t
+java:S1104Å"XMake ofMipmapType a static final constant or non-public and provide accessors if needed.(ùÄ´şÿÿÿÿ
+s
+java:S1104Æ"\Make ofOcclusionFancy a static final constant or non-public and provide accessors if needed.(õ°ò
+n
+java:S1104Ç"WMake ofSmoothFps a static final constant or non-public and provide accessors if needed.(ü ·é
+o
+java:S1104È"YMake ofSmoothWorld a static final constant or non-public and provide accessors if needed.(ùÆû/
+u
+java:S1104É"^Make ofLazyChunkLoading a static final constant or non-public and provide accessors if needed.(Ë±û
+l
+java:S1104Ê"UMake ofAoLevel a static final constant or non-public and provide accessors if needed.(Ã£ÎÚ
+l
+java:S1104Ë"UMake ofAaLevel a static final constant or non-public and provide accessors if needed.(¢¿ïÈ
+l
+java:S1104Ì"UMake ofAfLevel a static final constant or non-public and provide accessors if needed.(—ƒùù
+k
+java:S1104Í"TMake ofClouds a static final constant or non-public and provide accessors if needed.(“ÖŸè
+q
+java:S1104Î"ZMake ofCloudsHeight a static final constant or non-public and provide accessors if needed.(‰´ıê
+j
+java:S1104Ï"SMake ofTrees a static final constant or non-public and provide accessors if needed.(ïÔö“
+i
+java:S1104Ğ"RMake ofRain a static final constant or non-public and provide accessors if needed.(ª¥Ş
+q
+java:S1104Ñ"ZMake ofDroppedItems a static final constant or non-public and provide accessors if needed.(×î“Í
+o
+java:S1104Ò"YMake ofBetterGrass a static final constant or non-public and provide accessors if needed.(ŞƒÂ?
+w
+java:S1104Ó"[Make ofAutoSaveTicks a static final constant or non-public and provide accessors if needed.(‘ƒ¦ÿÿÿÿÿÿ
+m
+java:S1104Ô"WMake ofLagometer a static final constant or non-public and provide accessors if needed.(İóË{
+m
+java:S1104Õ"VMake ofProfiler a static final constant or non-public and provide accessors if needed.(¤¿ôÂ
+l
+java:S1104Ö"UMake ofShowFps a static final constant or non-public and provide accessors if needed.(°“‹…
+l
+java:S1104×"UMake ofWeather a static final constant or non-public and provide accessors if needed.(¿Ÿ¦
+h
+java:S1104Ø"QMake ofSky a static final constant or non-public and provide accessors if needed.(º¥²Ö
+j
+java:S1104Ù"SMake ofStars a static final constant or non-public and provide accessors if needed.(ßµ³è
+q
+java:S1104Ú"UMake ofSunMoon a static final constant or non-public and provide accessors if needed.(Ş¥Ğ­ıÿÿÿÿ
+m
+java:S1104Û"VMake ofVignette a static final constant or non-public and provide accessors if needed.(‰ÆŞÜ
+q
+java:S1104Ü"ZMake ofChunkUpdates a static final constant or non-public and provide accessors if needed.(æïŠß
+}
+java:S1104İ"aMake ofChunkUpdatesDynamic a static final constant or non-public and provide accessors if needed.(¬áùÿÿÿÿ
+n
+java:S1104Ş"RMake ofTime a static final constant or non-public and provide accessors if needed.(ëÇ•üÿÿÿÿ
+n
+java:S1104ß"XMake ofClearWater a static final constant or non-public and provide accessors if needed.(óÊx
+t
+java:S1104à"XMake ofBetterSnow a static final constant or non-public and provide accessors if needed.(–Ï‹†üÿÿÿÿ
+s
+java:S1104á"\Make ofFullscreenMode a static final constant or non-public and provide accessors if needed.(’¡»î
+p
+java:S1104â"YMake ofSwampColors a static final constant or non-public and provide accessors if needed.(Ô¹ä
+t
+java:S1104ã"XMake ofRandomMobs a static final constant or non-public and provide accessors if needed.(Í€…ıÿÿÿÿ
+p
+java:S1104ä"ZMake ofSmoothBiomes a static final constant or non-public and provide accessors if needed.(ÏÑ¦
+p
+java:S1104å"YMake ofCustomFonts a static final constant or non-public and provide accessors if needed.(øóŞ‡
+q
+java:S1104æ"ZMake ofCustomColors a static final constant or non-public and provide accessors if needed.(ÅºÂŞ
+n
+java:S1104ç"WMake ofCustomSky a static final constant or non-public and provide accessors if needed.(ü·Œ
+n
+java:S1104è"WMake ofShowCapes a static final constant or non-public and provide accessors if needed.(«ä€é
+{
+java:S1104é"_Make ofConnectedTextures a static final constant or non-public and provide accessors if needed.(ä±Ö†ÿÿÿÿÿ
+u
+java:S1104ê"YMake ofCustomItems a static final constant or non-public and provide accessors if needed.(ò·ØÍùÿÿÿÿ
+t
+java:S1104ë"]Make ofNaturalTextures a static final constant or non-public and provide accessors if needed.(°íİ®
+m
+java:S1104ì"VMake ofFastMath a static final constant or non-public and provide accessors if needed.(¢ïïù
+o
+java:S1104í"XMake ofFastRender a static final constant or non-public and provide accessors if needed.(è­¤
+{
+java:S1104î"_Make ofTranslucentBlocks a static final constant or non-public and provide accessors if needed.(€ÁÃÃşÿÿÿÿ
+o
+java:S1104ï"XMake ofDynamicFov a static final constant or non-public and provide accessors if needed.(÷›ûÊ
+w
+java:S1104ğ"[Make ofDynamicLights a static final constant or non-public and provide accessors if needed.(‹öÕÿÿÿÿÿÿ
+r
+java:S1104ñ"[Make ofAnimatedWater a static final constant or non-public and provide accessors if needed.(æ¥¥Ø
+q
+java:S1104ò"ZMake ofAnimatedLava a static final constant or non-public and provide accessors if needed.(•†Íµ
+v
+java:S1104ó"ZMake ofAnimatedFire a static final constant or non-public and provide accessors if needed.(Üàå™ÿÿÿÿÿ
+r
+java:S1104ô"\Make ofAnimatedPortal a static final constant or non-public and provide accessors if needed.(Ûô†w
+t
+java:S1104õ"^Make ofAnimatedRedstone a static final constant or non-public and provide accessors if needed.(”ËÁe
+{
+java:S1104ö"_Make ofAnimatedExplosion a static final constant or non-public and provide accessors if needed.(°íÕµÿÿÿÿÿ
+q
+java:S1104÷"[Make ofAnimatedFlame a static final constant or non-public and provide accessors if needed.(‰Ó*
+r
+java:S1104ø"[Make ofAnimatedSmoke a static final constant or non-public and provide accessors if needed.(ÛùÁ
+r
+java:S1104ù"[Make ofVoidParticles a static final constant or non-public and provide accessors if needed.(¸ıöİ
+x
+java:S1104ú"\Make ofWaterParticles a static final constant or non-public and provide accessors if needed.(¡Óîÿÿÿÿÿ
+t
+java:S1104û"XMake ofRainSplash a static final constant or non-public and provide accessors if needed.(ê€¡¤úÿÿÿÿ
+t
+java:S1104ü"]Make ofPortalParticles a static final constant or non-public and provide accessors if needed.(–Éï
+y
+java:S1104ı"]Make ofPotionParticles a static final constant or non-public and provide accessors if needed.(Ñ™ĞÇıÿÿÿÿ
+v
+java:S1104ş"_Make ofFireworkParticles a static final constant or non-public and provide accessors if needed.(æ›şİ
+v
+java:S1104ÿ"_Make ofDrippingWaterLava a static final constant or non-public and provide accessors if needed.(µé´
+y
+java:S1104€"]Make ofAnimatedTerrain a static final constant or non-public and provide accessors if needed.(ü¶Úıüÿÿÿÿ
+u
+java:S1104"^Make ofAnimatedTextures a static final constant or non-public and provide accessors if needed.(„ÿ½³
+p
+java:S1104"YMake ofKeyBindZoom a static final constant or non-public and provide accessors if needed.(„Ñ“¯
+z
+java:S1104“"^Make CLIENT_GUI_MOD_POS a static final constant or non-public and provide accessors if needed.(ÇñÄšùÿÿÿÿ
+h	java:S101ê"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(íµ±êûÿÿÿÿ
+e
+java:S2095¿	"IUse try-with-resources or close this "PrintWriter" in a "finally" clause.(ÜÌ›µüÿÿÿÿ
+c
+java:S2095¥"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ï ª¬
+h
+java:S2095Ô"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ğÚêóùÿÿÿÿ
+e
+java:S2095Ù"IUse try-with-resources or close this "PrintWriter" in a "finally" clause.(‹ñÿ­ûÿÿÿÿ
+[
+java:S2583û"DChange this condition so that it does not always evaluate to "false"(Æƒ™Æ
+[
+java:S2583"DChange this condition so that it does not always evaluate to "false"(¨£»‹

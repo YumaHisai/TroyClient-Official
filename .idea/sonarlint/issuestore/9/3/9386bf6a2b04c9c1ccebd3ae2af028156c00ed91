@@ -1,0 +1,401 @@
+
+M
+java:S2160S"+Override the "equals" method in this class.(¬ã°¶ùÿÿÿÿ8‹Î¯òä/
+W
+java:S5993´"9Change the visibility of this constructor to "protected".(¶âÍ¢8™Î¯òä/
+@
+java:S1905¼")Remove this unnecessary cast to "double".(¶õãÊ
+@
+java:S1905¼")Remove this unnecessary cast to "double".(¶õãÊ
+@
+java:S1905¼")Remove this unnecessary cast to "double".(¶õãÊ
+]
+java:S1161Á":Add the "@Override" annotation above this method signature(ƒêÊüøÿÿÿÿ8²Î¯òä/
+]
+java:S1161È":Add the "@Override" annotation above this method signature(ÅÚÒçşÿÿÿÿ8¶Î¯òä/
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(ûşÆK8ÁÎ¯òä/
+S
+java:S1854˜"5Remove this useless assignment to local variable "i".(§ëò–8ÄÎ¯òä/
+W
+java:S1161":Add the "@Override" annotation above this method signature(ûşÆK8ÆÎ¯òä/
+D
+java:S1481˜"&Remove this unused "i" local variable.(§ëò–8ÏÎ¯òä/
+X
+java:S1161¥":Add the "@Override" annotation above this method signature(÷ÛÂÆ8ÓÎ¯òä/
+]
+java:S1161ª":Add the "@Override" annotation above this method signature(ÙÚœ½úÿÿÿÿ8×Î¯òä/
+]
+java:S1161¯":Add the "@Override" annotation above this method signature(×ş€’úÿÿÿÿ8ÙÎ¯òä/
+]
+java:S1161·":Add the "@Override" annotation above this method signature(µ™€ıÿÿÿÿ8İÎ¯òä/
+W
+java:S1161¼":Add the "@Override" annotation above this method signature(Á÷¹j8áÎ¯òä/
+@
+java:S1905Ï")Remove this unnecessary cast to "double".(…óÕ
+@
+java:S1905Ò")Remove this unnecessary cast to "double".(ú™µ–
+G
+java:S1905Ó")Remove this unnecessary cast to "double".(‹ûß´8Ï¯òä/
+G
+java:S1905Ö")Remove this unnecessary cast to "double".(Ñòêà8ƒÏ¯òä/
+[
+java:S3878Ú"8Remove this array creation and simply pass the elements.(æ¸Şîøÿÿÿÿ8‡Ï¯òä/
+V
+java:S3878Ş"8Remove this array creation and simply pass the elements.(ëúµŸ8ŠÏ¯òä/
+F
+java:S1905â"(Remove this unnecessary cast to "float".(—Ìæ8Ï¯òä/
+h
+java:S1764â"JCorrect one of the identical sub-expressions on both sides of operator "-"(—Ìæ8Ï¯òä/
+X
+java:S1161ÿ":Add the "@Override" annotation above this method signature(ÖıÛ†8—Ï¯òä/
+]
+java:S1161–":Add the "@Override" annotation above this method signature(·±ùÿÿÿÿ8™Ï¯òä/
+]
+java:S1161¦":Add the "@Override" annotation above this method signature(Ä¢˜—ÿÿÿÿÿ8Ï¯òä/
+]
+java:S1161Æ":Add the "@Override" annotation above this method signature(¶´…ùÿÿÿÿ8¡Ï¯òä/
+W
+java:S1161Î":Add the "@Override" annotation above this method signature(ÒÏÙ+8¥Ï¯òä/
+p
+java:S3776Ù"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ÛŒü 8©Ï¯òä/
+X
+java:S1161Ù":Add the "@Override" annotation above this method signature(ÛŒü 8«Ï¯òä/
+L
+java:S1905ô")Remove this unnecessary cast to "double".(Ì´ùûøÿÿÿÿ8°Ï¯òä/
+L
+java:S1905û")Remove this unnecessary cast to "double".(êÇ‰÷şÿÿÿÿ8³Ï¯òä/
+L
+java:S1905û")Remove this unnecessary cast to "double".(êÇ‰÷şÿÿÿÿ8µÏ¯òä/
+G
+java:S1905¥")Remove this unnecessary cast to "Entity".(ñÉªú8¼Ï¯òä/
+]
+java:S1161Í":Add the "@Override" annotation above this method signature(Å¦™ìıÿÿÿÿ8ÂÏ¯òä/
+G
+java:S1905à")Remove this unnecessary cast to "double".(”şÓş8ÉÏ¯òä/
+G
+java:S1905á")Remove this unnecessary cast to "double".(ÒØÑ8ÌÏ¯òä/
+]
+java:S1161ï":Add the "@Override" annotation above this method signature(¥Í¸Ìüÿÿÿÿ8ÑÏ¯òä/
+X
+java:S1161÷":Add the "@Override" annotation above this method signature(”‘À¸8ÔÏ¯òä/
+X
+java:S1161€":Add the "@Override" annotation above this method signature(ÛÑÑÃ8ÖÏ¯òä/
+k	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßé×8ÛÏ¯òä/
+K
+java:S1172Ã"-Remove this unused method parameter "unused".(•÷’¼8åÏ¯òä/
+L
+java:S1905Ô")Remove this unnecessary cast to "double".(¾ò†óùÿÿÿÿ8êÏ¯òä/
+G
+java:S1905á")Remove this unnecessary cast to "double".(×ğÌ8ïÏ¯òä/
+L
+java:S1905â")Remove this unnecessary cast to "double".(Ó¸¿–ıÿÿÿÿ8òÏ¯òä/
+L
+java:S1905è")Remove this unnecessary cast to "double".(†Ã…ûúÿÿÿÿ8÷Ï¯òä/
+L
+java:S1905é")Remove this unnecessary cast to "double".(¯´À¾ûÿÿÿÿ8úÏ¯òä/
+G
+java:S1905ê")Remove this unnecessary cast to "double".(»ŠÃµ8şÏ¯òä/
+@
+java:S1905í")Remove this unnecessary cast to "double".(äüÍ«
+G
+java:S1905í")Remove this unnecessary cast to "double".(äüÍ«8Ğ¯òä/
+@
+java:S1905î")Remove this unnecessary cast to "double".(àõËŠ
+h
+java:S1764î"JCorrect one of the identical sub-expressions on both sides of operator "-"(àõËŠ8„Ğ¯òä/
+L
+java:S1905ï")Remove this unnecessary cast to "double".(×„üŠùÿÿÿÿ8‡Ğ¯òä/
+L
+java:S1905ï")Remove this unnecessary cast to "double".(×„üŠùÿÿÿÿ8‰Ğ¯òä/
+Y
+java:S1854"6Remove this useless assignment to local variable "f1".(Åî•ıÿÿÿÿ8Ğ¯òä/
+F
+java:S1905“"(Remove this unnecessary cast to "float".(ÙÑ‚–8’Ğ¯òä/
+K
+java:S1905™"(Remove this unnecessary cast to "float".(ÕÛ±Ùùÿÿÿÿ8”Ğ¯òä/
+X
+java:S1161Î":Add the "@Override" annotation above this method signature(¶é¤Õ8™Ğ¯òä/
+X
+java:S1161ü":Add the "@Override" annotation above this method signature(˜¿”ı8£Ğ¯òä/
+p
+java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(¾—æí8¬Ğ¯òä/
+X
+java:S1854Ô":Remove this useless assignment to local variable "entity".(úòå8¯Ğ¯òä/
+X
+java:S1161Ÿ":Add the "@Override" annotation above this method signature(¾—æí8±Ğ¯òä/
+E
+java:S1125á"'Remove the unnecessary boolean literal.(ôƒ‘8¸Ğ¯òä/
+E
+java:S1125á"'Remove the unnecessary boolean literal.(ôƒ‘8ºĞ¯òä/
+]
+java:S1161ä":Add the "@Override" annotation above this method signature(¹ĞÁøüÿÿÿÿ8¾Ğ¯òä/
+]
+java:S1161ì":Add the "@Override" annotation above this method signature(†Ü‚ïûÿÿÿÿ8ÀĞ¯òä/
+X
+java:S1161ˆ	":Add the "@Override" annotation above this method signature(‚’Éƒ8ÄĞ¯òä/
+u
+java:S3776È	"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(„¬Ñëÿÿÿÿÿ8ÍĞ¯òä/
+]
+java:S1161”
+":Add the "@Override" annotation above this method signature(‰„¿ıÿÿÿÿ8ÔĞ¯òä/
+p
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 95 to the 15 allowed.(±°æï8×Ğ¯òä/
+Y
+java:S1854¥
+"6Remove this useless assignment to local variable "f1".(ÖÙïƒıÿÿÿÿ8æĞ¯òä/
+L
+java:S1905Ó
+")Remove this unnecessary cast to "double".(ì«Àíÿÿÿÿÿ8îĞ¯òä/
+K
+java:S1905Ó
+"(Remove this unnecessary cast to "float".(ì«Àíÿÿÿÿÿ8÷Ğ¯òä/
+L
+java:S1905Ó
+")Remove this unnecessary cast to "double".(ì«Àíÿÿÿÿÿ8úĞ¯òä/
+K
+java:S1905Ó
+"(Remove this unnecessary cast to "float".(ì«Àíÿÿÿÿÿ8üĞ¯òä/
+W
+java:S1161·":Add the "@Override" annotation above this method signature(‰§æf8„Ñ¯òä/
+]
+java:S1161Å":Add the "@Override" annotation above this method signature(«ÂöÃıÿÿÿÿ8ˆÑ¯òä/
+u
+java:S3776Ú"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ûÙ–¢üÿÿÿÿ8Ñ¯òä/
+L
+java:S1905í")Remove this unnecessary cast to "double".(æşç‘úÿÿÿÿ8‘Ñ¯òä/
+L
+java:S1905í")Remove this unnecessary cast to "double".(æşç‘úÿÿÿÿ8“Ñ¯òä/
+L
+java:S1905í")Remove this unnecessary cast to "double".(æşç‘úÿÿÿÿ8–Ñ¯òä/
+G
+java:S1905ô")Remove this unnecessary cast to "double".(áŠáí8™Ñ¯òä/
+G
+java:S1905ô")Remove this unnecessary cast to "double".(áŠáí8œÑ¯òä/
+G
+java:S1905ô")Remove this unnecessary cast to "double".(áŠáí8Ñ¯òä/
+G
+java:S1905ô")Remove this unnecessary cast to "double".(áŠáí8¡Ñ¯òä/
+G
+java:S1905ô")Remove this unnecessary cast to "double".(áŠáí8£Ñ¯òä/
+G
+java:S1905ô")Remove this unnecessary cast to "double".(áŠáí8¥Ñ¯òä/
+K
+java:S1905…"-Remove this unnecessary cast to "EnumFacing".(¦€é©8¨Ñ¯òä/
+{	java:S131‰"YComplete cases by adding the missing enum constants or add a default case to this switch.(¥ÿÍÊûÿÿÿÿ8¬Ñ¯òä/
+L
+java:S1905œ")Remove this unnecessary cast to "double".(øù­‰úÿÿÿÿ8®Ñ¯òä/
+K
+java:S1905œ"(Remove this unnecessary cast to "float".(øù­‰úÿÿÿÿ8±Ñ¯òä/
+L
+java:S1905œ")Remove this unnecessary cast to "double".(øù­‰úÿÿÿÿ8³Ñ¯òä/
+K
+java:S1905œ"(Remove this unnecessary cast to "float".(øù­‰úÿÿÿÿ8¶Ñ¯òä/
+L
+java:S1905œ")Remove this unnecessary cast to "double".(øù­‰úÿÿÿÿ8¹Ñ¯òä/
+K
+java:S1905œ"(Remove this unnecessary cast to "float".(øù­‰úÿÿÿÿ8»Ñ¯òä/
+G
+java:S1905 ")Remove this unnecessary cast to "double".(Ç”Ä”8¼Ñ¯òä/
+F
+java:S1905 "(Remove this unnecessary cast to "float".(Ç”Ä”8¾Ñ¯òä/
+G
+java:S1905 ")Remove this unnecessary cast to "double".(Ç”Ä”8ÃÑ¯òä/
+F
+java:S1905 "(Remove this unnecessary cast to "float".(Ç”Ä”8ÓÑ¯òä/
+G
+java:S1905 ")Remove this unnecessary cast to "double".(Ç”Ä”8ÖÑ¯òä/
+F
+java:S1905 "(Remove this unnecessary cast to "float".(Ç”Ä”8ØÑ¯òä/
+p	java:S100°"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ş¹üÿÿÿÿ8êÑ¯òä/
+v	java:S131µ"YComplete cases by adding the missing enum constants or add a default case to this switch.(¼ÌÿÃ8ôÑ¯òä/
+G
+java:S1905Ú")Remove this unnecessary cast to "double".(ş­€Á8ùÑ¯òä/
+F
+java:S1905Ú"(Remove this unnecessary cast to "float".(ş­€Á8ûÑ¯òä/
+G
+java:S1905Ú")Remove this unnecessary cast to "double".(ş­€Á8şÑ¯òä/
+F
+java:S1905Ú"(Remove this unnecessary cast to "float".(ş­€Á8€Ò¯òä/
+G
+java:S1905Ú")Remove this unnecessary cast to "double".(ş­€Á8‚Ò¯òä/
+F
+java:S1905Ú"(Remove this unnecessary cast to "float".(ş­€Á8…Ò¯òä/
+K
+java:S1905’"-Remove this unnecessary cast to "EnumFacing".(©ÄÚÿ8Ò¯òä/
+{	java:S131”"YComplete cases by adding the missing enum constants or add a default case to this switch.(¥ÿÍÊûÿÿÿÿ8Ò¯òä/
+X
+java:S1161ª":Add the "@Override" annotation above this method signature(ÖÀ±Õ8‘Ò¯òä/
+k	java:S100ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊØğ8˜Ò¯òä/
+X
+java:S1161î":Add the "@Override" annotation above this method signature(ò—İ­8›Ò¯òä/
+X	java:S125ñ"<This block of commented-out lines of code should be removed.(‰ı 8ÃøÓòä/
+U
+java:S1135ğ"2Complete the task associated to this TODO comment.(æ‡Æíúÿÿÿÿ8ë´òä/
+X
+java:S1161ƒ":Add the "@Override" annotation above this method signature(Î²éÍ8ŸÒ¯òä/
+K
+java:S1905"(Remove this unnecessary cast to "float".(ù±Ä¡ùÿÿÿÿ8£Ò¯òä/
+]
+java:S1161":Add the "@Override" annotation above this method signature(ï„Ö¸ıÿÿÿÿ8¥Ò¯òä/
+p
+java:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ş“»¥8¨Ò¯òä/
+K
+java:S1905°"(Remove this unnecessary cast to "float".(â‚ö´øÿÿÿÿ8­Ò¯òä/
+E
+java:S1905º"(Remove this unnecessary cast to "float".(©²˜H8°Ò¯òä/
+F
+java:S1905Ï"(Remove this unnecessary cast to "float".(ÚëÑÔ8µÒ¯òä/
+F
+java:S1905Ø"(Remove this unnecessary cast to "float".(ƒ·Ÿ¾8¸Ò¯òä/
+G
+java:S1905û")Remove this unnecessary cast to "double".(Ú’éå8½Ò¯òä/
+G
+java:S1905û")Remove this unnecessary cast to "double".(Ú’éå8ÀÒ¯òä/
+G
+java:S1905û")Remove this unnecessary cast to "double".(Ú’éå8ÂÒ¯òä/
+W
+java:S1161":Add the "@Override" annotation above this method signature(İÚ?8ÆÒ¯òä/
+G
+java:S1905–")Remove this unnecessary cast to "double".(äªá¿8ÉÒ¯òä/
+]
+java:S1161 ":Add the "@Override" annotation above this method signature(¨®Äñúÿÿÿÿ8ÌÒ¯òä/
+]
+java:S1161¨":Add the "@Override" annotation above this method signature(Øø‡‡úÿÿÿÿ8ÏÒ¯òä/
+X
+java:S1161°":Add the "@Override" annotation above this method signature(äÃææ8ÑÒ¯òä/
+S
+java:S1905·"0Remove this unnecessary cast to "EntityEggInfo".(Í½µèüÿÿÿÿ8ìÒ¯òä/
+X
+java:S1161Â":Add the "@Override" annotation above this method signature(âƒİ‹8ğÒ¯òä/
+E
+java:S1905Ş"(Remove this unnecessary cast to "float".(ÖšY8öÒ¯òä/
+K
+java:S1905à"(Remove this unnecessary cast to "float".(ù÷…âÿÿÿÿÿ8øÒ¯òä/
+K
+java:S1905†"(Remove this unnecessary cast to "float".(Î’ùÿÿÿÿ8ıÒ¯òä/
+K
+java:S1905†"(Remove this unnecessary cast to "float".(Î’ùÿÿÿÿ8€Ó¯òä/
+K
+java:S1905ˆ"(Remove this unnecessary cast to "float".(¸Öœæøÿÿÿÿ8‚Ó¯òä/
+]
+java:S1161å":Add the "@Override" annotation above this method signature(ñÁ¹Íÿÿÿÿÿ8Ó¯òä/
+X
+java:S1161õ":Add the "@Override" annotation above this method signature(ãå¯8‘Ó¯òä/
+]
+java:S1161ú":Add the "@Override" annotation above this method signature(åÌ¥êúÿÿÿÿ8”Ó¯òä/
+X
+java:S1161¤":Add the "@Override" annotation above this method signature(ïş8›Ó¯òä/
+]
+java:S1161º":Add the "@Override" annotation above this method signature(¥•í“ûÿÿÿÿ8 Ó¯òä/
+]
+java:S1161ä":Add the "@Override" annotation above this method signature(ë×¸üÿÿÿÿ8¤Ó¯òä/
+]
+java:S1161‚":Add the "@Override" annotation above this method signature(Ï‘ÿèûÿÿÿÿ8©Ó¯òä/
+X
+java:S1161Œ":Add the "@Override" annotation above this method signature(ëïøû8¬Ó¯òä/
+]
+java:S1161”":Add the "@Override" annotation above this method signature(ÌÔé‰ùÿÿÿÿ8°Ó¯òä/
+X
+java:S1161":Add the "@Override" annotation above this method signature(úóŸ¯8µÓ¯òä/
+X
+java:S1161®":Add the "@Override" annotation above this method signature(ŞÚ©°8¸Ó¯òä/
+]
+java:S1161¸":Add the "@Override" annotation above this method signature(¼‡Ô¥ÿÿÿÿÿ8¼Ó¯òä/
+l
+java:S4719Î"NReplace "com.google.common.base.Charsets.UTF_8" with "StandardCharsets.UTF_8".(±ƒÓ8ÀÓ¯òä/
+J
+java:S1125İ"'Remove the unnecessary boolean literal.(ûñÎáÿÿÿÿÿ8ÄÓ¯òä/
+X
+java:S1161é":Add the "@Override" annotation above this method signature(½Ü°î8ÉÓ¯òä/
+p
+java:S3776î"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ş´ â8ËÓ¯òä/
+X
+java:S1161î":Add the "@Override" annotation above this method signature(ş´ â8ÙÓ¯òä/
+p
+java:S2786­"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(Àğê£8ŞÓ¯òä/
+u
+java:S2786Ô"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(ØæÓ²ÿÿÿÿÿ8õÓ¯òä/
+b
+java:S1128
+"FRemove this unused import 'it.md_4.troy.ui.notification.Notification'.(æ•ÙH8áùÓòä/
+o
+java:S1128"MRemove this unused import 'it.md_4.troy.ui.notification.NotificationManager'.(²Íøÿÿÿÿ8âùÓòä/
+l
+java:S1128"JRemove this unused import 'it.md_4.troy.ui.notification.NotificationType'.(ÕæÅòùÿÿÿÿ8ãùÓòä/
+j
+java:S1192é"GDefine a constant instead of duplicating this literal "SpawnY" 3 times.(âš“ªüÿÿÿÿ8ûÓ¯òä/
+j
+java:S1192é"GDefine a constant instead of duplicating this literal "SpawnZ" 3 times.(âš“ªüÿÿÿÿ8ıÓ¯òä/
+j
+java:S1192é"GDefine a constant instead of duplicating this literal "SpawnX" 3 times.(âš“ªüÿÿÿÿ8Ô¯òä/
+q
+java:S1192Ù"NDefine a constant instead of duplicating this literal "keepInventory" 3 times.(´´˜ğùÿÿÿÿ8„Ô¯òä/
+n
+java:S1192ò"KDefine a constant instead of duplicating this literal "EnderItems" 3 times.(äÁûÿÿÿÿ8‡Ô¯òä/
+s	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÿÖèùÿÿÿÿ8˜Ô¯òä/
+s	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‡úıÿÿÿÿ8šÔ¯òä/
+s	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¸­§ùÿÿÿÿ8œÔ¯òä/
+s	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹©°çùÿÿÿÿ8Ô¯òä/
+n	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßé×8ŸÔ¯òä/
+n	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÏĞ’8¡Ô¯òä/
+s	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ĞÁøüÿÿÿÿ8¤Ô¯òä/
+s	java:S117È	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¬Ñëÿÿÿÿÿ8¦Ô¯òä/
+s	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ş¹üÿÿÿÿ8©Ô¯òä/
+n	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÚ÷á8«Ô¯òä/
+n	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊØğ8­Ô¯òä/
+n	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş“»¥8¯Ô¯òä/
+n	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş“»¥8±Ô¯òä/
+n	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş“»¥8³Ô¯òä/
+n	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŠÁè8µÔ¯òä/
+n	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŠÁè8·Ô¯òä/
+n	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŠÁè8¹Ô¯òä/
+s	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í½µèüÿÿÿÿ8»Ô¯òä/
+m	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·öº@8½Ô¯òä/
+s	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó›™Şıÿÿÿÿ8ÀÔ¯òä/
+s	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó›™Şıÿÿÿÿ8ÂÔ¯òä/
+s	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó›™Şıÿÿÿÿ8ÄÔ¯òä/
+s	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Âûÿÿÿÿ8ÆÔ¯òä/
+r
+java:S1104V"UMake inventory a static final constant or non-public and provide accessors if needed.(ƒàË©8éÔ¯òä/
+{
+java:S1104\"^Make inventoryContainer a static final constant or non-public and provide accessors if needed.(Èœ€8ëÔ¯òä/
+{
+java:S1104_"YMake openContainer a static final constant or non-public and provide accessors if needed.(øâ¥úÿÿÿÿ8îÔ¯òä/
+o
+java:S1104i"YMake prevCameraYaw a static final constant or non-public and provide accessors if needed.(æØøû
+r
+java:S1104j"UMake cameraYaw a static final constant or non-public and provide accessors if needed.(á„ˆÅ8ğÔ¯òä/
+k
+java:S1104o"VMake xpCooldown a static final constant or non-public and provide accessors if needed.( «²9
+v
+java:S1104p"[Make prevChasingPosX a static final constant or non-public and provide accessors if needed.(‡Œ›ùÿÿÿÿ
+q
+java:S1104q"[Make prevChasingPosY a static final constant or non-public and provide accessors if needed.(Î¡†³
+q
+java:S1104r"[Make prevChasingPosZ a static final constant or non-public and provide accessors if needed.(„ø—ë
+r
+java:S1104s"WMake chasingPosX a static final constant or non-public and provide accessors if needed.(ÇÙ±ëşÿÿÿÿ
+r
+java:S1104t"WMake chasingPosY a static final constant or non-public and provide accessors if needed.(Ş—áÔÿÿÿÿÿ
+t
+java:S1104u"WMake chasingPosZ a static final constant or non-public and provide accessors if needed.(Ç¤€‘8ôÔ¯òä/
+|
+java:S1104{"ZMake playerLocation a static final constant or non-public and provide accessors if needed.(Ä¨ëÜøÿÿÿÿ8öÔ¯òä/
+t
+java:S1104}"YMake renderOffsetX a static final constant or non-public and provide accessors if needed.(·Í¾üÿÿÿÿ
+t
+java:S1104~"YMake renderOffsetY a static final constant or non-public and provide accessors if needed.(Âˆô¨úÿÿÿÿ
+{
+java:S1104"YMake renderOffsetZ a static final constant or non-public and provide accessors if needed.(Ş½•ûÿÿÿÿ8ùÔ¯òä/
+v
+java:S1104"XMake capabilities a static final constant or non-public and provide accessors if needed.(¹ÙÛ8ûÔ¯òä/
+y
+java:S1104"[Make experienceLevel a static final constant or non-public and provide accessors if needed.(˜¶Ğü8ıÔ¯òä/
+~
+java:S1104–"[Make experienceTotal a static final constant or non-public and provide accessors if needed.(Ä±Ôøÿÿÿÿ8şÔ¯òä/
+t
+java:S1104›"VMake experience a static final constant or non-public and provide accessors if needed.(¢²šÎ8Õ¯òä/
+t
+java:S1104²"VMake fishEntity a static final constant or non-public and provide accessors if needed.(²º×”8ƒÕ¯òä/

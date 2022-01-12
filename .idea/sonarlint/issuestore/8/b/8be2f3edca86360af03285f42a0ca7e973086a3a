@@ -1,0 +1,532 @@
+
+F
+java:S3740ğ"/Provide the parametrized type for this generic.(Òšåâ
+F
+java:S3740ö
+"/Provide the parametrized type for this generic.(†ŞÇ”
+K
+java:S3740ş
+"/Provide the parametrized type for this generic.(…‰ÇÍşÿÿÿÿ
+u	java:S115È"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„Ÿÿêøÿÿÿÿ
+p	java:S115Ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯Œ¾›
+w
+java:S1450×"`Remove the "avgServerTickDiff" field and declare it as a local variable in the relevant methods.(¥Œıì
+|
+java:S1450Ö"`Remove the "avgServerTimeDiff" field and declare it as a local variable in the relevant methods.(·ÕùÏùÿÿÿÿ
+r
+java:S1450s"\Remove the "pointedEntity" field and declare it as a local variable in the relevant methods.(íÎØ¶
+v
+java:S1450›"`Remove the "renderEndNanoTime" field and declare it as a local variable in the relevant methods.(ô°Y
+€
+java:S1450Õ"dRemove the "serverWaitTimeCurrent" field and declare it as a local variable in the relevant methods.(›¥éİûÿÿÿÿ
+?
+java:S1905í"(Remove this unnecessary cast to "float".(Öã’
+?
+java:S1905î"(Remove this unnecessary cast to "float".(ÑÒÑ
+i	java:S100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÄßøÿÿÿÿ
+T
+java:S3878§"8Remove this array creation and simply pass the elements.( úŸºûÿÿÿÿ
+@
+java:S1905Î")Remove this unnecessary cast to "String".(…Åõ¶
+C
+java:S1905Î",Remove this unnecessary cast to "Throwable".(…Åõ¶
+E
+java:S1905Ô")Remove this unnecessary cast to "String".(µ°§®ùÿÿÿÿ
+H
+java:S1905Ô",Remove this unnecessary cast to "Throwable".(µ°§®ùÿÿÿÿ
+?
+java:S1905–")Remove this unnecessary cast to "double".(ˆŒËd
+?
+java:S1905™"(Remove this unnecessary cast to "float".(òË²¶
+R
+java:S2696«"6Make the enclosing method "static" or remove this set.(Ÿÿôîùÿÿÿÿ
+i
+java:S3776È"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(ÑÔ¯Š
+E
+java:S1905Ğ")Remove this unnecessary cast to "double".(ïôĞæüÿÿÿÿ
+A
+java:S1481Õ"*Remove this unused "flag1" local variable.(Î±úï
+K
+java:S1656ã"/Remove or correct this useless self-assignment.(‹¾ö¶ûÿÿÿÿ
+@
+java:S1905ğ")Remove this unnecessary cast to "double".(Òšåâ
+@
+java:S1905ğ")Remove this unnecessary cast to "double".(Òšåâ
+@
+java:S1905ğ")Remove this unnecessary cast to "double".(Òšåâ
+@
+java:S1905÷")Remove this unnecessary cast to "double".(Áï––
+@
+java:S1905÷")Remove this unnecessary cast to "double".(Áï––
+@
+java:S1905÷")Remove this unnecessary cast to "double".(Áï––
+2
+java:S3878"Remove this array creation.(Û•›Ï
+n
+java:S3776Ô"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(´ë˜—ûÿÿÿÿ
+\
+java:S1854í"@Remove this useless assignment to local variable "gamesettings".(—“ù…úÿÿÿÿ
+M
+java:S1481í"1Remove this unused "gamesettings" local variable.(—“ù…úÿÿÿÿ
+M
+java:S2696õ"6Make the enclosing method "static" or remove this set.(à¹àİ
+R
+java:S2696€"6Make the enclosing method "static" or remove this set.(ƒÒ´òøÿÿÿÿ
+>
+java:S1905‰"(Remove this unnecessary cast to "float".(¨‡
+D
+java:S1905"(Remove this unnecessary cast to "float".(º¹°‚ÿÿÿÿÿ
+?
+java:S1905¡"(Remove this unnecessary cast to "float".(ƒ„áÌ
+D
+java:S1905ª"(Remove this unnecessary cast to "float".(ûßéúÿÿÿÿ
+n
+java:S3776É"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(µŒ¢½ûÿÿÿÿ
+E
+java:S1905Í")Remove this unnecessary cast to "double".(Â°«÷üÿÿÿÿ
+E
+java:S1905Î")Remove this unnecessary cast to "double".(ááĞÕûÿÿÿÿ
+E
+java:S1905Î")Remove this unnecessary cast to "double".(ááĞÕûÿÿÿÿ
+E
+java:S1905Ï")Remove this unnecessary cast to "double".(ÎÖ¿‡ûÿÿÿÿ
+E
+java:S1905Ó")Remove this unnecessary cast to "double".(ŠÕÎˆüÿÿÿÿ
+T
+java:S3878Ş"8Remove this array creation and simply pass the elements.(ö÷¤Ğıÿÿÿÿ
+D
+java:S1905â"-Remove this unnecessary cast to "EnumFacing".(¨Æ†Ú
+b
+java:S3252â"KUse static access with "net.minecraft.block.BlockDirectional" for "FACING".(¨Æ†Ú
+D
+java:S1905ã"(Remove this unnecessary cast to "float".(ÏÃàœúÿÿÿÿ
+@
+java:S1905ì")Remove this unnecessary cast to "double".(˜ûŠç
+E
+java:S1905ü")Remove this unnecessary cast to "double".(ÃŒ›üÿÿÿÿ
+@
+java:S1905ı")Remove this unnecessary cast to "double".(şôáë
+@
+java:S1905ş")Remove this unnecessary cast to "double".(ŠÛ­õ
+>
+java:S1905‚"(Remove this unnecessary cast to "float".(ÿ®Ş
+D
+java:S1905ƒ"(Remove this unnecessary cast to "float".(ÒºÚ”ùÿÿÿÿ
+?
+java:S1905„"(Remove this unnecessary cast to "float".(Ø¬Àó
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÿ¿Ãëüÿÿÿÿ
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÿ¿Ãëüÿÿÿÿ
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÿ¿Ãëüÿÿÿÿ
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÿ¿Ãëüÿÿÿÿ
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÿ¿Ãëüÿÿÿÿ
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÿ¿Ãëüÿÿÿÿ
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÿ¿Ãëüÿÿÿÿ
+T
+java:S3878µ"8Remove this array creation and simply pass the elements.(ş€ÿ¹ÿÿÿÿÿ
+?
+java:S1905Ï")Remove this unnecessary cast to "double".(ñå‡{
+E
+java:S1905Ğ")Remove this unnecessary cast to "double".(©¢ì·úÿÿÿÿ
+E
+java:S1905Ğ")Remove this unnecessary cast to "double".(©¢ì·úÿÿÿÿ
+@
+java:S1905Ñ")Remove this unnecessary cast to "double".(ÙÎ©µ
+?
+java:S1905Ú"(Remove this unnecessary cast to "float".(ØÍçï
+D
+java:S1905ì"(Remove this unnecessary cast to "float".(ÙÈÉ½úÿÿÿÿ
+?
+java:S1905‡"(Remove this unnecessary cast to "float".(Óæ°Î
+D
+java:S1905"(Remove this unnecessary cast to "float".(Õ ööúÿÿÿÿ
+D
+java:S1905"(Remove this unnecessary cast to "float".(Õ ööúÿÿÿÿ
+D
+java:S1905 "(Remove this unnecessary cast to "float".(ŠÚã€øÿÿÿÿ
+D
+java:S1905 "(Remove this unnecessary cast to "float".(ŠÚã€øÿÿÿÿ
+=	java:S131§""Add a default case to this switch.(£¥‹Çùÿÿÿÿ
+i
+java:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Ì¡ªñ
+?
+java:S1905Ñ"(Remove this unnecessary cast to "float".(úƒùİ
+D
+java:S1905ß"(Remove this unnecessary cast to "float".(â¼•¢ÿÿÿÿÿ
+E
+java:S1905Á")Remove this unnecessary cast to "double".( ±Êøÿÿÿÿ
+f
+java:S1764Á"JCorrect one of the identical sub-expressions on both sides of operator "-"( ±Êøÿÿÿÿ
+E
+java:S1905Â")Remove this unnecessary cast to "double".(à¨è÷üÿÿÿÿ
+i
+java:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 72 to the 15 allowed.(×ê—Ö
+?
+java:S1905ß	"(Remove this unnecessary cast to "float".(â¸ÉŞ
+d	java:S100â	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş½¾˜
+i
+java:S3776â	"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(Ş½¾˜
+D
+java:S1905
+"(Remove this unnecessary cast to "float".(¢¯ÿÿÿÿÿ
+?
+java:S1905‚
+"(Remove this unnecessary cast to "float".(ü§ß”
+?
+java:S1905’
+"(Remove this unnecessary cast to "float".(Ò»å£
+?
+java:S1905˜
+"(Remove this unnecessary cast to "float".(Ò»å£
+M
+java:S2696 
+"6Make the enclosing method "static" or remove this set.(¡Ñ³ù
+L
+java:S2209¢
+"5Change this instance-reference to a static reference.(âæÍ˜
+>
+java:S1905®
+"'Remove this unnecessary cast to "long".(ÿşâğ
+;
+java:S1181ñ
+"%Catch Exception instead of Throwable.(‡ä”$
+T
+java:S3878ê
+"8Remove this array creation and simply pass the elements.(·è´ßûÿÿÿÿ
+o	java:S115ø
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ã‘—5
+O
+java:S3878û
+"8Remove this array creation and simply pass the elements.(†á¿µ
+u	java:S115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆ×şÿÿÿÿ
+O
+java:S3878ƒ"8Remove this array creation and simply pass the elements.(´ëé¼
+L
+java:S2209ƒ"5Change this instance-reference to a static reference.(´ëé¼
+I
+java:S1135‹"2Complete the task associated to this TODO comment.(è‡ÈÌ
+O
+java:S1172™"3Remove this unused method parameter "partialTicks".(åùÇÖÿÿÿÿÿ
+n
+java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(§˜æúüÿÿÿÿ
+R
+java:S2696ó"6Make the enclosing method "static" or remove this set.(ª³ğ°úÿÿÿÿ
+R
+java:S2696ö"6Make the enclosing method "static" or remove this set.(¸¶‡¥ıÿÿÿÿ
+i
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 70 to the 15 allowed.(¡üŒ…
+E
+java:S1905±")Remove this unnecessary cast to "double".(¯¹ ıÿÿÿÿ
+E
+java:S1905²")Remove this unnecessary cast to "double".(ÀñËËùÿÿÿÿ
+@
+java:S1905³")Remove this unnecessary cast to "double".(’Òªñ
+E
+java:S1905à")Remove this unnecessary cast to "double".(ÅÔ‹Îùÿÿÿÿ
+E
+java:S1905à")Remove this unnecessary cast to "double".(ÅÔ‹Îùÿÿÿÿ
+E
+java:S1905í")Remove this unnecessary cast to "double".(ÂşÜùÿÿÿÿ
+?
+java:S1905ñ")Remove this unnecessary cast to "double".(åÎp
+E
+java:S1905")Remove this unnecessary cast to "double".(ú…Ú—üÿÿÿÿ
+E
+java:S1905—")Remove this unnecessary cast to "double".(ª½ï¸ÿÿÿÿÿ
+E
+java:S1905Ÿ")Remove this unnecessary cast to "double".(‘®éøøÿÿÿÿ
+O
+java:S3878µ"8Remove this array creation and simply pass the elements.(ƒ›Â
+O
+java:S3878¼"8Remove this array creation and simply pass the elements.(Ö‚Ş
+O
+java:S3878Ë"8Remove this array creation and simply pass the elements.(Ù§¥û
+O
+java:S3878Ü"8Remove this array creation and simply pass the elements.(«ßÍ‹
+E
+java:S1905¸")Remove this unnecessary cast to "double".(´ë¬Üÿÿÿÿÿ
+O
+java:S3878Ã"8Remove this array creation and simply pass the elements.(ÁğİÖ
+O
+java:S3878Æ"8Remove this array creation and simply pass the elements.(Ö‚Ş
+@
+java:S1905Ğ")Remove this unnecessary cast to "double".(Ğ¢û´
+@
+java:S1905Ğ")Remove this unnecessary cast to "double".(Ğ¢û´
+T
+java:S3878Ù"8Remove this array creation and simply pass the elements.(ŞÒ”ÿÿÿÿÿ
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ıû¼Ñ
+C
+java:S1905›"'Remove this unnecessary cast to "long".(Ö½ä»úÿÿÿÿ
+`
+java:S1764±"JCorrect one of the identical sub-expressions on both sides of operator "-"(îŠ¤V
+`
+java:S1764±"JCorrect one of the identical sub-expressions on both sides of operator "-"(îŠ¤V
+2
+java:S3878½"Remove this array creation.(àÃû’
+@
+java:S1905½")Remove this unnecessary cast to "double".(àÃû’
+@
+java:S1905½")Remove this unnecessary cast to "double".(àÃû’
+?
+java:S1905½"(Remove this unnecessary cast to "float".(àÃû’
+@
+java:S1905½")Remove this unnecessary cast to "double".(àÃû’
+E
+java:S1905Æ")Remove this unnecessary cast to "double".(™¸¸îşÿÿÿÿ
+@
+java:S1905Ç")Remove this unnecessary cast to "double".(ŠâúÔ
+?
+java:S1905Ç"(Remove this unnecessary cast to "float".(ŠâúÔ
+E
+java:S1905È")Remove this unnecessary cast to "double".(ôéÃÁÿÿÿÿÿ
+7
+java:S3878Ë"Remove this array creation.(ÚæÁ²üÿÿÿÿ
+E
+java:S1905Ë")Remove this unnecessary cast to "double".(ÚæÁ²üÿÿÿÿ
+E
+java:S1905Ë")Remove this unnecessary cast to "double".(ÚæÁ²üÿÿÿÿ
+D
+java:S1905Ë"(Remove this unnecessary cast to "float".(ÚæÁ²üÿÿÿÿ
+E
+java:S1905Ë")Remove this unnecessary cast to "double".(ÚæÁ²üÿÿÿÿ
+@
+java:S1905Ô")Remove this unnecessary cast to "double".(Ÿ—¤
+?
+java:S1905Ô"(Remove this unnecessary cast to "float".(Ÿ—¤
+n
+java:S3776ã"RRefactor this method to reduce its Cognitive Complexity from 79 to the 15 allowed.(ÀËàñøÿÿÿÿ
+7
+java:S3878è"Remove this array creation.(¦Ú´Íùÿÿÿÿ
+T
+java:S3878ì"8Remove this array creation and simply pass the elements.(Çç¡şÿÿÿÿ
+E
+java:S1905‡")Remove this unnecessary cast to "double".(¯¹ ıÿÿÿÿ
+E
+java:S1905ˆ")Remove this unnecessary cast to "double".(ÀñËËùÿÿÿÿ
+@
+java:S1905‰")Remove this unnecessary cast to "double".(’Òªñ
+D
+java:S1905“"(Remove this unnecessary cast to "float".(€Àöµøÿÿÿÿ
+@
+java:S1905£")Remove this unnecessary cast to "double".(şğ‡“
+@
+java:S1905¤")Remove this unnecessary cast to "double".(ÙéÊğ
+>
+java:S1905Á"'Remove this unnecessary cast to "long".(Çø÷ú
+@
+java:S1905Ô")Remove this unnecessary cast to "double".(§‹Òâ
+?
+java:S1905Ô"(Remove this unnecessary cast to "float".(§‹Òâ
+E
+java:S1905Õ")Remove this unnecessary cast to "double".(Ú«‰÷ùÿÿÿÿ
+D
+java:S1905Õ"(Remove this unnecessary cast to "float".(Ú«‰÷ùÿÿÿÿ
+?
+java:S1905Ö"(Remove this unnecessary cast to "float".(½á
+E
+java:S1905Ü")Remove this unnecessary cast to "double".(şš¬‚üÿÿÿÿ
+E
+java:S1905Ü")Remove this unnecessary cast to "double".(şš¬‚üÿÿÿÿ
+E
+java:S1905Ü")Remove this unnecessary cast to "double".(şš¬‚üÿÿÿÿ
+E
+java:S1905Ü")Remove this unnecessary cast to "double".(şš¬‚üÿÿÿÿ
+E
+java:S1905İ")Remove this unnecessary cast to "double".(Ûø¿éùÿÿÿÿ
+E
+java:S1905İ")Remove this unnecessary cast to "double".(Ûø¿éùÿÿÿÿ
+E
+java:S1905İ")Remove this unnecessary cast to "double".(Ûø¿éùÿÿÿÿ
+E
+java:S1905İ")Remove this unnecessary cast to "double".(Ûø¿éùÿÿÿÿ
+@
+java:S1905Ş")Remove this unnecessary cast to "double".(ëóÌÚ
+@
+java:S1905Ş")Remove this unnecessary cast to "double".(ëóÌÚ
+@
+java:S1905Ş")Remove this unnecessary cast to "double".(ëóÌÚ
+@
+java:S1905Ş")Remove this unnecessary cast to "double".(ëóÌÚ
+?
+java:S1905ß")Remove this unnecessary cast to "double".(¥†
+?
+java:S1905ß")Remove this unnecessary cast to "double".(¥†
+?
+java:S1905ß")Remove this unnecessary cast to "double".(¥†
+?
+java:S1905ß")Remove this unnecessary cast to "double".(¥†
+@
+java:S1905ï")Remove this unnecessary cast to "double".(Í¯ã
+?
+java:S1905ï"(Remove this unnecessary cast to "float".(Í¯ã
+E
+java:S1905ğ")Remove this unnecessary cast to "double".(Ù›£üÿÿÿÿ
+E
+java:S1905ğ")Remove this unnecessary cast to "double".(Ù›£üÿÿÿÿ
+@
+java:S1905ñ")Remove this unnecessary cast to "double".(Åè¾ì
+?
+java:S1905ò")Remove this unnecessary cast to "double".(Œ¿Í{
+>
+java:S1905ò"(Remove this unnecessary cast to "float".(Œ¿Í{
+@
+java:S1905ó")Remove this unnecessary cast to "double".(âØ€Ø
+?
+java:S1905ó"(Remove this unnecessary cast to "float".(âØ€Ø
+?
+java:S1905ô"(Remove this unnecessary cast to "float".(¯èÖŞ
+E
+java:S1905ú")Remove this unnecessary cast to "double".(âáãŒüÿÿÿÿ
+E
+java:S1905ú")Remove this unnecessary cast to "double".(âáãŒüÿÿÿÿ
+E
+java:S1905ú")Remove this unnecessary cast to "double".(âáãŒüÿÿÿÿ
+E
+java:S1905ú")Remove this unnecessary cast to "double".(âáãŒüÿÿÿÿ
+@
+java:S1905û")Remove this unnecessary cast to "double".(·¸°Î
+@
+java:S1905û")Remove this unnecessary cast to "double".(·¸°Î
+@
+java:S1905û")Remove this unnecessary cast to "double".(·¸°Î
+@
+java:S1905û")Remove this unnecessary cast to "double".(·¸°Î
+@
+java:S1905ü")Remove this unnecessary cast to "double".(ƒÿ§Ä
+@
+java:S1905ü")Remove this unnecessary cast to "double".(ƒÿ§Ä
+@
+java:S1905ü")Remove this unnecessary cast to "double".(ƒÿ§Ä
+@
+java:S1905ü")Remove this unnecessary cast to "double".(ƒÿ§Ä
+E
+java:S1905ı")Remove this unnecessary cast to "double".( ® ûûÿÿÿÿ
+E
+java:S1905ı")Remove this unnecessary cast to "double".( ® ûûÿÿÿÿ
+E
+java:S1905ı")Remove this unnecessary cast to "double".( ® ûûÿÿÿÿ
+E
+java:S1905ı")Remove this unnecessary cast to "double".( ® ûûÿÿÿÿ
+n
+java:S3776£"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(·»¶Êşÿÿÿÿ
+?
+java:S1905§"(Remove this unnecessary cast to "float".(üÜŞÓ
+E
+java:S1905¨")Remove this unnecessary cast to "double".(ßÿÿúÿÿÿÿ
+D
+java:S1905ğ"(Remove this unnecessary cast to "float".(ùÒÔĞÿÿÿÿÿ
+@
+java:S1905")Remove this unnecessary cast to "double".(€î©â
+E
+java:S1905—")Remove this unnecessary cast to "double".(óİ‰äûÿÿÿÿ
+D
+java:S1905—"(Remove this unnecessary cast to "float".(óİ‰äûÿÿÿÿ
+E
+java:S1905§")Remove this unnecessary cast to "double".(·¼²øÿÿÿÿ
+E
+java:S1905¨")Remove this unnecessary cast to "double".(ŒÃˆîıÿÿÿÿ
+E
+java:S1905©")Remove this unnecessary cast to "double".(«²Ÿÿÿÿÿÿ
+T
+java:S3878Ô"8Remove this array creation and simply pass the elements.(åê·ºùÿÿÿÿ
+n
+java:S3776â"RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(Úíëøÿÿÿÿÿ
+N
+java:S1854ê"8Remove this useless assignment to local variable "flag".(¾ğ„
+E
+java:S1481å")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ
+J
+java:S1905í".Remove this unnecessary cast to "FloatBuffer".(ù§˜Õøÿÿÿÿ
+T
+java:S3878õ"8Remove this array creation and simply pass the elements.(Íˆììûÿÿÿÿ
+?
+java:S1905ƒ"(Remove this unnecessary cast to "float".(—Ğÿ
+?
+java:S1905½"(Remove this unnecessary cast to "float".(£“â‚
+T
+java:S3878€"8Remove this array creation and simply pass the elements.(¿á¨›úÿÿÿÿ
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 66 to the 15 allowed.(Âö´¬
+=
+java:S1905±"'Remove this unnecessary cast to "long".(¨ğÀ:
+T
+java:S3878"8Remove this array creation and simply pass the elements.(¯¯¹åşÿÿÿÿ
+7
+java:S3878–"Remove this array creation.(ÚÍÁ„ÿÿÿÿÿ
+I
+java:S1135"2Complete the task associated to this TODO comment.(Ğİª—
+M
+java:S2696«"6Make the enclosing method "static" or remove this set.(ƒğÀ¿
+T
+java:S3878½"8Remove this array creation and simply pass the elements.(óéßüÿÿÿÿ
+I
+java:S1135Ä"2Complete the task associated to this TODO comment.(Èº‚û
+A
+java:S1181é"%Catch Exception instead of Throwable.(ñ³‰Àúÿÿÿÿ
+I
+java:S1135İ"2Complete the task associated to this TODO comment.(×ïÇƒ
+C
+java:S3011ã",This accessibility update should be removed.(·ñÌÎ
+H
+java:S3011ä",This accessibility bypass should be removed.(¡ûò¤ûÿÿÿÿ
+8
+java:S1116ë"Remove this empty statement.(Åñ­õşÿÿÿÿ
+W
+java:S1128"ARemove this unused import 'net.minecraft.client.gui.GuiMainMenu'.(‡Óì
+K
+java:S1068›"5Remove this unused "renderEndNanoTime" private field.(ô°Y
+B
+java:S1068Ì"+Remove this unused "__OBFID" private field.(¯Œ¾›
+H
+java:S1068Ï"1Remove this unused "showDebugInfo" private field.(îêÔ
+U
+java:S1068Õ"9Remove this unused "serverWaitTimeCurrent" private field.(›¥éİûÿÿÿÿ
+Q
+java:S1068Ö"5Remove this unused "avgServerTimeDiff" private field.(·ÕùÏùÿÿÿÿ
+L
+java:S1068×"5Remove this unused "avgServerTickDiff" private field.(¥Œıì
+A
+java:S1068ø
+"+Remove this unused "__OBFID" private field.(Ã‘—5
+G
+java:S1068€"+Remove this unused "__OBFID" private field.(ˆ×şÿÿÿÿ
+l	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ë˜—ûÿÿÿÿ
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ªñ
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ªñ
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ªñ
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ªñ
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¡ªñ
+g	java:S117â	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş½¾˜
+g	java:S117â	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş½¾˜
+g	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›»Âé
+l	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úíëøÿÿÿÿÿ
+g	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èº‚û
+g	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üıÄû
+u
+java:S1104b"ZMake anaglyphEnable a static final constant or non-public and provide accessors if needed.(Ë‘Üãøÿÿÿÿ
+t
+java:S1104e"YMake anaglyphField a static final constant or non-public and provide accessors if needed.(˜•…ƒüÿÿÿÿ
+n
+java:S1104l"XMake itemRenderer a static final constant or non-public and provide accessors if needed.(–Ïßµ
+n
+java:S1104¸"WMake fogColorRed a static final constant or non-public and provide accessors if needed.(€şí²
+u
+java:S1104¹"YMake fogColorGreen a static final constant or non-public and provide accessors if needed.(ÚƒÓªıÿÿÿÿ
+t
+java:S1104º"XMake fogColorBlue a static final constant or non-public and provide accessors if needed.(áŞèıÿÿÿÿ
+r
+java:S1104Ë"VMake frameCount a static final constant or non-public and provide accessors if needed.(Õ›…Âşÿÿÿÿ
+s
+java:S1104Ğ"WMake fogStandard a static final constant or non-public and provide accessors if needed.(£àÆĞøÿÿÿÿ
+O
+java:S1444b"4Make this "public static anaglyphEnable" field final(Ë‘Üãøÿÿÿÿ
+N
+java:S1444e"3Make this "public static anaglyphField" field final(˜•…ƒüÿÿÿÿ
