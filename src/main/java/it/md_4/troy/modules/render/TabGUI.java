@@ -18,7 +18,7 @@ public class TabGUI extends Module {
     public boolean expanded;
 
     public TabGUI() {
-        super("TabGUI", Keyboard.KEY_NONE, Category.RENDER);
+        super("TabGUI", Keyboard.KEY_NONE, Category.CPMO);
         toggled = true;
     }
 

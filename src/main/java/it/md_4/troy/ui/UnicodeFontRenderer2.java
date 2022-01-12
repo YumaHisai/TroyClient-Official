@@ -16,38 +16,38 @@ import org.newdawn.slick.font.effects.ColorEffect;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.StringUtils;
 
-public class UnicodeFontRenderer {
+public class UnicodeFontRenderer2 {
 
-    public static UnicodeFontRenderer getFontOnPC(String name, int size) {
+    public static UnicodeFontRenderer2 getFontOnPC(String name, int size) {
         return getFontOnPC(name, size, Font.PLAIN);
     }
 
-    public static UnicodeFontRenderer getFontOnPC(String name, int size, int fontType) {
+    public static UnicodeFontRenderer2 getFontOnPC(String name, int size, int fontType) {
         return getFontOnPC(name, size, fontType, 0);
     }
 
-    public static UnicodeFontRenderer getFontOnPC(String name, int size, int fontType, float kerning) {
+    public static UnicodeFontRenderer2 getFontOnPC(String name, int size, int fontType, float kerning) {
         return getFontOnPC(name, size, fontType, kerning, 3.0f);
     }
 
-    public static UnicodeFontRenderer getFontOnPC(String name, int size, int fontType, float kerning, float antiAliasingFactor) {
-        return new UnicodeFontRenderer(new Font(name, fontType, size), kerning, antiAliasingFactor);
+    public static UnicodeFontRenderer2 getFontOnPC(String name, int size, int fontType, float kerning, float antiAliasingFactor) {
+        return new UnicodeFontRenderer2(new Font(name, fontType, size), kerning, antiAliasingFactor);
     }
 
-    public static UnicodeFontRenderer getFontFromAssets(String name, int size) {
+    public static UnicodeFontRenderer2 getFontFromAssets(String name, int size) {
         return getFontOnPC(name, size, Font.PLAIN);
     }
 
-    public static UnicodeFontRenderer getFontFromAssets(String name, int size, int fontType) {
+    public static UnicodeFontRenderer2 getFontFromAssets(String name, int size, int fontType) {
         return getFontOnPC(name, fontType, size, 0);
     }
 
-    public static UnicodeFontRenderer getFontFromAssets(String name, int size, float kerning, int fontType) {
+    public static UnicodeFontRenderer2 getFontFromAssets(String name, int size, float kerning, int fontType) {
         return getFontFromAssets(name, size, fontType, kerning, 3.0f);
     }
 
-    public static UnicodeFontRenderer getFontFromAssets(String name, int size, int fontType,  float kerning, float antiAliasingFactor) {
-        return new UnicodeFontRenderer(name, fontType, size, kerning, antiAliasingFactor);
+    public static UnicodeFontRenderer2 getFontFromAssets(String name, int size, int fontType, float kerning, float antiAliasingFactor) {
+        return new UnicodeFontRenderer2(name, fontType, size, kerning, antiAliasingFactor);
     }
 
 
@@ -60,7 +60,7 @@ public class UnicodeFontRenderer {
     private float antiAliasingFactor;
     private UnicodeFont unicodeFont;
 
-    private UnicodeFontRenderer(String fontName, int fontType, float fontSize, float kerning, float antiAliasingFactor) {
+    private UnicodeFontRenderer2(String fontName, int fontType, float fontSize, float kerning, float antiAliasingFactor) {
         this.antiAliasingFactor = antiAliasingFactor;
         try {
             this.unicodeFont = new UnicodeFont(getFontByName(fontName).deriveFont(fontSize * this.antiAliasingFactor));
@@ -98,7 +98,7 @@ public class UnicodeFontRenderer {
         }
     }
 
-    private UnicodeFontRenderer(Font font, float kerning, float antiAliasingFactor) {
+    private UnicodeFontRenderer2(Font font, float kerning, float antiAliasingFactor) {
         this.antiAliasingFactor = antiAliasingFactor;
         this.unicodeFont = new UnicodeFont(new Font(font.getName(), font.getStyle(), (int) (font.getSize() * antiAliasingFactor)));
         this.kerning = kerning;

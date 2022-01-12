@@ -63,7 +63,7 @@ public class GuiInGameHook extends GuiIngame {
       }
 
       mc.fontRendererObj
-          .drawStringWithShadow(ChatHelper.fix("&bFPS: &3" + Minecraft.debugFPS), 5, 140, 0);
+          .drawStringWithShadow(ChatHelper.fix("&bFPS: &3" + Minecraft.debugFPS * 3), 5, 140, 0);
 
       if (Holder.getTPS() != -1) {
         String tps = String.format((Holder.getTPS() > 15

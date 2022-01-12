@@ -6,6 +6,11 @@ import it.md_4.troy.modules.Module;
 import it.md_4.troy.modules.combat.KillAura;
 import it.md_4.troy.modules.events.Event;
 import it.md_4.troy.modules.events.listeners.EventKey;
+import it.md_4.troy.pvp.events.EventManager;
+import it.md_4.troy.pvp.events.EventTarget;
+import it.md_4.troy.pvp.events.impl.ClientTickEvent;
+import it.md_4.troy.pvp.hud.HUDManager;
+import it.md_4.troy.pvp.mods.ModInstances;
 import it.md_4.troy.sql.MySQL;
 import it.md_4.troy.ui.HUD;
 import it.md_4.troy.ui.Manager;
@@ -27,14 +32,11 @@ import it.md_4.troy.rpc.DiscordRichPresenceManager;
 import it.md_4.troy.viamcp.ViaMCP;
 import net.arikia.dev.drpc.DiscordRPC;
 
-import java.awt.*;
 import java.io.IOException;
-import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.TextChannel;
@@ -53,6 +55,7 @@ public enum Troy
   private final CommandManager commandManager;
   private final ExploitManager exploitManager;
   private final DiscordRichPresenceManager discordRichPresence;
+  private HUDManager hudManager;
   public static AltManager altManager;
   public static String name;
   public static String version;
@@ -112,7 +115,18 @@ public enum Troy
     Minecraft.getMinecraft().gameSettings.ofFastRender = true;
   }
 
+  public void hudManagerStart(){
+    hudManager = HUDManager.getInstance();
+    ModInstances.register(hudManager);
+  }
+
   public void setDisplay() throws IOException {
+
+    // PvP
+
+    EventManager.register(this);
+
+    // PvP
 
 
     try {
@@ -166,7 +180,7 @@ public enum Troy
     //SplashProgress.setProgress(1, "Troy - Reading Modules");
 
     Troy.altManager = new AltManager();
-    Display.setTitle("TroyClient 1.10.5 | By TroyClient-Studios");
+    Display.setTitle("TroyClient 1.11.2 | By TroyClient-Studios");
     OpenGlHelper.setWindowIcon("https://i.imgur.com/U7r7DVJ.png", "https://i.imgur.com/V0e2Tsk.png");
     // Modules
     modules.add(new Fly());
@@ -178,7 +192,14 @@ public enum Troy
     // Modules
   }
 
-  public static void DSsendMessage(String content, boolean contentInAuthorLine, Color color) throws IOException {
+  @EventTarget
+  public void onTick(ClientTickEvent e){
+    if(Minecraft.getMinecraft().gameSettings.CLIENT_GUI_MOD_POS.isPressed()){
+      hudManager.openConfigScreen();
+    }
+  }
+
+  /*public static void DSsendMessage(String content, boolean contentInAuthorLine, Color color) throws IOException {
 
     if(voiceChannel == null) return;
 
@@ -211,6 +232,7 @@ public enum Troy
 
 
 
+
     EmbedBuilder builder = null;
 
     try {
@@ -231,6 +253,7 @@ public enum Troy
     chatChannel.sendMessage(builder.build()).queue();
 
   }
+   */
 
   public void shutDown() {
     DiscordRPC.discordShutdown();
@@ -268,44 +291,6 @@ public enum Troy
     }
   }
 
-
-  public static void check(){
-
-    InetAddress localHost = null;
-    try {
-      localHost = InetAddress.getLocalHost();
-    } catch (UnknownHostException e) {
-      e.printStackTrace();
-    }
-    NetworkInterface ni = null;
-    try {
-      ni = NetworkInterface.getByInetAddress(localHost);
-    } catch (SocketException e) {
-      e.printStackTrace();
-    }
-    byte[] hardwareAddress = new byte[0];
-    try {
-      hardwareAddress = ni.getHardwareAddress();
-    } catch (SocketException e) {
-      e.printStackTrace();
-    }
-
-    String[] hexadecimal = new String[hardwareAddress.length];
-    for (int i = 0; i < hardwareAddress.length; i++) {
-      hexadecimal[i] = String.format("%02X", hardwareAddress[i]);
-    }
-    String macAddress = String.join("-", hexadecimal);
-
-      if(
-              macAddress.equals("00-E0-4C-36-43-04") // md_4
-      )
-      {
-        System.out.println("Licese Active On " + macAddress);
-      } else {
-        Minecraft.getMinecraft().shutdown();
-      }
-  }
-
   public static List<Module> getModulesByCategory(Module.Category c){
     List<Module> modules = new ArrayList<Module>();
 
@@ -318,7 +303,7 @@ public enum Troy
 
   static {
     Troy.name = "TroyClient";
-    Troy.version = "1.10.5";
+    Troy.version = "1.11.2";
     Troy.creator = "TroyClient-Studios";
   }
 }

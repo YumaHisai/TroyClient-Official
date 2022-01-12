@@ -17,7 +17,7 @@ public class DiscordRichPresenceManager implements ReadyCallback {
   public DiscordRichPresenceManager() {
     richPresence = new DiscordRichPresence
         .Builder("TroyClient By TroyClient-Studios")
-        .setBigImage("presence", "Version 1.10.5 beta v9")
+        .setBigImage("presence", "Version 1.11.2 PreStable v10")
         .setSmallImage("github", "More Information")
         .setDetails("Loading TroyClient...")
         .setStartTimestamps(System.currentTimeMillis())

@@ -49,11 +49,11 @@ public abstract class Module {
     public abstract void onUpdate();
 
     public enum Category {
-        COMBAT("Combat"),
-        MOVEMENT("Movement"),
-        EXPLOIT("Exploit"),
-        PLAYER("Player"),
-        RENDER("Render");
+        CPMO("C.P.M.O"),
+        EXPLOIT("Malicious"),
+        PLAYERS("User"),
+        COSMETICS("Cosmetics"),
+        EXPLOITS("Exploit");
 
         public String name;
         public int moduleIndex;

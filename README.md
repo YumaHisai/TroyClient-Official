@@ -8,20 +8,20 @@
 [![MIT License][license-shield]][license-url]
 [![YouTube][youtube-shield]][youtube-url]
 [![Discussions][discussion-shield]][discussion-url]
-
+[![Downloads][downloads-shield]][downloads-url]
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="">
-    <img src="https://i.imgur.com/DcjVAVX.png" alt="Logo" width="100" height="100">
+    <img src="https://i.imgur.com/tWMuevX.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Troy Client</h3>
 
   <p align="center">
-    Best Hacked / Crash Client 2021 Fps Boost
+    Best Hacked / Crash Client 2022 Fps Boost
   </p>
 </div>
 
@@ -161,7 +161,7 @@
 <div align="center"> <b>✅ Updated Graphics</b> </div>
 <div align="center"> <b>✅ Updated Modules</b> </div>
 <div align="center"> <b>✅ Addedd FKA (FastKillAura)</b> </div>
-  
+
 <img src="https://img.shields.io/badge/Version-1.10.5-green?label=VERSION&style=for-the-badge" alt="Logo" width="" height=""> 
   <br />
 <div align="center">
@@ -194,3 +194,5 @@
 [youtube-url]: https://www.youtube.com/channel/UCn7n4dI57Kp-knI1UMqFCog
 [discussion-shield]: https://img.shields.io/github/discussions/md4Studios/TroyClient?style=for-the-badge
 [discussion-url]: https://img.shields.io/github/discussions/md4Studios/TroyClient?style=for-the-badge
+[downloads-shield]: https://img.shields.io/github/downloads/md4Studios/TroyClient/total?color=orange&style=for-the-badge
+[downloads-url]: https://img.shields.io/github/downloads/md4Studios/TroyClient/total?color=orange&style=for-the-badge

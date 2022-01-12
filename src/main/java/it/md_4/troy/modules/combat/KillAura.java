@@ -8,8 +8,6 @@ import it.md_4.troy.ui.utils.Timer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.network.play.client.C02PacketUseEntity;
 import org.lwjgl.input.Keyboard;
 import java.util.Comparator;
@@ -21,7 +19,7 @@ public class KillAura extends Module {
     public Timer timer = new Timer();
 
     public KillAura() {
-        super("KillAura", Keyboard.KEY_K, Category.COMBAT);
+        super("KillAura", Keyboard.KEY_K, Category.CPMO);
     }
 
     public void onEnable() {

@@ -6,7 +6,7 @@ import org.lwjgl.input.Keyboard;
 
 public class FullBright extends Module {
     public FullBright() {
-        super("FullBright", Keyboard.KEY_B, Category.RENDER);
+        super("FullBright", Keyboard.KEY_F, Category.CPMO);
     }
 
     public void onEnable() {
