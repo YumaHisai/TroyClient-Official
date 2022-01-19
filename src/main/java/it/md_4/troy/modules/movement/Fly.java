@@ -11,7 +11,7 @@ import org.lwjgl.input.Keyboard;
 
 public class Fly extends Module {
     public Fly() {
-        super("Fly", Keyboard.KEY_F, Category.PLAYERS);
+        super("Fly", Keyboard.KEY_F, Category.PLAYER);
     }
 
     public void onDisable() {

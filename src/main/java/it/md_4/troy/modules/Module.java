@@ -51,7 +51,7 @@ public abstract class Module {
     public enum Category {
         CPMO("C.P.M.O"),
         EXPLOIT("Malicious"),
-        PLAYERS("User"),
+        PLAYER("User"),
         COSMETICS("Cosmetics"),
         EXPLOITS("Exploit");
 
