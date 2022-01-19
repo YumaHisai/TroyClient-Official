@@ -18,7 +18,7 @@ public class AboutCommand extends Command {
         ChatHelper.printMessage("&b • &3TroyClient v1.9.5", false);
         ChatHelper.printMessage("&b • &bDeveloper: &3md_4", false);
         ChatHelper.printMessage("&b • &bDs: &3https://discord.gg/jDhQhSK9KQ", false);
-        ChatHelper.printMessage("&b • &bServer PartnerShip: &3soundcraft.it");
+        ChatHelper.printMessage("&b • &bServer PartnerShip: &3soundcraft.it ['about]");
     }
 }
 
