@@ -15,7 +15,7 @@ public class AboutCommand extends Command {
 
     @Override
     public void execute(String... args) throws Exception {
-        ChatHelper.printMessage("&b • &3TroyClient v1.9.5", false);
+        ChatHelper.printMessage("&b • &3TroyClient v1.11.2 v2", false);
         ChatHelper.printMessage("&b • &bDeveloper: &3md_4", false);
         ChatHelper.printMessage("&b • &bDs: &3https://discord.gg/jDhQhSK9KQ", false);
         ChatHelper.printMessage("&b • &bServer PartnerShip: &3soundcraft.it ['about]");
