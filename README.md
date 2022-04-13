@@ -33,7 +33,7 @@
     </tr>
     <tr>
         <td align="right"><b>Main Build</b></td>
-        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge" alt="Build Status" /></a></td>
+        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/YumaHisai/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/YumaHisai/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
 
@@ -178,21 +178,21 @@
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[last-commit-shield]: https://img.shields.io/github/last-commit/md4Studios/TroyClient-Official?style=for-the-badge
-[last-commit-url]: https://github.com/md4Studios/TroyClient-Official/commits/troy
-[contributors-shield]: https://img.shields.io/github/contributors/md4Studios/TroyClient-Official?color=g&style=for-the-badge
-[contributors-url]: https://github.com/md4Studios/TroyClient-Official/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/md4Studios/TroyClient-Official?style=for-the-badge
-[forks-url]: https://github.com/md4Studios/TroyClient-Official/network/members
-[stars-shield]: https://img.shields.io/github/stars/md4Studios/TroyClient-Official?style=for-the-badge
-[stars-url]: https://github.com/md4Studios/TroyClient-Official/stargazers
-[issues-shield]: https://img.shields.io/github/issues/md4Studios/TroyClient-Official?color=yellow&style=for-the-badge
-[issues-url]: https://github.com/md4Studios/TroyClient-Official/issues
-[license-shield]: https://img.shields.io/github/license/md4Studios/TroyClient-Official?style=for-the-badge
-[license-url]: https://github.com/md4Studios/TroyClient-Official/blob/troy/LICENSE.md
+[last-commit-shield]: https://img.shields.io/github/last-commit/YumaHisai/TroyClient-Official?style=for-the-badge
+[last-commit-url]: https://github.com/YumaHisai/TroyClient-Official/commits/troy
+[contributors-shield]: https://img.shields.io/github/contributors/YumaHisai/TroyClient-Official?color=g&style=for-the-badge
+[contributors-url]: https://github.com/YumaHisai/TroyClient-Official/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/YumaHisai/TroyClient-Official?style=for-the-badge
+[forks-url]: https://github.com/YumaHisai/TroyClient-Official/network/members
+[stars-shield]: https://img.shields.io/github/stars/YumaHisai/TroyClient-Official?style=for-the-badge
+[stars-url]: https://github.com/YumaHisai/TroyClient-Official/stargazers
+[issues-shield]: https://img.shields.io/github/issues/YumaHisai/TroyClient-Official?color=yellow&style=for-the-badge
+[issues-url]: https://github.com/YumaHisai/TroyClient-Official/issues
+[license-shield]: https://img.shields.io/github/license/YumaHisai/TroyClient-Official?style=for-the-badge
+[license-url]: https://github.com/YumaHisai/TroyClient-Official/blob/troy/LICENSE.md
 [youtube-shield]: https://img.shields.io/youtube/channel/subscribers/UCn7n4dI57Kp-knI1UMqFCog?color=red&label=YouTube%20SubScribe&style=for-the-badge
 [youtube-url]: https://www.youtube.com/channel/UCn7n4dI57Kp-knI1UMqFCog
-[discussion-shield]: https://img.shields.io/github/discussions/md4Studios/TroyClient-Official?style=for-the-badge
-[discussion-url]: https://img.shields.io/github/discussions/md4Studios/TroyClient-Official?style=for-the-badge
-[downloads-shield]: https://img.shields.io/github/downloads/md4Studios/TroyClient-Official/total?color=orange&style=for-the-badge
-[downloads-url]: https://img.shields.io/github/downloads/md4Studios/TroyClient-Official/total?color=orange&style=for-the-badge
+[discussion-shield]: https://img.shields.io/github/discussions/YumaHisai/TroyClient-Official?style=for-the-badge
+[discussion-url]: https://img.shields.io/github/discussions/YumaHisai/TroyClient-Official?style=for-the-badge
+[downloads-shield]: https://img.shields.io/github/downloads/YumaHisai/TroyClient-Official/total?color=orange&style=for-the-badge
+[downloads-url]: https://img.shields.io/github/downloads/YumaHisai/TroyClient-Official/total?color=orange&style=for-the-badge
