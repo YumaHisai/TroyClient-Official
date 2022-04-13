@@ -33,7 +33,7 @@
     </tr>
     <tr>
         <td align="right"><b>Main Build</b></td>
-        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/YumaHisai/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/YumaHisai/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge" alt="Build Status" /></a></td>
+        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/YumaHisai/TroyClient-Official/TroyClient-Official/master?label=BUILD%201.8.4&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/YumaHisai/TroyClient-Official/TroyClient-Official/master?label=BUILD%201.8.4&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
 
