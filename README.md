@@ -21,7 +21,7 @@
 <h3 align="center">Troy Client</h3>
 
   <p align="center">
-    Best Hacked / Crash Client 2022 Fps Boost
+    Best Hacked / Crash Client 2020 Fps Boost (Closed)
   </p>
 </div>
 
@@ -33,7 +33,7 @@
     </tr>
     <tr>
         <td align="right"><b>Main Build</b></td>
-        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.8.4&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient/TroyClient/troy?label=BUILD%201.8.4&style=for-the-badge" alt="Build Status" /></a></td>
+        <td colspan="2"><a href="https://img.shields.io/github/workflow/status/md4Studios/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/md4Studios/TroyClient-Official/TroyClient-Official/troy?label=BUILD%201.8.4&style=for-the-badge" alt="Build Status" /></a></td>
     </tr>
 </table>
 
@@ -178,21 +178,21 @@
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[last-commit-shield]: https://img.shields.io/github/last-commit/md4Studios/TroyClient?style=for-the-badge
-[last-commit-url]: https://github.com/md4Studios/TroyClient/commits/troy
-[contributors-shield]: https://img.shields.io/github/contributors/md4Studios/TroyClient?color=g&style=for-the-badge
-[contributors-url]: https://github.com/md4Studios/TroyClient/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/md4Studios/TroyClient?style=for-the-badge
-[forks-url]: https://github.com/md4Studios/TroyClient/network/members
-[stars-shield]: https://img.shields.io/github/stars/md4Studios/TroyClient?style=for-the-badge
-[stars-url]: https://github.com/md4Studios/TroyClient/stargazers
-[issues-shield]: https://img.shields.io/github/issues/md4Studios/TroyClient?color=yellow&style=for-the-badge
-[issues-url]: https://github.com/md4Studios/TroyClient/issues
-[license-shield]: https://img.shields.io/github/license/md4Studios/TroyClient?style=for-the-badge
-[license-url]: https://github.com/md4Studios/TroyClient/blob/troy/LICENSE.md
+[last-commit-shield]: https://img.shields.io/github/last-commit/md4Studios/TroyClient-Official?style=for-the-badge
+[last-commit-url]: https://github.com/md4Studios/TroyClient-Official/commits/troy
+[contributors-shield]: https://img.shields.io/github/contributors/md4Studios/TroyClient-Official?color=g&style=for-the-badge
+[contributors-url]: https://github.com/md4Studios/TroyClient-Official/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/md4Studios/TroyClient-Official?style=for-the-badge
+[forks-url]: https://github.com/md4Studios/TroyClient-Official/network/members
+[stars-shield]: https://img.shields.io/github/stars/md4Studios/TroyClient-Official?style=for-the-badge
+[stars-url]: https://github.com/md4Studios/TroyClient-Official/stargazers
+[issues-shield]: https://img.shields.io/github/issues/md4Studios/TroyClient-Official?color=yellow&style=for-the-badge
+[issues-url]: https://github.com/md4Studios/TroyClient-Official/issues
+[license-shield]: https://img.shields.io/github/license/md4Studios/TroyClient-Official?style=for-the-badge
+[license-url]: https://github.com/md4Studios/TroyClient-Official/blob/troy/LICENSE.md
 [youtube-shield]: https://img.shields.io/youtube/channel/subscribers/UCn7n4dI57Kp-knI1UMqFCog?color=red&label=YouTube%20SubScribe&style=for-the-badge
 [youtube-url]: https://www.youtube.com/channel/UCn7n4dI57Kp-knI1UMqFCog
-[discussion-shield]: https://img.shields.io/github/discussions/md4Studios/TroyClient?style=for-the-badge
-[discussion-url]: https://img.shields.io/github/discussions/md4Studios/TroyClient?style=for-the-badge
-[downloads-shield]: https://img.shields.io/github/downloads/md4Studios/TroyClient/total?color=orange&style=for-the-badge
-[downloads-url]: https://img.shields.io/github/downloads/md4Studios/TroyClient/total?color=orange&style=for-the-badge
+[discussion-shield]: https://img.shields.io/github/discussions/md4Studios/TroyClient-Official?style=for-the-badge
+[discussion-url]: https://img.shields.io/github/discussions/md4Studios/TroyClient-Official?style=for-the-badge
+[downloads-shield]: https://img.shields.io/github/downloads/md4Studios/TroyClient-Official/total?color=orange&style=for-the-badge
+[downloads-url]: https://img.shields.io/github/downloads/md4Studios/TroyClient-Official/total?color=orange&style=for-the-badge
